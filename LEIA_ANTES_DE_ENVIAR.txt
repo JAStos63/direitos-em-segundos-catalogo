@@ -1,19 +1,15 @@
-DIREITOS EM SEGUNDOS — ENVIO CORRETO AO GITHUB
+DIREITOS EM SEGUNDOS — CATÁLOGO NACIONAL V2
 
-IMPORTANTE: envie o CONTEUDO desta pasta para a raiz do repositorio.
-Nao envie a pasta inteira como uma subpasta.
-
-Na pagina principal do repositorio devem aparecer diretamente:
-.github
-docs
-scripts
-README.md
-requirements.txt
-
-A pasta docs deve conter diretamente:
-.nojekyll
-index.html
-index.json
-catalogos
-
-No Windows, ative Exibir > Mostrar > Itens ocultos para ver a pasta .github e o arquivo .nojekyll.
+1. NÃO altere mais a configuração do GitHub Pages. Ela deve continuar em main /docs.
+2. Envie para a RAIZ do repositório estas pastas e arquivos:
+   .github
+   config
+   docs
+   scripts
+   tests
+   README.md
+   requirements.txt
+3. Confirme a substituição dos arquivos antigos.
+4. Abra Actions > Atualizar catálogos nacionais V2 > Run workflow.
+5. A marca vermelha agora é útil: ela identifica Estados que ainda não atingiram o mínimo. A V2 não publica silenciosamente catálogos vazios.
+6. Não instale uma nova versão do APK até a página do catálogo mostrar os 27 Estados com status "atualizado".

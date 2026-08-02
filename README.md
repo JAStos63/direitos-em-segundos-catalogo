@@ -1,25 +1,60 @@
-# Direitos em Segundos — Catálogo Nacional
+# Direitos em Segundos — Catálogo Nacional V2
 
-Repositório de dados do aplicativo Android **Direitos em Segundos**.
+Este repositório publica, em GitHub Pages, os catálogos estaduais usados pelo aplicativo Android **Direitos em Segundos**.
 
-Endereço esperado no GitHub Pages:
+## Mudança principal da V2
 
-`https://jastos63.github.io/direitos-em-segundos-catalogo/`
+A versão anterior dependia quase exclusivamente do Webservice SRU do LexML e considerava a execução concluída mesmo quando vários Estados permaneciam vazios.
 
-## Publicação
+A V2 utiliza três camadas de coleta:
 
-1. Crie um repositório público chamado `direitos-em-segundos-catalogo` na conta `JAStos63`.
-2. Envie todos os arquivos deste pacote, preservando as pastas ocultas `.github` e `docs`.
-3. Em **Settings > Pages**, escolha **Deploy from a branch**, branch `main`, pasta `/docs`.
-4. Em **Actions**, abra **Atualizar catálogos nacionais** e clique em **Run workflow**.
-5. Aguarde a execução concluir e o GitHub Pages publicar os JSONs.
+1. **OpenAPI/HTML do SAPL**, para Assembleias que usam o Sistema de Apoio ao Processo Legislativo;
+2. **sitemaps e páginas de listagem dos portais oficiais**;
+3. **índice público do Common Crawl apenas para descobrir endereços já publicados nos domínios oficiais**. O conteúdo jurídico sempre é baixado e validado no próprio portal governamental ou legislativo.
 
-O GitHub Pages pode levar alguns minutos para publicar após o envio.
+O fluxo é executado em paralelo para as 27 unidades federativas. A publicação só é gravada no repositório quando **todos os catálogos atingem o mínimo configurado**.
 
-## Atualização automática
+## Arquivos que devem ficar na raiz do repositório
 
-O workflow é executado semanalmente e pode ser disparado manualmente. Em caso de falha da fonte externa, o último catálogo válido é preservado.
+```text
+.github/
+config/
+docs/
+scripts/
+tests/
+README.md
+requirements.txt
+```
 
-## Limitação transparente
+## Como atualizar no GitHub
 
-O atualizador usa o acervo nacional LexML como agregador. A cobertura depende das normas enviadas e indexadas pelos órgãos públicos participantes. As sementes oficiais de Sergipe, Bahia e Alagoas são preservadas no repositório.
+1. Extraia o pacote.
+2. No repositório `JAStos63/direitos-em-segundos-catalogo`, envie o conteúdo extraído para a raiz.
+3. Aceite a substituição dos arquivos existentes.
+4. Na aba **Actions**, abra **Atualizar catálogos nacionais V2**.
+5. Clique em **Run workflow**.
+
+A coleta é dividida por Estado. Se uma unidade federativa ficar vazia ou abaixo do mínimo, a execução ficará vermelha e o catálogo anterior não será publicado como se estivesse completo.
+
+## Relatórios
+
+Depois da execução, cada UF gera:
+
+```text
+docs/relatorios/AL.json
+docs/relatorios/SP.json
+...
+```
+
+A página inicial do GitHub Pages mostra a quantidade de normas, documentos HTML pesquisáveis e documentos externos de cada Estado.
+
+## Testes locais
+
+```bash
+pip install -r requirements.txt
+pytest -q
+```
+
+## Observação jurídica
+
+O catálogo é uma ferramenta de localização. A conferência final deve ser feita no texto disponibilizado pelo órgão oficial e no Diário Oficial correspondente.

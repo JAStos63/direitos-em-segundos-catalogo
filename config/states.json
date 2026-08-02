@@ -1,0 +1,476 @@
+{
+  "schema_version": 2,
+  "minimum_records_default": 25,
+  "states": [
+    {
+      "uf": "AC",
+      "estado": "Acre",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.ac.leg.br",
+      "portal": "https://sapl.al.ac.leg.br/norma/pesquisar",
+      "minimum_records": 100
+    },
+    {
+      "uf": "AL",
+      "estado": "Alagoas",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.al.leg.br",
+      "portal": "https://sapl.al.al.leg.br/norma/pesquisar",
+      "minimum_records": 100
+    },
+    {
+      "uf": "AP",
+      "estado": "Amapá",
+      "strategy": "generic",
+      "portal": "https://elegis.al.ap.leg.br/portal/legislacao",
+      "allowed_hosts": [
+        "elegis.al.ap.leg.br"
+      ],
+      "start_urls": [
+        "https://elegis.al.ap.leg.br/portal/legislacao"
+      ],
+      "detail_patterns": [
+        "/portal/legislacao/",
+        "/legislacao/"
+      ],
+      "minimum_records": 25,
+      "cc_queries": [
+        "elegis.al.ap.leg.br/portal/legislacao/*"
+      ]
+    },
+    {
+      "uf": "AM",
+      "estado": "Amazonas",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.am.leg.br",
+      "portal": "https://sapl.al.am.leg.br/norma/pesquisar",
+      "minimum_records": 100
+    },
+    {
+      "uf": "BA",
+      "estado": "Bahia",
+      "strategy": "generic",
+      "portal": "https://www.legislabahia.ba.gov.br/",
+      "allowed_hosts": [
+        "legislabahia.ba.gov.br",
+        "www.legislabahia.ba.gov.br"
+      ],
+      "start_urls": [
+        "https://www.legislabahia.ba.gov.br/documentos/lei",
+        "https://www.legislabahia.ba.gov.br/documentos/lei-complementar"
+      ],
+      "detail_patterns": [
+        "/documentos/lei-",
+        "/documentos/constituicao",
+        "/documentos/lei-complementar"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "www.legislabahia.ba.gov.br/documentos/lei-*",
+        "www.legislabahia.ba.gov.br/documentos/lei-complementar-*",
+        "legislabahia.ba.gov.br/documentos/lei-*"
+      ]
+    },
+    {
+      "uf": "CE",
+      "estado": "Ceará",
+      "strategy": "generic",
+      "portal": "https://belt.al.ce.gov.br/",
+      "allowed_hosts": [
+        "belt.al.ce.gov.br",
+        "www2.al.ce.gov.br",
+        "www.al.ce.gov.br"
+      ],
+      "start_urls": [
+        "https://belt.al.ce.gov.br/index.php/legislacao-do-ceara",
+        "https://www.al.ce.gov.br/legislativo/legislacao"
+      ],
+      "detail_patterns": [
+        "/item/",
+        "/legislacao5/leis"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "belt.al.ce.gov.br/index.php/legislacao-do-ceara/*",
+        "www2.al.ce.gov.br/legislativo/legislacao5/leis*/*"
+      ]
+    },
+    {
+      "uf": "DF",
+      "estado": "Distrito Federal",
+      "strategy": "generic",
+      "portal": "https://www.sinj.df.gov.br/sinj/",
+      "allowed_hosts": [
+        "sinj.df.gov.br",
+        "www.sinj.df.gov.br"
+      ],
+      "start_urls": [
+        "https://www.sinj.df.gov.br/sinj/"
+      ],
+      "detail_patterns": [
+        "/sinj/Norma/",
+        "/sinj/DetalhesDeNorma.aspx"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "www.sinj.df.gov.br/sinj/Norma/*",
+        "www.sinj.df.gov.br/sinj/DetalhesDeNorma.aspx*"
+      ]
+    },
+    {
+      "uf": "ES",
+      "estado": "Espírito Santo",
+      "strategy": "generic",
+      "portal": "https://www3.al.es.gov.br/legislacao/",
+      "allowed_hosts": [
+        "www3.al.es.gov.br",
+        "al.es.gov.br",
+        "www.al.es.gov.br"
+      ],
+      "start_urls": [
+        "https://www3.al.es.gov.br/legislacao/"
+      ],
+      "detail_patterns": [
+        "/Arquivo/Documents/legislacao/",
+        "/legislacao/"
+      ],
+      "minimum_records": 50,
+      "cc_queries": [
+        "www3.al.es.gov.br/Arquivo/Documents/legislacao/html/*",
+        "www3.al.es.gov.br/legislacao/consulta-legislacao.aspx*"
+      ]
+    },
+    {
+      "uf": "GO",
+      "estado": "Goiás",
+      "strategy": "generic",
+      "portal": "https://legisla.casacivil.go.gov.br/",
+      "allowed_hosts": [
+        "legisla.casacivil.go.gov.br",
+        "admin.legisla.casacivil.go.gov.br",
+        "casacivil.go.gov.br",
+        "www.gabinetecivil.go.gov.br"
+      ],
+      "start_urls": [
+        "https://legisla.casacivil.go.gov.br/"
+      ],
+      "detail_patterns": [
+        "/pesquisa_legislacao/",
+        "/leis_ordinarias/",
+        "/leis_complementares/"
+      ],
+      "minimum_records": 50,
+      "cc_queries": [
+        "legisla.casacivil.go.gov.br/pesquisa_legislacao/*",
+        "admin.legisla.casacivil.go.gov.br/pesquisa_legislacao/*",
+        "www.gabinetecivil.go.gov.br/leis_ordinarias/*",
+        "www.gabinetecivil.go.gov.br/leis_complementares/*"
+      ]
+    },
+    {
+      "uf": "MA",
+      "estado": "Maranhão",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.ma.leg.br",
+      "portal": "https://sapl.al.ma.leg.br/sapl/generico/norma_juridica_pesquisar_form?incluir=0",
+      "minimum_records": 50,
+      "legacy": true
+    },
+    {
+      "uf": "MT",
+      "estado": "Mato Grosso",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.mt.leg.br",
+      "portal": "https://sapl.al.mt.leg.br/norma/pesquisar",
+      "minimum_records": 100
+    },
+    {
+      "uf": "MS",
+      "estado": "Mato Grosso do Sul",
+      "strategy": "generic",
+      "portal": "https://aacpdappls.net.ms.gov.br/appls/legislacao/secoge/govato.nsf/",
+      "allowed_hosts": [
+        "aacpdappls.net.ms.gov.br"
+      ],
+      "start_urls": [
+        "https://aacpdappls.net.ms.gov.br/appls/legislacao/secoge/govato.nsf/"
+      ],
+      "detail_patterns": [
+        "/appls/legislacao/secoge/govato.nsf/"
+      ],
+      "minimum_records": 50,
+      "cc_queries": [
+        "aacpdappls.net.ms.gov.br/appls/legislacao/secoge/govato.nsf/*"
+      ]
+    },
+    {
+      "uf": "MG",
+      "estado": "Minas Gerais",
+      "strategy": "generic",
+      "portal": "https://www.almg.gov.br/legislacao-mineira/",
+      "allowed_hosts": [
+        "almg.gov.br",
+        "www.almg.gov.br"
+      ],
+      "start_urls": [
+        "https://www.almg.gov.br/legislacao-mineira/"
+      ],
+      "detail_patterns": [
+        "/legislacao-mineira/texto/",
+        "/legislacao-mineira/"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "www.almg.gov.br/legislacao-mineira/texto/LEI/*",
+        "www.almg.gov.br/legislacao-mineira/texto/LEI-COMPLEMENTAR/*",
+        "www.almg.gov.br/legislacao-mineira/LEI/*"
+      ]
+    },
+    {
+      "uf": "PA",
+      "estado": "Pará",
+      "strategy": "generic",
+      "portal": "https://www.sistemas.pa.gov.br/sisleis/legislacao.html",
+      "allowed_hosts": [
+        "sistemas.pa.gov.br",
+        "www.sistemas.pa.gov.br"
+      ],
+      "start_urls": [
+        "https://www.sistemas.pa.gov.br/sisleis/legislacao.html"
+      ],
+      "detail_patterns": [
+        "/sisleis/",
+        "legislacao"
+      ],
+      "minimum_records": 50,
+      "cc_queries": [
+        "www.sistemas.pa.gov.br/sisleis/legislacao.html*",
+        "sistemas.pa.gov.br/sisleis/*"
+      ]
+    },
+    {
+      "uf": "PB",
+      "estado": "Paraíba",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.pb.leg.br",
+      "portal": "https://sapl.al.pb.leg.br/norma/pesquisar",
+      "minimum_records": 100
+    },
+    {
+      "uf": "PR",
+      "estado": "Paraná",
+      "strategy": "generic",
+      "portal": "https://www.legislacao.pr.gov.br/",
+      "allowed_hosts": [
+        "legislacao.pr.gov.br",
+        "www.legislacao.pr.gov.br"
+      ],
+      "start_urls": [
+        "https://www.legislacao.pr.gov.br/"
+      ],
+      "detail_patterns": [
+        "/legislacao/",
+        "listarAtosAno",
+        "exibirAto"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "www.legislacao.pr.gov.br/legislacao/listarAtosAno.do*",
+        "www.legislacao.pr.gov.br/legislacao/exibirAto.do*"
+      ]
+    },
+    {
+      "uf": "PE",
+      "estado": "Pernambuco",
+      "strategy": "generic",
+      "portal": "https://legis.alepe.pe.gov.br/",
+      "allowed_hosts": [
+        "legis.alepe.pe.gov.br",
+        "alepe.pe.gov.br",
+        "www.alepe.pe.gov.br"
+      ],
+      "start_urls": [
+        "https://legis.alepe.pe.gov.br/"
+      ],
+      "detail_patterns": [
+        "/texto.aspx",
+        "/legislacao/",
+        "/norma/"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "legis.alepe.pe.gov.br/texto.aspx*",
+        "legis.alepe.pe.gov.br/*"
+      ]
+    },
+    {
+      "uf": "PI",
+      "estado": "Piauí",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.pi.leg.br",
+      "portal": "https://sapl.al.pi.leg.br/norma/pesquisar",
+      "minimum_records": 100
+    },
+    {
+      "uf": "RJ",
+      "estado": "Rio de Janeiro",
+      "strategy": "generic",
+      "portal": "https://www3.alerj.rj.gov.br/lotus_notes/default.asp?id=2",
+      "allowed_hosts": [
+        "www3.alerj.rj.gov.br",
+        "alerjln1.alerj.rj.gov.br",
+        "www.alerj.rj.gov.br"
+      ],
+      "start_urls": [
+        "https://www3.alerj.rj.gov.br/lotus_notes/default.asp?id=2"
+      ],
+      "detail_patterns": [
+        "CONTLEI.NSF",
+        "/lotus_notes/"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "alerjln1.alerj.rj.gov.br/CONTLEI.NSF/*",
+        "www3.alerj.rj.gov.br/lotus_notes/*"
+      ]
+    },
+    {
+      "uf": "RN",
+      "estado": "Rio Grande do Norte",
+      "strategy": "generic",
+      "portal": "https://www.al.rn.leg.br/legislacao",
+      "allowed_hosts": [
+        "al.rn.leg.br",
+        "www.al.rn.leg.br"
+      ],
+      "start_urls": [
+        "https://www.al.rn.leg.br/legislacao"
+      ],
+      "detail_patterns": [
+        "/legislacao/",
+        "/leis/"
+      ],
+      "minimum_records": 50,
+      "cc_queries": [
+        "www.al.rn.leg.br/legislacao/*",
+        "al.rn.leg.br/legislacao/*"
+      ]
+    },
+    {
+      "uf": "RS",
+      "estado": "Rio Grande do Sul",
+      "strategy": "generic",
+      "portal": "https://www.al.rs.gov.br/legis/",
+      "allowed_hosts": [
+        "al.rs.gov.br",
+        "www.al.rs.gov.br"
+      ],
+      "start_urls": [
+        "https://www.al.rs.gov.br/legis/"
+      ],
+      "detail_patterns": [
+        "/legis/",
+        "/filerepository/repLegis/"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "www.al.rs.gov.br/filerepository/repLegis/arquivos/*",
+        "www.al.rs.gov.br/legis/*"
+      ]
+    },
+    {
+      "uf": "RO",
+      "estado": "Rondônia",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.ro.leg.br",
+      "portal": "https://sapl.al.ro.leg.br/norma/pesquisar",
+      "minimum_records": 100
+    },
+    {
+      "uf": "RR",
+      "estado": "Roraima",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.rr.leg.br",
+      "portal": "https://sapl.al.rr.leg.br/norma/pesquisar",
+      "minimum_records": 100
+    },
+    {
+      "uf": "SC",
+      "estado": "Santa Catarina",
+      "strategy": "generic",
+      "portal": "https://leis.alesc.sc.gov.br/",
+      "allowed_hosts": [
+        "leis.alesc.sc.gov.br",
+        "alesc.sc.gov.br",
+        "www.alesc.sc.gov.br"
+      ],
+      "start_urls": [
+        "https://leis.alesc.sc.gov.br/"
+      ],
+      "detail_patterns": [
+        "/html/",
+        "/legislacao/"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "leis.alesc.sc.gov.br/html/*",
+        "leis.alesc.sc.gov.br/*"
+      ]
+    },
+    {
+      "uf": "SP",
+      "estado": "São Paulo",
+      "strategy": "generic",
+      "portal": "https://www.al.sp.gov.br/norma/",
+      "allowed_hosts": [
+        "al.sp.gov.br",
+        "www.al.sp.gov.br"
+      ],
+      "start_urls": [
+        "https://www.al.sp.gov.br/norma/"
+      ],
+      "detail_patterns": [
+        "/repositorio/legislacao/lei/",
+        "/repositorio/legislacao/lei.complementar/",
+        "/norma/"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "www.al.sp.gov.br/repositorio/legislacao/lei/*",
+        "www.al.sp.gov.br/repositorio/legislacao/lei.complementar/*",
+        "www.al.sp.gov.br/repositorio/legislacao/constituicao/*"
+      ]
+    },
+    {
+      "uf": "SE",
+      "estado": "Sergipe",
+      "strategy": "generic",
+      "portal": "https://aleselegis.al.se.leg.br/",
+      "allowed_hosts": [
+        "aleselegis.al.se.leg.br",
+        "api.legislacao.se.gov.br",
+        "legislacao.se.gov.br"
+      ],
+      "start_urls": [
+        "https://aleselegis.al.se.leg.br/"
+      ],
+      "detail_patterns": [
+        "/Arquivo/Documents/legislacao/",
+        "/uploads/atos/"
+      ],
+      "minimum_records": 100,
+      "cc_queries": [
+        "aleselegis.al.se.leg.br/Arquivo/Documents/legislacao/html/*",
+        "api.legislacao.se.gov.br/uploads/atos/*"
+      ]
+    },
+    {
+      "uf": "TO",
+      "estado": "Tocantins",
+      "strategy": "sapl",
+      "base_url": "https://sapl.al.to.leg.br",
+      "portal": "https://sapl.al.to.leg.br/norma/pesquisar",
+      "minimum_records": 100
+    }
+  ]
+}
