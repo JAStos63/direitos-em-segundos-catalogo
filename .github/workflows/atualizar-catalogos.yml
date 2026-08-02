@@ -1,0 +1,37 @@
+name: Atualizar catálogos nacionais
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Atualizar catálogos
+        run: python scripts/update_catalogs.py
+
+      - name: Validar arquivos
+        run: python scripts/validate_catalogs.py
+
+      - name: Publicar alterações
+        run: |
+          git config user.name "direitos-em-segundos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/catalogos docs/index.json
+          git diff --cached --quiet || git commit -m "Atualiza catálogos estaduais"
+          git push
