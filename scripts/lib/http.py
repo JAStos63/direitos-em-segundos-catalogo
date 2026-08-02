@@ -10,7 +10,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 DEFAULT_UA = (
-    "DireitosEmSegundosCatalogo/2.0 "
+    "DireitosEmSegundosCatalogo/3.0 "
     "(+https://github.com/JAStos63/direitos-em-segundos-catalogo; contato: catálogo público)"
 )
 

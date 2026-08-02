@@ -13,6 +13,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from lib.common import Norm, deduplicate, load_json, utc_now, write_json  # noqa: E402
 from lib.generic import GenericPortalConnector  # noqa: E402
+from lib.elegis import ElegisConnector  # noqa: E402
 from lib.http import HttpClient  # noqa: E402
 from lib.sapl import SaplConnector  # noqa: E402
 
@@ -66,6 +67,16 @@ def main() -> int:
                 legacy=bool(state.get("legacy")),
             )
             collected = connector.collect(max_records=args.max_records)
+        elif state["strategy"] == "elegis":
+            connector = ElegisConnector(
+                client=client,
+                base_url=state["base_url"],
+                uf=uf,
+            )
+            collected = connector.collect(
+                max_records=args.max_records,
+                max_pages=int(state.get("max_pages", args.max_listing_pages)),
+            )
         else:
             connector = GenericPortalConnector(
                 client=client,
@@ -84,17 +95,18 @@ def main() -> int:
         norms = [Norm(**{k: v for k, v in item.items() if k in Norm.__dataclass_fields__}) for item in curated]
         norms.extend(collected)
         norms = deduplicate(norms)
-        minimum = int(state.get("minimum_records", config.get("minimum_records_default", 25)))
+        minimum = int(state.get("minimum_collected", state.get("minimum_records", config.get("minimum_records_default", 25))))
+        collected_count = len(deduplicate(collected))
 
         catalog = {
-            "schema_version": 2,
+            "schema_version": 3,
             "catalog_version": utc_now()[:10].replace("-", "."),
             "updated_at": utc_now(),
             "uf": uf,
             "estado": state["estado"],
             "lexml_slug": current.get("lexml_slug", state["estado"].lower()),
             "portal_oficial": state.get("portal", ""),
-            "status": "atualizado" if len(norms) >= minimum else "incompleto",
+            "status": "atualizado" if collected_count >= minimum else "incompleto",
             "minimum_expected": minimum,
             "normas": [n.to_dict() for n in norms],
         }
@@ -103,7 +115,8 @@ def main() -> int:
         diagnostics.update(
             {
                 "finished_at": utc_now(),
-                "collected_count": len(collected),
+                "collected_count": collected_count,
+                "seed_count": len(curated),
                 "final_count": len(norms),
                 "minimum_expected": minimum,
                 "status": catalog["status"],
@@ -114,9 +127,9 @@ def main() -> int:
         write_json(REPORT_DIR / f"{uf}.json", diagnostics)
         print(json.dumps(diagnostics, ensure_ascii=False, indent=2))
 
-        if len(norms) < minimum and not args.allow_below_minimum:
+        if collected_count < minimum and not args.allow_below_minimum:
             print(
-                f"ERRO: {uf} produziu {len(norms)} normas; mínimo exigido: {minimum}",
+                f"ERRO: {uf} coletou {collected_count} normas reais; mínimo exigido: {minimum}; sementes preservadas: {len(curated)}",
                 file=sys.stderr,
             )
             return 3

@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "minimum_records_default": 25,
   "states": [
     {
@@ -8,7 +8,8 @@
       "strategy": "sapl",
       "base_url": "https://sapl.al.ac.leg.br",
       "portal": "https://sapl.al.ac.leg.br/norma/pesquisar",
-      "minimum_records": 100
+      "minimum_records": 100,
+      "minimum_collected": 100
     },
     {
       "uf": "AL",
@@ -16,27 +17,18 @@
       "strategy": "sapl",
       "base_url": "https://sapl.al.al.leg.br",
       "portal": "https://sapl.al.al.leg.br/norma/pesquisar",
-      "minimum_records": 100
+      "minimum_records": 100,
+      "minimum_collected": 100
     },
     {
       "uf": "AP",
       "estado": "Amapá",
-      "strategy": "generic",
+      "strategy": "elegis",
       "portal": "https://elegis.al.ap.leg.br/portal/legislacao",
-      "allowed_hosts": [
-        "elegis.al.ap.leg.br"
-      ],
-      "start_urls": [
-        "https://elegis.al.ap.leg.br/portal/legislacao"
-      ],
-      "detail_patterns": [
-        "/portal/legislacao/",
-        "/legislacao/"
-      ],
-      "minimum_records": 25,
-      "cc_queries": [
-        "elegis.al.ap.leg.br/portal/legislacao/*"
-      ]
+      "base_url": "https://elegis.al.ap.leg.br",
+      "minimum_records": 100,
+      "max_pages": 400,
+      "minimum_collected": 100
     },
     {
       "uf": "AM",
@@ -44,7 +36,8 @@
       "strategy": "sapl",
       "base_url": "https://sapl.al.am.leg.br",
       "portal": "https://sapl.al.am.leg.br/norma/pesquisar",
-      "minimum_records": 100
+      "minimum_records": 100,
+      "minimum_collected": 100
     },
     {
       "uf": "BA",
@@ -69,7 +62,8 @@
         "www.legislabahia.ba.gov.br/documentos/lei-*",
         "www.legislabahia.ba.gov.br/documentos/lei-complementar-*",
         "legislabahia.ba.gov.br/documentos/lei-*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "CE",
@@ -93,7 +87,8 @@
       "cc_queries": [
         "belt.al.ce.gov.br/index.php/legislacao-do-ceara/*",
         "www2.al.ce.gov.br/legislativo/legislacao5/leis*/*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "DF",
@@ -115,7 +110,8 @@
       "cc_queries": [
         "www.sinj.df.gov.br/sinj/Norma/*",
         "www.sinj.df.gov.br/sinj/DetalhesDeNorma.aspx*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "ES",
@@ -138,7 +134,8 @@
       "cc_queries": [
         "www3.al.es.gov.br/Arquivo/Documents/legislacao/html/*",
         "www3.al.es.gov.br/legislacao/consulta-legislacao.aspx*"
-      ]
+      ],
+      "minimum_collected": 50
     },
     {
       "uf": "GO",
@@ -165,7 +162,8 @@
         "admin.legisla.casacivil.go.gov.br/pesquisa_legislacao/*",
         "www.gabinetecivil.go.gov.br/leis_ordinarias/*",
         "www.gabinetecivil.go.gov.br/leis_complementares/*"
-      ]
+      ],
+      "minimum_collected": 50
     },
     {
       "uf": "MA",
@@ -174,7 +172,8 @@
       "base_url": "https://sapl.al.ma.leg.br",
       "portal": "https://sapl.al.ma.leg.br/sapl/generico/norma_juridica_pesquisar_form?incluir=0",
       "minimum_records": 50,
-      "legacy": true
+      "legacy": true,
+      "minimum_collected": 50
     },
     {
       "uf": "MT",
@@ -182,7 +181,8 @@
       "strategy": "sapl",
       "base_url": "https://sapl.al.mt.leg.br",
       "portal": "https://sapl.al.mt.leg.br/norma/pesquisar",
-      "minimum_records": 100
+      "minimum_records": 100,
+      "minimum_collected": 100
     },
     {
       "uf": "MS",
@@ -201,7 +201,8 @@
       "minimum_records": 50,
       "cc_queries": [
         "aacpdappls.net.ms.gov.br/appls/legislacao/secoge/govato.nsf/*"
-      ]
+      ],
+      "minimum_collected": 50
     },
     {
       "uf": "MG",
@@ -224,7 +225,8 @@
         "www.almg.gov.br/legislacao-mineira/texto/LEI/*",
         "www.almg.gov.br/legislacao-mineira/texto/LEI-COMPLEMENTAR/*",
         "www.almg.gov.br/legislacao-mineira/LEI/*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "PA",
@@ -246,7 +248,8 @@
       "cc_queries": [
         "www.sistemas.pa.gov.br/sisleis/legislacao.html*",
         "sistemas.pa.gov.br/sisleis/*"
-      ]
+      ],
+      "minimum_collected": 50
     },
     {
       "uf": "PB",
@@ -254,7 +257,8 @@
       "strategy": "sapl",
       "base_url": "https://sapl.al.pb.leg.br",
       "portal": "https://sapl.al.pb.leg.br/norma/pesquisar",
-      "minimum_records": 100
+      "minimum_records": 100,
+      "minimum_collected": 100
     },
     {
       "uf": "PR",
@@ -277,7 +281,8 @@
       "cc_queries": [
         "www.legislacao.pr.gov.br/legislacao/listarAtosAno.do*",
         "www.legislacao.pr.gov.br/legislacao/exibirAto.do*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "PE",
@@ -301,7 +306,8 @@
       "cc_queries": [
         "legis.alepe.pe.gov.br/texto.aspx*",
         "legis.alepe.pe.gov.br/*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "PI",
@@ -309,7 +315,8 @@
       "strategy": "sapl",
       "base_url": "https://sapl.al.pi.leg.br",
       "portal": "https://sapl.al.pi.leg.br/norma/pesquisar",
-      "minimum_records": 100
+      "minimum_records": 100,
+      "minimum_collected": 100
     },
     {
       "uf": "RJ",
@@ -332,7 +339,8 @@
       "cc_queries": [
         "alerjln1.alerj.rj.gov.br/CONTLEI.NSF/*",
         "www3.alerj.rj.gov.br/lotus_notes/*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "RN",
@@ -354,7 +362,8 @@
       "cc_queries": [
         "www.al.rn.leg.br/legislacao/*",
         "al.rn.leg.br/legislacao/*"
-      ]
+      ],
+      "minimum_collected": 50
     },
     {
       "uf": "RS",
@@ -376,7 +385,8 @@
       "cc_queries": [
         "www.al.rs.gov.br/filerepository/repLegis/arquivos/*",
         "www.al.rs.gov.br/legis/*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "RO",
@@ -384,7 +394,8 @@
       "strategy": "sapl",
       "base_url": "https://sapl.al.ro.leg.br",
       "portal": "https://sapl.al.ro.leg.br/norma/pesquisar",
-      "minimum_records": 100
+      "minimum_records": 100,
+      "minimum_collected": 100
     },
     {
       "uf": "RR",
@@ -392,7 +403,8 @@
       "strategy": "sapl",
       "base_url": "https://sapl.al.rr.leg.br",
       "portal": "https://sapl.al.rr.leg.br/norma/pesquisar",
-      "minimum_records": 100
+      "minimum_records": 100,
+      "minimum_collected": 100
     },
     {
       "uf": "SC",
@@ -415,7 +427,8 @@
       "cc_queries": [
         "leis.alesc.sc.gov.br/html/*",
         "leis.alesc.sc.gov.br/*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "SP",
@@ -439,7 +452,8 @@
         "www.al.sp.gov.br/repositorio/legislacao/lei/*",
         "www.al.sp.gov.br/repositorio/legislacao/lei.complementar/*",
         "www.al.sp.gov.br/repositorio/legislacao/constituicao/*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "SE",
@@ -462,7 +476,8 @@
       "cc_queries": [
         "aleselegis.al.se.leg.br/Arquivo/Documents/legislacao/html/*",
         "api.legislacao.se.gov.br/uploads/atos/*"
-      ]
+      ],
+      "minimum_collected": 100
     },
     {
       "uf": "TO",
@@ -470,7 +485,8 @@
       "strategy": "sapl",
       "base_url": "https://sapl.al.to.leg.br",
       "portal": "https://sapl.al.to.leg.br/norma/pesquisar",
-      "minimum_records": 100
+      "minimum_records": 100,
+      "minimum_collected": 100
     }
   ]
 }

@@ -1,60 +1,24 @@
-# Direitos em Segundos — Catálogo Nacional V2
+# Direitos em Segundos — Catálogo Nacional V3
 
-Este repositório publica, em GitHub Pages, os catálogos estaduais usados pelo aplicativo Android **Direitos em Segundos**.
+Versão V3 do coletor nacional de legislação estadual.
 
-## Mudança principal da V2
+## Mudanças principais
 
-A versão anterior dependia quase exclusivamente do Webservice SRU do LexML e considerava a execução concluída mesmo quando vários Estados permaneciam vazios.
+- conector próprio para o eLegis do Amapá;
+- coletor SAPL baseado na página pública de resultados, com API como alternativa;
+- `iframe=-1` e consultas compatíveis com diferentes instalações SAPL;
+- normas-semente não contam para atingir o mínimo;
+- relatório separa `collected_count` e `seed_count`;
+- o GitHub Pages só é publicado se as 27 unidades federativas forem validadas.
 
-A V2 utiliza três camadas de coleta:
+## Instalação
 
-1. **OpenAPI/HTML do SAPL**, para Assembleias que usam o Sistema de Apoio ao Processo Legislativo;
-2. **sitemaps e páginas de listagem dos portais oficiais**;
-3. **índice público do Common Crawl apenas para descobrir endereços já publicados nos domínios oficiais**. O conteúdo jurídico sempre é baixado e validado no próprio portal governamental ou legislativo.
+Envie o conteúdo desta pasta para a raiz do repositório `JAStos63/direitos-em-segundos-catalogo`, substituindo os arquivos existentes. Mantenha o GitHub Pages em `main /docs`. Depois execute **Atualizar catálogos nacionais V3**.
 
-O fluxo é executado em paralelo para as 27 unidades federativas. A publicação só é gravada no repositório quando **todos os catálogos atingem o mínimo configurado**.
+## Interpretação do resultado
 
-## Arquivos que devem ficar na raiz do repositório
+- verde: a UF coletou normas reais acima do mínimo;
+- vermelho: o portal daquela UF exige um conector adicional ou mudou sua estrutura;
+- a etapa `consolidar` não publica uma base parcial.
 
-```text
-.github/
-config/
-docs/
-scripts/
-tests/
-README.md
-requirements.txt
-```
-
-## Como atualizar no GitHub
-
-1. Extraia o pacote.
-2. No repositório `JAStos63/direitos-em-segundos-catalogo`, envie o conteúdo extraído para a raiz.
-3. Aceite a substituição dos arquivos existentes.
-4. Na aba **Actions**, abra **Atualizar catálogos nacionais V2**.
-5. Clique em **Run workflow**.
-
-A coleta é dividida por Estado. Se uma unidade federativa ficar vazia ou abaixo do mínimo, a execução ficará vermelha e o catálogo anterior não será publicado como se estivesse completo.
-
-## Relatórios
-
-Depois da execução, cada UF gera:
-
-```text
-docs/relatorios/AL.json
-docs/relatorios/SP.json
-...
-```
-
-A página inicial do GitHub Pages mostra a quantidade de normas, documentos HTML pesquisáveis e documentos externos de cada Estado.
-
-## Testes locais
-
-```bash
-pip install -r requirements.txt
-pytest -q
-```
-
-## Observação jurídica
-
-O catálogo é uma ferramenta de localização. A conferência final deve ser feita no texto disponibilizado pelo órgão oficial e no Diário Oficial correspondente.
+Esta versão corrige especificamente as duas famílias já diagnosticadas: **eLegis** e **SAPL**. Os conectores genéricos dos demais portais continuam sendo validados pelo próprio workflow; falhas remanescentes aparecerão por UF, sem falso sucesso.
