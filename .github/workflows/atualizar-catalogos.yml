@@ -44,7 +44,7 @@ jobs:
   coletar:
     needs: preparar
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 60
 
     strategy:
       fail-fast: false
