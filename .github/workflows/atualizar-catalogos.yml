@@ -1,4 +1,4 @@
-name: Atualizar catálogos nacionais V3
+name: Atualizar catálogos nacionais V4
 
 on:
   workflow_dispatch:
@@ -16,34 +16,52 @@ concurrency:
 jobs:
   preparar:
     runs-on: ubuntu-latest
+
     outputs:
       ufs: ${{ steps.matrix.outputs.ufs }}
+
     steps:
-      - uses: actions/checkout@v4
-      - id: matrix
+      - name: Baixar projeto
+        uses: actions/checkout@v4
+
+      - name: Preparar lista das UFs
+        id: matrix
         shell: bash
         run: |
           UFS=$(python - <<'PY'
           import json
-          d=json.load(open('config/states.json',encoding='utf-8'))
-          print(json.dumps([s['uf'] for s in d['states']],separators=(',',':')))
+
+          with open("config/states.json", encoding="utf-8") as arquivo:
+              dados = json.load(arquivo)
+
+          ufs = [estado["uf"] for estado in dados["states"]]
+          print(json.dumps(ufs, separators=(",", ":")))
           PY
           )
+
           echo "ufs=$UFS" >> "$GITHUB_OUTPUT"
 
   coletar:
     needs: preparar
     runs-on: ubuntu-latest
     timeout-minutes: 180
+
     strategy:
       fail-fast: false
-      max-parallel: 8
+
+      # Reduzido para evitar excesso de acessos simultâneos
+      # aos portais estaduais.
+      max-parallel: 3
+
       matrix:
         uf: ${{ fromJSON(needs.preparar.outputs.ufs) }}
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Baixar projeto
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
@@ -53,25 +71,117 @@ jobs:
 
       - name: Coletar ${{ matrix.uf }}
         id: coleta
-        continue-on-error: true
         shell: bash
         run: |
           set +e
-          python scripts/collect_state.py --uf "${{ matrix.uf }}"
-          CODE=$?
+
+          UF="${{ matrix.uf }}"
+          RELATORIO="docs/relatorios/${UF}.json"
+
+          MAX_TENTATIVAS=3
+          TENTATIVA=1
+          CODE=1
+
+          while [ "$TENTATIVA" -le "$MAX_TENTATIVAS" ]; do
+            echo "=================================================="
+            echo "Coletando ${UF} — tentativa ${TENTATIVA}/${MAX_TENTATIVAS}"
+            echo "=================================================="
+
+            python scripts/collect_state.py --uf "$UF"
+            CODE=$?
+
+            if [ "$CODE" -eq 0 ]; then
+              echo "Coleta de ${UF} concluída."
+              break
+            fi
+
+            if [ "$TENTATIVA" -ge "$MAX_TENTATIVAS" ]; then
+              echo "Número máximo de tentativas atingido."
+              break
+            fi
+
+            # Só repete quando o erro aparentar ser temporário.
+            # Erros estruturais, como “nenhum endereço descoberto”,
+            # não serão repetidos inutilmente.
+            if [ -f "$RELATORIO" ] && grep -Eqi \
+              'HTTP[^0-9]*(500|502|503|504)|too many 500|MaxRetryError|timeout|timed out|connection reset|connection aborted|temporar' \
+              "$RELATORIO"; then
+
+              ESPERA=$((TENTATIVA * 90))
+
+              echo "Erro temporário identificado em ${UF}."
+              echo "Aguardando ${ESPERA} segundos para nova tentativa."
+
+              sleep "$ESPERA"
+              TENTATIVA=$((TENTATIVA + 1))
+            else
+              echo "Erro estrutural identificado em ${UF}."
+              echo "A coleta não será repetida nesta execução."
+              break
+            fi
+          done
+
           echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+
+          # O resultado será confirmado somente depois
+          # da preparação segura do artefato.
           exit 0
 
-      - name: Preparar artefato
+      - name: Preparar artefato seguro
+        id: artefato
         if: always()
         shell: bash
         run: |
-          mkdir -p artifact/catalogos artifact/relatorios
-          test -f "docs/catalogos/${{ matrix.uf }}.json" && cp "docs/catalogos/${{ matrix.uf }}.json" artifact/catalogos/
-          test -f "docs/relatorios/${{ matrix.uf }}.json" && cp "docs/relatorios/${{ matrix.uf }}.json" artifact/relatorios/
+          UF="${{ matrix.uf }}"
+          EXIT_CODE="${{ steps.coleta.outputs.exit_code }}"
 
-      - uses: actions/upload-artifact@v4
+          CATALOGO="docs/catalogos/${UF}.json"
+          RELATORIO="docs/relatorios/${UF}.json"
+
+          mkdir -p artifact/catalogos
+          mkdir -p artifact/relatorios
+          mkdir -p artifact/status
+
+          VALIDO=0
+          SITUACAO="falhou"
+
+          # O catálogo somente será enviado quando:
+          # 1. o coletor terminar com código zero;
+          # 2. o arquivo existir e não estiver vazio;
+          # 3. o conteúdo for um JSON válido.
+          if [ "$EXIT_CODE" = "0" ] && [ -s "$CATALOGO" ]; then
+            if python -m json.tool "$CATALOGO" >/dev/null 2>&1; then
+              cp "$CATALOGO" artifact/catalogos/
+              VALIDO=1
+              SITUACAO="atualizado"
+              echo "Catálogo válido de ${UF} preparado."
+            else
+              SITUACAO="json-invalido"
+              echo "O catálogo de ${UF} contém JSON inválido."
+            fi
+          else
+            echo "O catálogo novo de ${UF} não será publicado."
+            echo "Será preservado o último catálogo válido existente."
+          fi
+
+          # O relatório é preservado mesmo quando a coleta falha,
+          # para permitir o diagnóstico posterior.
+          if [ -f "$RELATORIO" ]; then
+            cp "$RELATORIO" artifact/relatorios/
+          fi
+
+          {
+            echo "uf=${UF}"
+            echo "situacao=${SITUACAO}"
+            echo "exit_code=${EXIT_CODE}"
+            echo "catalogo_valido=${VALIDO}"
+          } > "artifact/status/${UF}.txt"
+
+          echo "valid=$VALIDO" >> "$GITHUB_OUTPUT"
+
+      - name: Enviar artefato da UF
         if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: catalogo-${{ matrix.uf }}
           path: artifact
@@ -79,49 +189,103 @@ jobs:
           if-no-files-found: error
 
       - name: Confirmar resultado da UF
-        if: steps.coleta.outputs.exit_code != '0'
+        if: steps.artefato.outputs.valid != '1'
+        shell: bash
         run: |
-          echo "A coleta de ${{ matrix.uf }} não atingiu o mínimo exigido ou encontrou erro."
+          echo "A coleta de ${{ matrix.uf }} não produziu um catálogo novo válido."
+          echo "O catálogo anterior dessa UF será preservado."
           exit 1
 
   consolidar:
-    needs: [preparar, coletar]
+    needs:
+      - preparar
+      - coletar
+
+    # Executa mesmo quando determinadas UFs falharem.
     if: always()
+
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Baixar projeto com os catálogos anteriores
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
 
-      - uses: actions/download-artifact@v4
+      - name: Baixar resultados das UFs
+        uses: actions/download-artifact@v4
         with:
           pattern: catalogo-*
           path: downloaded
           merge-multiple: true
 
-      - name: Copiar resultados
+      - name: Incorporar somente catálogos novos válidos
         shell: bash
         run: |
-          cp -f downloaded/catalogos/*.json docs/catalogos/ 2>/dev/null || true
+          mkdir -p docs/catalogos
           mkdir -p docs/relatorios
+
+          # Apenas catálogos aprovados foram colocados
+          # na pasta downloaded/catalogos.
+          #
+          # Quando uma UF falhou, o catálogo anterior existente
+          # no repositório permanece intacto.
+          cp -f downloaded/catalogos/*.json docs/catalogos/ 2>/dev/null || true
+
+          # Os relatórios de sucesso e de erro são atualizados.
           cp -f downloaded/relatorios/*.json docs/relatorios/ 2>/dev/null || true
 
-      - name: Construir índice e validar 27 UFs
+      - name: Mostrar resumo das UFs
+        if: always()
+        shell: bash
         run: |
-          python scripts/build_index.py
-          python scripts/validate_catalogs.py
+          echo "## Atualização dos catálogos estaduais" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+
+          if compgen -G "downloaded/status/*.txt" >/dev/null; then
+            for ARQUIVO in downloaded/status/*.txt; do
+              UF=$(grep '^uf=' "$ARQUIVO" | cut -d= -f2)
+              SITUACAO=$(grep '^situacao=' "$ARQUIVO" | cut -d= -f2)
+
+              if [ "$SITUACAO" = "atualizado" ]; then
+                echo "✅ **${UF}** — catálogo atualizado" >> "$GITHUB_STEP_SUMMARY"
+              else
+                echo "⚠️ **${UF}** — catálogo anterior preservado" >> "$GITHUB_STEP_SUMMARY"
+              fi
+            done
+          else
+            echo "Nenhum arquivo de situação foi localizado." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Construir índice nacional
+        run: python scripts/build_index.py
+
+      - name: Validar os 27 catálogos
+        run: python scripts/validate_catalogs.py
 
       - name: Publicar catálogos validados
         shell: bash
         run: |
           git config user.name "direitos-em-segundos-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/catalogos docs/relatorios docs/index.json docs/index.html
-          git diff --cached --quiet || git commit -m "Atualiza catálogos nacionais V3"
-          git push
+
+          git add \
+            docs/catalogos \
+            docs/relatorios \
+            docs/index.json \
+            docs/index.html
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração válida para publicar."
+          else
+            git commit -m "Atualiza catálogos nacionais V4"
+            git push
+          fi
