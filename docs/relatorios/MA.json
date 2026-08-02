@@ -1,0 +1,12 @@
+{
+  "uf": "MA",
+  "estado": "Maranhão",
+  "strategy": "sapl",
+  "started_at": "2026-08-02T22:09:50Z",
+  "portal": "https://sapl.al.ma.leg.br/sapl/generico/norma_juridica_pesquisar_form?incluir=0",
+  "curated_seed_count": 0,
+  "finished_at": "2026-08-02T22:10:23Z",
+  "status": "erro",
+  "error": "RuntimeError('HTML: RuntimeError(\\'SAPL não retornou a lista de resultados: SSLError(MaxRetryError(\\\\\\'HTTPSConnectionPool(host=\\\\\\\\\\\\\\'sapl.al.ma.leg.br\\\\\\\\\\\\\\', port=443): Max retries exceeded with url: /sapl/generico/norma_juridica_pesquisar_form?incluir=0&lst_tip_norma=&txt_numero=&txt_ano=&page=1 (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for \\\\\\\\\\\\\\'sapl.al.ma.leg.br\\\\\\\\\\\\\\'. (_ssl.c:1010)\")))\\\\\\'))\\')')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 69, in main\n    collected = connector.collect(max_records=args.max_records)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/sapl.py\", line 56, in collect\n    raise RuntimeError(\"; \".join(errors) or \"SAPL sem resultados\")\nRuntimeError: HTML: RuntimeError('SAPL não retornou a lista de resultados: SSLError(MaxRetryError(\\'HTTPSConnectionPool(host=\\\\\\'sapl.al.ma.leg.br\\\\\\', port=443): Max retries exceeded with url: /sapl/generico/norma_juridica_pesquisar_form?incluir=0&lst_tip_norma=&txt_numero=&txt_ano=&page=1 (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for \\\\\\'sapl.al.ma.leg.br\\\\\\'. (_ssl.c:1010)\")))\\'))')\n"
+}

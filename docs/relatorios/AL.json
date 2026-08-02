@@ -1,0 +1,16 @@
+{
+  "uf": "AL",
+  "estado": "Alagoas",
+  "strategy": "sapl",
+  "started_at": "2026-08-02T21:33:58Z",
+  "portal": "https://sapl.al.al.leg.br/norma/pesquisar",
+  "curated_seed_count": 2,
+  "finished_at": "2026-08-02T21:34:50Z",
+  "collected_count": 2898,
+  "seed_count": 2,
+  "final_count": 2900,
+  "minimum_expected": 100,
+  "status": "atualizado",
+  "direct_html_count": 79,
+  "external_document_count": 2821
+}

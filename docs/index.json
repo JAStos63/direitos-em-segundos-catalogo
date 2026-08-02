@@ -1,7 +1,5 @@
 {
-  "schema_version": 1,
-  "catalog_version": "2026.08.01-semente",
-  "updated_at": "2026-08-01T22:27:00-03:00",
+  "schema_version": 3,
   "owner": "JAStos63",
   "repository": "direitos-em-segundos-catalogo",
   "states": [
@@ -9,190 +7,379 @@
       "uf": "AC",
       "estado": "Acre",
       "arquivo": "catalogos/AC.json",
-      "portal_oficial": "https://www.al.ac.leg.br/",
-      "quantidade_inicial": 0
+      "relatorio": "relatorios/AC.json",
+      "portal_oficial": "https://sapl.al.ac.leg.br/norma/pesquisar",
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "aguardando_atualizacao_automatica",
+      "strategy": "sapl"
     },
     {
       "uf": "AL",
       "estado": "Alagoas",
       "arquivo": "catalogos/AL.json",
+      "relatorio": "relatorios/AL.json",
       "portal_oficial": "https://sapl.al.al.leg.br/norma/pesquisar",
-      "quantidade_inicial": 2
+      "coletadas": 2898,
+      "sementes": 2,
+      "quantidade": 2900,
+      "texto_direto": 79,
+      "documentos_externos": 2821,
+      "status": "atualizado",
+      "strategy": "sapl"
     },
     {
       "uf": "AP",
       "estado": "Amapá",
       "arquivo": "catalogos/AP.json",
+      "relatorio": "relatorios/AP.json",
       "portal_oficial": "https://elegis.al.ap.leg.br/portal/legislacao",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "erro",
+      "strategy": "elegis"
     },
     {
       "uf": "AM",
       "estado": "Amazonas",
       "arquivo": "catalogos/AM.json",
-      "portal_oficial": "https://www.aleam.gov.br/",
-      "quantidade_inicial": 0
+      "relatorio": "relatorios/AM.json",
+      "portal_oficial": "https://sapl.al.am.leg.br/norma/pesquisar",
+      "coletadas": 11837,
+      "sementes": 0,
+      "quantidade": 11837,
+      "texto_direto": 3997,
+      "documentos_externos": 7840,
+      "status": "atualizado",
+      "strategy": "sapl"
     },
     {
       "uf": "BA",
       "estado": "Bahia",
       "arquivo": "catalogos/BA.json",
+      "relatorio": "relatorios/BA.json",
       "portal_oficial": "https://www.legislabahia.ba.gov.br/",
-      "quantidade_inicial": 4
+      "coletadas": 0,
+      "sementes": 4,
+      "quantidade": 4,
+      "texto_direto": 3,
+      "documentos_externos": 1,
+      "status": "erro",
+      "strategy": "generic"
     },
     {
       "uf": "CE",
       "estado": "Ceará",
       "arquivo": "catalogos/CE.json",
-      "portal_oficial": "https://www.al.ce.gov.br/legislativo/legislacao",
-      "quantidade_inicial": 0
+      "relatorio": "relatorios/CE.json",
+      "portal_oficial": "https://belt.al.ce.gov.br/",
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "erro",
+      "strategy": "generic"
     },
     {
       "uf": "DF",
       "estado": "Distrito Federal",
       "arquivo": "catalogos/DF.json",
+      "relatorio": "relatorios/DF.json",
       "portal_oficial": "https://www.sinj.df.gov.br/sinj/",
-      "quantidade_inicial": 0
+      "coletadas": 1,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "incompleto",
+      "strategy": "generic"
     },
     {
       "uf": "ES",
       "estado": "Espírito Santo",
       "arquivo": "catalogos/ES.json",
+      "relatorio": "relatorios/ES.json",
       "portal_oficial": "https://www3.al.es.gov.br/legislacao/",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "erro",
+      "strategy": "generic"
     },
     {
       "uf": "GO",
       "estado": "Goiás",
       "arquivo": "catalogos/GO.json",
+      "relatorio": "relatorios/GO.json",
       "portal_oficial": "https://legisla.casacivil.go.gov.br/",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "incompleto",
+      "strategy": "generic"
     },
     {
       "uf": "MA",
       "estado": "Maranhão",
       "arquivo": "catalogos/MA.json",
-      "portal_oficial": "https://legislacao.al.ma.leg.br/",
-      "quantidade_inicial": 0
+      "relatorio": "relatorios/MA.json",
+      "portal_oficial": "https://sapl.al.ma.leg.br/sapl/generico/norma_juridica_pesquisar_form?incluir=0",
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "erro",
+      "strategy": "sapl"
     },
     {
       "uf": "MT",
       "estado": "Mato Grosso",
       "arquivo": "catalogos/MT.json",
-      "portal_oficial": "https://www.al.mt.gov.br/norma-juridica",
-      "quantidade_inicial": 0
+      "relatorio": "relatorios/MT.json",
+      "portal_oficial": "https://sapl.al.mt.leg.br/norma/pesquisar",
+      "coletadas": 2,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "incompleto",
+      "strategy": "sapl"
     },
     {
       "uf": "MS",
       "estado": "Mato Grosso do Sul",
       "arquivo": "catalogos/MS.json",
-      "portal_oficial": "https://www.spdo.ms.gov.br/diariodoe/Index/Download/DO11864_01_08_2025",
-      "quantidade_inicial": 0
+      "relatorio": "relatorios/MS.json",
+      "portal_oficial": "https://aacpdappls.net.ms.gov.br/appls/legislacao/secoge/govato.nsf/",
+      "coletadas": 446,
+      "sementes": 0,
+      "quantidade": 446,
+      "texto_direto": 441,
+      "documentos_externos": 0,
+      "status": "atualizado",
+      "strategy": "generic"
     },
     {
       "uf": "MG",
       "estado": "Minas Gerais",
       "arquivo": "catalogos/MG.json",
+      "relatorio": "relatorios/MG.json",
       "portal_oficial": "https://www.almg.gov.br/legislacao-mineira/",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "aguardando_atualizacao_automatica",
+      "strategy": "generic"
     },
     {
       "uf": "PA",
       "estado": "Pará",
       "arquivo": "catalogos/PA.json",
+      "relatorio": "relatorios/PA.json",
       "portal_oficial": "https://www.sistemas.pa.gov.br/sisleis/legislacao.html",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "aguardando_atualizacao_automatica",
+      "strategy": "generic"
     },
     {
       "uf": "PB",
       "estado": "Paraíba",
       "arquivo": "catalogos/PB.json",
+      "relatorio": "relatorios/PB.json",
       "portal_oficial": "https://sapl.al.pb.leg.br/norma/pesquisar",
-      "quantidade_inicial": 0
+      "coletadas": 14995,
+      "sementes": 0,
+      "quantidade": 14995,
+      "texto_direto": 143,
+      "documentos_externos": 14852,
+      "status": "atualizado",
+      "strategy": "sapl"
     },
     {
       "uf": "PR",
       "estado": "Paraná",
       "arquivo": "catalogos/PR.json",
+      "relatorio": "relatorios/PR.json",
       "portal_oficial": "https://www.legislacao.pr.gov.br/",
-      "quantidade_inicial": 0
+      "coletadas": 246,
+      "sementes": 0,
+      "quantidade": 246,
+      "texto_direto": 246,
+      "documentos_externos": 0,
+      "status": "atualizado",
+      "strategy": "generic"
     },
     {
       "uf": "PE",
       "estado": "Pernambuco",
       "arquivo": "catalogos/PE.json",
+      "relatorio": "relatorios/PE.json",
       "portal_oficial": "https://legis.alepe.pe.gov.br/",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "erro",
+      "strategy": "generic"
     },
     {
       "uf": "PI",
       "estado": "Piauí",
       "arquivo": "catalogos/PI.json",
+      "relatorio": "relatorios/PI.json",
       "portal_oficial": "https://sapl.al.pi.leg.br/norma/pesquisar",
-      "quantidade_inicial": 0
+      "coletadas": 5997,
+      "sementes": 0,
+      "quantidade": 5997,
+      "texto_direto": 133,
+      "documentos_externos": 5864,
+      "status": "atualizado",
+      "strategy": "sapl"
     },
     {
       "uf": "RJ",
       "estado": "Rio de Janeiro",
       "arquivo": "catalogos/RJ.json",
+      "relatorio": "relatorios/RJ.json",
       "portal_oficial": "https://www3.alerj.rj.gov.br/lotus_notes/default.asp?id=2",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "aguardando_atualizacao_automatica",
+      "strategy": "generic"
     },
     {
       "uf": "RN",
       "estado": "Rio Grande do Norte",
       "arquivo": "catalogos/RN.json",
+      "relatorio": "relatorios/RN.json",
       "portal_oficial": "https://www.al.rn.leg.br/legislacao",
-      "quantidade_inicial": 0
+      "coletadas": 16,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "incompleto",
+      "strategy": "generic"
     },
     {
       "uf": "RS",
       "estado": "Rio Grande do Sul",
       "arquivo": "catalogos/RS.json",
+      "relatorio": "relatorios/RS.json",
       "portal_oficial": "https://www.al.rs.gov.br/legis/",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "aguardando_atualizacao_automatica",
+      "strategy": "generic"
     },
     {
       "uf": "RO",
       "estado": "Rondônia",
       "arquivo": "catalogos/RO.json",
+      "relatorio": "relatorios/RO.json",
       "portal_oficial": "https://sapl.al.ro.leg.br/norma/pesquisar",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "aguardando_atualizacao_automatica",
+      "strategy": "sapl"
     },
     {
       "uf": "RR",
       "estado": "Roraima",
       "arquivo": "catalogos/RR.json",
+      "relatorio": "relatorios/RR.json",
       "portal_oficial": "https://sapl.al.rr.leg.br/norma/pesquisar",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "erro",
+      "strategy": "sapl"
     },
     {
       "uf": "SC",
       "estado": "Santa Catarina",
       "arquivo": "catalogos/SC.json",
+      "relatorio": "relatorios/SC.json",
       "portal_oficial": "https://leis.alesc.sc.gov.br/",
-      "quantidade_inicial": 0
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 0,
+      "texto_direto": 0,
+      "documentos_externos": 0,
+      "status": "erro",
+      "strategy": "generic"
     },
     {
       "uf": "SP",
       "estado": "São Paulo",
       "arquivo": "catalogos/SP.json",
+      "relatorio": "relatorios/SP.json",
       "portal_oficial": "https://www.al.sp.gov.br/norma/",
-      "quantidade_inicial": 0
+      "coletadas": 123,
+      "sementes": 0,
+      "quantidade": 123,
+      "texto_direto": 123,
+      "documentos_externos": 0,
+      "status": "atualizado",
+      "strategy": "generic"
     },
     {
       "uf": "SE",
       "estado": "Sergipe",
       "arquivo": "catalogos/SE.json",
+      "relatorio": "relatorios/SE.json",
       "portal_oficial": "https://aleselegis.al.se.leg.br/",
-      "quantidade_inicial": 172
+      "coletadas": 0,
+      "sementes": 0,
+      "quantidade": 172,
+      "texto_direto": 159,
+      "documentos_externos": 13,
+      "status": "semente",
+      "strategy": "generic"
     },
     {
       "uf": "TO",
       "estado": "Tocantins",
       "arquivo": "catalogos/TO.json",
-      "portal_oficial": "https://www.al.to.leg.br/arquivo/leis",
-      "quantidade_inicial": 0
+      "relatorio": "relatorios/TO.json",
+      "portal_oficial": "https://sapl.al.to.leg.br/norma/pesquisar",
+      "coletadas": 1331,
+      "sementes": 0,
+      "quantidade": 1331,
+      "texto_direto": 119,
+      "documentos_externos": 1212,
+      "status": "atualizado",
+      "strategy": "sapl"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "uf": "BA",
+  "estado": "Bahia",
+  "strategy": "generic",
+  "started_at": "2026-08-02T21:38:34Z",
+  "portal": "https://www.legislabahia.ba.gov.br/",
+  "curated_seed_count": 4,
+  "finished_at": "2026-08-02T21:44:29Z",
+  "status": "erro",
+  "error": "RuntimeError('nenhum endereço de norma descoberto')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 90, in main\n    collected = connector.collect(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/generic.py\", line 69, in collect\n    raise RuntimeError(\"nenhum endereço de norma descoberto\")\nRuntimeError: nenhum endereço de norma descoberto\n"
+}

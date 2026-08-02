@@ -1,0 +1,16 @@
+{
+  "uf": "MT",
+  "estado": "Mato Grosso",
+  "strategy": "sapl",
+  "started_at": "2026-08-02T22:10:39Z",
+  "portal": "https://sapl.al.mt.leg.br/norma/pesquisar",
+  "curated_seed_count": 0,
+  "finished_at": "2026-08-02T22:10:42Z",
+  "collected_count": 2,
+  "seed_count": 0,
+  "final_count": 2,
+  "minimum_expected": 100,
+  "status": "incompleto",
+  "direct_html_count": 1,
+  "external_document_count": 1
+}
