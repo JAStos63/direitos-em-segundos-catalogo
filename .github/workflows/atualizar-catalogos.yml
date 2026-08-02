@@ -1,4 +1,4 @@
-name: Atualizar catálogos nacionais
+name: Atualizar catálogos nacionais V2
 
 on:
   workflow_dispatch:
@@ -7,31 +7,121 @@ on:
 
 permissions:
   contents: write
+  actions: read
+
+concurrency:
+  group: catalogos-nacionais
+  cancel-in-progress: false
 
 jobs:
-  atualizar:
+  preparar:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    outputs:
+      ufs: ${{ steps.matrix.outputs.ufs }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: matrix
+        shell: bash
+        run: |
+          UFS=$(python - <<'PY'
+          import json
+          d=json.load(open('config/states.json',encoding='utf-8'))
+          print(json.dumps([s['uf'] for s in d['states']],separators=(',',':')))
+          PY
+          )
+          echo "ufs=$UFS" >> "$GITHUB_OUTPUT"
 
+  coletar:
+    needs: preparar
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        uf: ${{ fromJSON(needs.preparar.outputs.ufs) }}
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Coletar ${{ matrix.uf }}
+        id: coleta
+        continue-on-error: true
+        shell: bash
+        run: |
+          set +e
+          python scripts/collect_state.py --uf "${{ matrix.uf }}"
+          CODE=$?
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Preparar artefato
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p artifact/catalogos artifact/relatorios
+          test -f "docs/catalogos/${{ matrix.uf }}.json" && cp "docs/catalogos/${{ matrix.uf }}.json" artifact/catalogos/
+          test -f "docs/relatorios/${{ matrix.uf }}.json" && cp "docs/relatorios/${{ matrix.uf }}.json" artifact/relatorios/
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: catalogo-${{ matrix.uf }}
+          path: artifact
+          retention-days: 7
+          if-no-files-found: error
+
+      - name: Confirmar resultado da UF
+        if: steps.coleta.outputs.exit_code != '0'
+        run: |
+          echo "A coleta de ${{ matrix.uf }} não atingiu o mínimo exigido ou encontrou erro."
+          exit 1
+
+  consolidar:
+    needs: [preparar, coletar]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
 
       - run: pip install -r requirements.txt
 
-      - name: Atualizar catálogos
-        run: python scripts/update_catalogs.py
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: catalogo-*
+          path: downloaded
+          merge-multiple: true
 
-      - name: Validar arquivos
-        run: python scripts/validate_catalogs.py
+      - name: Copiar resultados
+        shell: bash
+        run: |
+          cp -f downloaded/catalogos/*.json docs/catalogos/ 2>/dev/null || true
+          mkdir -p docs/relatorios
+          cp -f downloaded/relatorios/*.json docs/relatorios/ 2>/dev/null || true
 
-      - name: Publicar alterações
+      - name: Construir índice e validar 27 UFs
+        run: |
+          python scripts/build_index.py
+          python scripts/validate_catalogs.py
+
+      - name: Publicar catálogos validados
+        shell: bash
         run: |
           git config user.name "direitos-em-segundos-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/catalogos docs/index.json
-          git diff --cached --quiet || git commit -m "Atualiza catálogos estaduais"
+          git add docs/catalogos docs/relatorios docs/index.json docs/index.html
+          git diff --cached --quiet || git commit -m "Atualiza catálogos nacionais V2"
           git push
