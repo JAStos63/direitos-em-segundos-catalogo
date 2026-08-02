@@ -1,4 +1,4 @@
-name: Atualizar catálogos nacionais V4
+name: Atualizar catálogos nacionais V5
 
 on:
   workflow_dispatch:
@@ -44,13 +44,14 @@ jobs:
   coletar:
     needs: preparar
     runs-on: ubuntu-latest
+
+    # Limite geral de segurança do trabalho.
     timeout-minutes: 60
 
     strategy:
       fail-fast: false
 
-      # Reduzido para evitar excesso de acessos simultâneos
-      # aos portais estaduais.
+      # No máximo três estados ao mesmo tempo.
       max-parallel: 3
 
       matrix:
@@ -78,53 +79,73 @@ jobs:
           UF="${{ matrix.uf }}"
           RELATORIO="docs/relatorios/${UF}.json"
 
-          MAX_TENTATIVAS=3
-          TENTATIVA=1
-          CODE=1
+          # O bloco completo da coleta, incluindo novas tentativas,
+          # não poderá ultrapassar 30 minutos.
+          timeout --signal=TERM --kill-after=30s 30m \
+            bash -c '
+              set +e
 
-          while [ "$TENTATIVA" -le "$MAX_TENTATIVAS" ]; do
-            echo "=================================================="
-            echo "Coletando ${UF} — tentativa ${TENTATIVA}/${MAX_TENTATIVAS}"
-            echo "=================================================="
+              UF="$1"
+              RELATORIO="$2"
 
-            python scripts/collect_state.py --uf "$UF"
-            CODE=$?
+              MAX_TENTATIVAS=3
+              TENTATIVA=1
+              CODE=1
 
-            if [ "$CODE" -eq 0 ]; then
-              echo "Coleta de ${UF} concluída."
-              break
-            fi
+              while [ "$TENTATIVA" -le "$MAX_TENTATIVAS" ]; do
+                echo "=================================================="
+                echo "Coletando ${UF} — tentativa ${TENTATIVA}/${MAX_TENTATIVAS}"
+                echo "=================================================="
 
-            if [ "$TENTATIVA" -ge "$MAX_TENTATIVAS" ]; then
-              echo "Número máximo de tentativas atingido."
-              break
-            fi
+                python scripts/collect_state.py --uf "$UF"
+                CODE=$?
 
-            # Só repete quando o erro aparentar ser temporário.
-            # Erros estruturais, como “nenhum endereço descoberto”,
-            # não serão repetidos inutilmente.
-            if [ -f "$RELATORIO" ] && grep -Eqi \
-              'HTTP[^0-9]*(500|502|503|504)|too many 500|MaxRetryError|timeout|timed out|connection reset|connection aborted|temporar' \
-              "$RELATORIO"; then
+                if [ "$CODE" -eq 0 ]; then
+                  echo "Coleta de ${UF} concluída."
+                  exit 0
+                fi
 
-              ESPERA=$((TENTATIVA * 90))
+                if [ "$TENTATIVA" -ge "$MAX_TENTATIVAS" ]; then
+                  echo "Número máximo de tentativas atingido."
+                  exit "$CODE"
+                fi
 
-              echo "Erro temporário identificado em ${UF}."
-              echo "Aguardando ${ESPERA} segundos para nova tentativa."
+                # Repete somente erros que aparentam ser temporários.
+                if [ -f "$RELATORIO" ] && grep -Eqi \
+                  "HTTP[^0-9]*(500|502|503|504)|too many 500|MaxRetryError|timeout|timed out|connection reset|connection aborted|temporar" \
+                  "$RELATORIO"; then
 
-              sleep "$ESPERA"
-              TENTATIVA=$((TENTATIVA + 1))
-            else
-              echo "Erro estrutural identificado em ${UF}."
-              echo "A coleta não será repetida nesta execução."
-              break
-            fi
-          done
+                  ESPERA=$((TENTATIVA * 90))
+
+                  echo "Erro temporário identificado em ${UF}."
+                  echo "Aguardando ${ESPERA} segundos para nova tentativa."
+
+                  sleep "$ESPERA"
+                  TENTATIVA=$((TENTATIVA + 1))
+                else
+                  echo "Erro estrutural identificado em ${UF}."
+                  echo "A coleta não será repetida nesta execução."
+                  exit "$CODE"
+                fi
+              done
+
+              exit "$CODE"
+            ' _ "$UF" "$RELATORIO"
+
+          CODE=$?
+
+          # Códigos normalmente devolvidos quando o limite de tempo
+          # encerra o processo.
+          if [ "$CODE" -eq 124 ] || [ "$CODE" -eq 137 ]; then
+            echo "A coleta de ${UF} ultrapassou o limite total de 30 minutos."
+            echo "O catálogo anterior dessa UF será preservado."
+            CODE=124
+          fi
 
           echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
 
-          # O resultado será confirmado somente depois
-          # da preparação segura do artefato.
+          # Permite executar as etapas de artefato e relatório,
+          # mesmo quando a coleta falhar.
           exit 0
 
       - name: Preparar artefato seguro
@@ -145,18 +166,21 @@ jobs:
           VALIDO=0
           SITUACAO="falhou"
 
-          # O catálogo somente será enviado quando:
-          # 1. o coletor terminar com código zero;
-          # 2. o arquivo existir e não estiver vazio;
-          # 3. o conteúdo for um JSON válido.
+          # Somente envia um catálogo novo quando:
+          # 1. a coleta termina com código zero;
+          # 2. o arquivo existe e não está vazio;
+          # 3. o arquivo contém JSON válido.
           if [ "$EXIT_CODE" = "0" ] && [ -s "$CATALOGO" ]; then
             if python -m json.tool "$CATALOGO" >/dev/null 2>&1; then
               cp "$CATALOGO" artifact/catalogos/
+
               VALIDO=1
               SITUACAO="atualizado"
+
               echo "Catálogo válido de ${UF} preparado."
             else
               SITUACAO="json-invalido"
+
               echo "O catálogo de ${UF} contém JSON inválido."
             fi
           else
@@ -164,8 +188,7 @@ jobs:
             echo "Será preservado o último catálogo válido existente."
           fi
 
-          # O relatório é preservado mesmo quando a coleta falha,
-          # para permitir o diagnóstico posterior.
+          # O relatório será enviado mesmo quando a coleta falhar.
           if [ -f "$RELATORIO" ]; then
             cp "$RELATORIO" artifact/relatorios/
           fi
@@ -201,7 +224,7 @@ jobs:
       - preparar
       - coletar
 
-    # Executa mesmo quando determinadas UFs falharem.
+    # A consolidação será executada mesmo quando algumas UFs falharem.
     if: always()
 
     runs-on: ubuntu-latest
@@ -233,14 +256,15 @@ jobs:
           mkdir -p docs/catalogos
           mkdir -p docs/relatorios
 
-          # Apenas catálogos aprovados foram colocados
-          # na pasta downloaded/catalogos.
+          # Apenas as UFs com coleta válida possuem arquivos
+          # dentro de downloaded/catalogos.
           #
-          # Quando uma UF falhou, o catálogo anterior existente
-          # no repositório permanece intacto.
+          # Quando uma UF falha, o arquivo anterior existente
+          # no repositório não será substituído.
           cp -f downloaded/catalogos/*.json docs/catalogos/ 2>/dev/null || true
 
-          # Os relatórios de sucesso e de erro são atualizados.
+          # Os relatórios serão atualizados inclusive para as UFs
+          # que apresentaram erro.
           cp -f downloaded/relatorios/*.json docs/relatorios/ 2>/dev/null || true
 
       - name: Mostrar resumo das UFs
@@ -268,8 +292,96 @@ jobs:
       - name: Construir índice nacional
         run: python scripts/build_index.py
 
-      - name: Validar os 27 catálogos
+      # Mantém o relatório detalhado do validador existente,
+      # mas não interrompe a consolidação apenas porque uma UF
+      # conservou o catálogo anterior.
+      - name: Gerar relatório detalhado da validação
+        continue-on-error: true
         run: python scripts/validate_catalogs.py
+
+      - name: Confirmar integridade dos 27 catálogos disponíveis
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          configuracao = Path("config/states.json")
+          dados = json.loads(
+              configuracao.read_text(encoding="utf-8")
+          )
+
+          ufs = [
+              estado["uf"]
+              for estado in dados["states"]
+          ]
+
+          problemas = []
+
+          if len(ufs) != 27:
+              problemas.append(
+                  f"config/states.json possui {len(ufs)} UFs, "
+                  "mas deveria possuir 27"
+              )
+
+          for uf in ufs:
+              arquivo = Path("docs/catalogos") / f"{uf}.json"
+
+              if not arquivo.is_file():
+                  problemas.append(
+                      f"{uf}: catálogo não encontrado"
+                  )
+                  continue
+
+              if arquivo.stat().st_size == 0:
+                  problemas.append(
+                      f"{uf}: catálogo vazio"
+                  )
+                  continue
+
+              try:
+                  conteudo = json.loads(
+                      arquivo.read_text(encoding="utf-8")
+                  )
+              except Exception as erro:
+                  problemas.append(
+                      f"{uf}: JSON inválido — {erro}"
+                  )
+                  continue
+
+              if (
+                  conteudo is None
+                  or conteudo == {}
+                  or conteudo == []
+              ):
+                  problemas.append(
+                      f"{uf}: catálogo sem conteúdo"
+                  )
+                  continue
+
+              print(
+                  f"OK — {uf}: catálogo disponível e JSON válido"
+              )
+
+          if problemas:
+              print("")
+              print("Foram encontrados problemas nos catálogos:")
+
+              for problema in problemas:
+                  print(f"- {problema}")
+
+              raise SystemExit(1)
+
+          print("")
+          print(
+              "Os 27 catálogos estão disponíveis "
+              "e possuem JSON válido."
+          )
+          print(
+              "Catálogos não atualizados nesta execução "
+              "foram preservados."
+          )
+          PY
 
       - name: Publicar catálogos validados
         shell: bash
@@ -286,6 +398,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nenhuma alteração válida para publicar."
           else
-            git commit -m "Atualiza catálogos nacionais V4"
+            git commit -m "Atualiza catálogos nacionais V5"
             git push
           fi
