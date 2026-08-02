@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.08.01-semente",
+  "updated_at": "2026-08-01T22:27:00-03:00",
+  "uf": "AL",
+  "estado": "Alagoas",
+  "lexml_slug": "alagoas",
+  "portal_oficial": "https://sapl.al.al.leg.br/norma/pesquisar",
+  "status": "semente",
+  "normas": [
+    {
+      "id": "al-constituicao",
+      "titulo": "Constituição do Estado de Alagoas",
+      "tipo": "Constituição",
+      "numero": "",
+      "ano": "1989",
+      "data": "",
+      "ementa": "Constituição do Estado de Alagoas",
+      "assuntos": [
+        "constituição estadual"
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/media/sapl/public/normajuridica/1989/2/2_texto_integral.pdf",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "semente oficial"
+    },
+    {
+      "id": "al-rju-servidores",
+      "titulo": "Regime Jurídico Único dos Servidores Públicos Civis de Alagoas — Lei nº 5.247/1991",
+      "tipo": "Lei",
+      "numero": "5247",
+      "ano": "1991",
+      "data": "",
+      "ementa": "Regime Jurídico Único dos servidores públicos civis de Alagoas",
+      "assuntos": [
+        "servidor público",
+        "regime jurídico",
+        "férias"
+      ],
+      "url_oficial": "https://www.seplag.al.gov.br/images/legislacao/direitos_e_deveres_do_servidor/Regime_Juridico_Unico.pdf",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "semente oficial"
+    }
+  ]
+}

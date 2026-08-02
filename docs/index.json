@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.08.01-semente",
+  "updated_at": "2026-08-01T22:27:00-03:00",
+  "owner": "JAStos63",
+  "repository": "direitos-em-segundos-catalogo",
+  "states": [
+    {
+      "uf": "AC",
+      "estado": "Acre",
+      "arquivo": "catalogos/AC.json",
+      "portal_oficial": "https://www.al.ac.leg.br/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "AL",
+      "estado": "Alagoas",
+      "arquivo": "catalogos/AL.json",
+      "portal_oficial": "https://sapl.al.al.leg.br/norma/pesquisar",
+      "quantidade_inicial": 2
+    },
+    {
+      "uf": "AP",
+      "estado": "Amapá",
+      "arquivo": "catalogos/AP.json",
+      "portal_oficial": "https://elegis.al.ap.leg.br/portal/legislacao",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "AM",
+      "estado": "Amazonas",
+      "arquivo": "catalogos/AM.json",
+      "portal_oficial": "https://www.aleam.gov.br/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "BA",
+      "estado": "Bahia",
+      "arquivo": "catalogos/BA.json",
+      "portal_oficial": "https://www.legislabahia.ba.gov.br/",
+      "quantidade_inicial": 4
+    },
+    {
+      "uf": "CE",
+      "estado": "Ceará",
+      "arquivo": "catalogos/CE.json",
+      "portal_oficial": "https://www.al.ce.gov.br/legislativo/legislacao",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "DF",
+      "estado": "Distrito Federal",
+      "arquivo": "catalogos/DF.json",
+      "portal_oficial": "https://www.sinj.df.gov.br/sinj/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "ES",
+      "estado": "Espírito Santo",
+      "arquivo": "catalogos/ES.json",
+      "portal_oficial": "https://www3.al.es.gov.br/legislacao/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "GO",
+      "estado": "Goiás",
+      "arquivo": "catalogos/GO.json",
+      "portal_oficial": "https://legisla.casacivil.go.gov.br/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "MA",
+      "estado": "Maranhão",
+      "arquivo": "catalogos/MA.json",
+      "portal_oficial": "https://legislacao.al.ma.leg.br/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "MT",
+      "estado": "Mato Grosso",
+      "arquivo": "catalogos/MT.json",
+      "portal_oficial": "https://www.al.mt.gov.br/norma-juridica",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "MS",
+      "estado": "Mato Grosso do Sul",
+      "arquivo": "catalogos/MS.json",
+      "portal_oficial": "https://www.spdo.ms.gov.br/diariodoe/Index/Download/DO11864_01_08_2025",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "MG",
+      "estado": "Minas Gerais",
+      "arquivo": "catalogos/MG.json",
+      "portal_oficial": "https://www.almg.gov.br/legislacao-mineira/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "PA",
+      "estado": "Pará",
+      "arquivo": "catalogos/PA.json",
+      "portal_oficial": "https://www.sistemas.pa.gov.br/sisleis/legislacao.html",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "PB",
+      "estado": "Paraíba",
+      "arquivo": "catalogos/PB.json",
+      "portal_oficial": "https://sapl.al.pb.leg.br/norma/pesquisar",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "PR",
+      "estado": "Paraná",
+      "arquivo": "catalogos/PR.json",
+      "portal_oficial": "https://www.legislacao.pr.gov.br/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "PE",
+      "estado": "Pernambuco",
+      "arquivo": "catalogos/PE.json",
+      "portal_oficial": "https://legis.alepe.pe.gov.br/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "PI",
+      "estado": "Piauí",
+      "arquivo": "catalogos/PI.json",
+      "portal_oficial": "https://sapl.al.pi.leg.br/norma/pesquisar",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "RJ",
+      "estado": "Rio de Janeiro",
+      "arquivo": "catalogos/RJ.json",
+      "portal_oficial": "https://www3.alerj.rj.gov.br/lotus_notes/default.asp?id=2",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "RN",
+      "estado": "Rio Grande do Norte",
+      "arquivo": "catalogos/RN.json",
+      "portal_oficial": "https://www.al.rn.leg.br/legislacao",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "RS",
+      "estado": "Rio Grande do Sul",
+      "arquivo": "catalogos/RS.json",
+      "portal_oficial": "https://www.al.rs.gov.br/legis/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "RO",
+      "estado": "Rondônia",
+      "arquivo": "catalogos/RO.json",
+      "portal_oficial": "https://sapl.al.ro.leg.br/norma/pesquisar",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "RR",
+      "estado": "Roraima",
+      "arquivo": "catalogos/RR.json",
+      "portal_oficial": "https://sapl.al.rr.leg.br/norma/pesquisar",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "SC",
+      "estado": "Santa Catarina",
+      "arquivo": "catalogos/SC.json",
+      "portal_oficial": "https://leis.alesc.sc.gov.br/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "SP",
+      "estado": "São Paulo",
+      "arquivo": "catalogos/SP.json",
+      "portal_oficial": "https://www.al.sp.gov.br/norma/",
+      "quantidade_inicial": 0
+    },
+    {
+      "uf": "SE",
+      "estado": "Sergipe",
+      "arquivo": "catalogos/SE.json",
+      "portal_oficial": "https://aleselegis.al.se.leg.br/",
+      "quantidade_inicial": 172
+    },
+    {
+      "uf": "TO",
+      "estado": "Tocantins",
+      "arquivo": "catalogos/TO.json",
+      "portal_oficial": "https://www.al.to.leg.br/arquivo/leis",
+      "quantidade_inicial": 0
+    }
+  ]
+}

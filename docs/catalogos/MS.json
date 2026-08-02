@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.08.01-semente",
+  "updated_at": "2026-08-01T22:27:00-03:00",
+  "uf": "MS",
+  "estado": "Mato Grosso do Sul",
+  "lexml_slug": "mato.grosso.sul",
+  "portal_oficial": "https://www.spdo.ms.gov.br/diariodoe/Index/Download/DO11864_01_08_2025",
+  "status": "aguardando_atualizacao_automatica",
+  "normas": []
+}

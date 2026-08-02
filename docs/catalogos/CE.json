@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.08.01-semente",
+  "updated_at": "2026-08-01T22:27:00-03:00",
+  "uf": "CE",
+  "estado": "Ceará",
+  "lexml_slug": "ceara",
+  "portal_oficial": "https://www.al.ce.gov.br/legislativo/legislacao",
+  "status": "aguardando_atualizacao_automatica",
+  "normas": []
+}

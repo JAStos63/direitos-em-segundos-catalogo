@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.08.01-semente",
+  "updated_at": "2026-08-01T22:27:00-03:00",
+  "uf": "BA",
+  "estado": "Bahia",
+  "lexml_slug": "bahia",
+  "portal_oficial": "https://www.legislabahia.ba.gov.br/",
+  "status": "semente",
+  "normas": [
+    {
+      "id": "ba-constituicao",
+      "titulo": "Constituição do Estado da Bahia — texto oficial",
+      "tipo": "Constituição",
+      "numero": "",
+      "ano": "1989",
+      "data": "",
+      "ementa": "Constituição do Estado da Bahia",
+      "assuntos": [
+        "constituição estadual"
+      ],
+      "url_oficial": "https://www.legislabahia.ba.gov.br/documentos/constituicao-do-estado-da-bahia-",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "semente oficial"
+    },
+    {
+      "id": "ba-estatuto-servidores",
+      "titulo": "Estatuto dos Servidores Públicos Civis da Bahia — Lei nº 6.677/1994",
+      "tipo": "Lei",
+      "numero": "6677",
+      "ano": "1994",
+      "data": "",
+      "ementa": "Estatuto dos Servidores Públicos Civis do Estado da Bahia",
+      "assuntos": [
+        "servidor público",
+        "regime jurídico"
+      ],
+      "url_oficial": "https://www.legislabahia.ba.gov.br/documentos/lei-no-6677-de-26-de-setembro-de-1994",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "semente oficial"
+    },
+    {
+      "id": "ba-organizacao-judiciaria",
+      "titulo": "Lei de Organização e Divisão Judiciária da Bahia — Lei nº 10.845/2007",
+      "tipo": "Lei",
+      "numero": "10845",
+      "ano": "2007",
+      "data": "",
+      "ementa": "Organização e divisão judiciária da Bahia",
+      "assuntos": [
+        "organização judiciária"
+      ],
+      "url_oficial": "https://www.tjba.jus.br/corregedoria/lei-de-organizacao-judiciaria/",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "semente oficial"
+    },
+    {
+      "id": "ba-codigo-tributario",
+      "titulo": "Código Tributário do Estado da Bahia — Lei nº 3.956/1981",
+      "tipo": "Lei",
+      "numero": "3956",
+      "ano": "1981",
+      "data": "",
+      "ementa": "Código Tributário do Estado da Bahia",
+      "assuntos": [
+        "tributário"
+      ],
+      "url_oficial": "https://mbusca.sefaz.ba.gov.br/DITRI/leis/leis_estaduais/legest_1981_3956_codtribbahia_texto.pdf",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "semente oficial"
+    }
+  ]
+}

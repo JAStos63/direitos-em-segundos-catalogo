@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.08.01-semente",
+  "updated_at": "2026-08-01T22:27:00-03:00",
+  "uf": "MG",
+  "estado": "Minas Gerais",
+  "lexml_slug": "minas.gerais",
+  "portal_oficial": "https://www.almg.gov.br/legislacao-mineira/",
+  "status": "aguardando_atualizacao_automatica",
+  "normas": []
+}

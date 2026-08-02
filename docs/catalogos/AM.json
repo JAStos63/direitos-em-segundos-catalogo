@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.08.01-semente",
+  "updated_at": "2026-08-01T22:27:00-03:00",
+  "uf": "AM",
+  "estado": "Amazonas",
+  "lexml_slug": "amazonas",
+  "portal_oficial": "https://www.aleam.gov.br/",
+  "status": "aguardando_atualizacao_automatica",
+  "normas": []
+}

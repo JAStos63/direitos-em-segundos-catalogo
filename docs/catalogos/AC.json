@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.08.01-semente",
+  "updated_at": "2026-08-01T22:27:00-03:00",
+  "uf": "AC",
+  "estado": "Acre",
+  "lexml_slug": "acre",
+  "portal_oficial": "https://www.al.ac.leg.br/",
+  "status": "aguardando_atualizacao_automatica",
+  "normas": []
+}
