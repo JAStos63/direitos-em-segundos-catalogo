@@ -86,10 +86,12 @@ def main() -> int:
                 start_urls=state.get("start_urls", []),
                 detail_patterns=state.get("detail_patterns", []),
                 cc_queries=state.get("cc_queries", []),
+                listing_patterns=state.get("listing_patterns", []),
+                max_workers=int(state.get("max_workers", 4)),
             )
             collected = connector.collect(
-                max_records=args.max_records,
-                max_listing_pages=args.max_listing_pages,
+                max_records=min(args.max_records, int(state.get("max_records", args.max_records))),
+                max_listing_pages=int(state.get("max_listing_pages", args.max_listing_pages)),
             )
 
         norms = [Norm(**{k: v for k, v in item.items() if k in Norm.__dataclass_fields__}) for item in curated]

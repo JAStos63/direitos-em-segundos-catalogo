@@ -1,0 +1,18 @@
+INSTRUÇÕES PARA PUBLICAR A V6 NO GITHUB
+
+1. Extraia o arquivo ZIP em uma pasta do computador.
+2. Abra o repositório direitos-em-segundos-catalogo no GitHub.
+3. Clique em "Adicionar arquivo" e depois em "Carregar arquivos".
+4. Abra a pasta extraída "direitos-em-segundos-catalogo-V6".
+5. Selecione todo o conteúdo interno da pasta e arraste para a área de upload.
+   Não envie apenas o arquivo ZIP: os arquivos precisam aparecer individualmente.
+6. Na mensagem do commit, escreva:
+   Atualiza coletores estaduais para V6
+7. Confirme diretamente na branch "principal".
+8. Abra a guia "Ações".
+9. Selecione "Atualizar catálogos nacionais V6".
+10. Clique em "Executar fluxo de trabalho", escolha a branch "principal" e confirme.
+
+Durante o teste, aguarde a etapa "consolidar" terminar. A execução geral deverá
+ficar verde quando a publicação for concluída. No resumo, cada UF aparecerá como
+"catálogo atualizado" ou "catálogo anterior preservado".

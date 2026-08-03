@@ -22,3 +22,10 @@ Envie o conteúdo desta pasta para a raiz do repositório `JAStos63/direitos-em-
 - a etapa `consolidar` não publica uma base parcial.
 
 Esta versão corrige especificamente as duas famílias já diagnosticadas: **eLegis** e **SAPL**. Os conectores genéricos dos demais portais continuam sendo validados pelo próprio workflow; falhas remanescentes aparecerão por UF, sem falso sucesso.
+
+## Atualização V6
+
+A V6 amplia a coleta nacional com: índices oficiais estáticos (CE, RN e PE),
+portais atuais de MA e MT, fallback anual para o eLegis/AP, descoberta por
+HTML antes da API nos SAPL e preservação automática do catálogo anterior
+quando um portal estiver temporariamente indisponível.

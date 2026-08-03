@@ -39,20 +39,31 @@ class SaplConnector:
 
     def collect(self, max_records: int = 20000) -> list[Norm]:
         errors: list[str] = []
-        if not self.legacy:
-            for api_path in self.API_PATHS:
-                try:
-                    norms = self._collect_api(api_path, max_records)
-                    if norms:
-                        return deduplicate(norms)
-                except Exception as exc:
-                    errors.append(f"API {api_path}: {exc!r}")
+        combined: list[Norm] = []
+
+        # A listagem HTML pública é mais estável entre versões do SAPL e evita
+        # bloqueios 403 observados em algumas APIs. Também permite filtrar os
+        # tipos de norma antes de percorrer milhares de decretos e resoluções.
         try:
-            norms = self._collect_html(max_records=max_records)
-            if norms:
-                return deduplicate(norms)
+            combined.extend(self._collect_html(max_records=max_records))
         except Exception as exc:
             errors.append(f"HTML: {exc!r}")
+
+        # Quando o HTML retorna poucos itens, tenta complementar pela API. Isso
+        # corrige instalações que exibem só uma parte dos tipos na interface.
+        if not self.legacy and len(deduplicate(combined)) < min(100, max_records):
+            for api_path in self.API_PATHS:
+                try:
+                    api_norms = self._collect_api(api_path, max_records)
+                    if api_norms:
+                        combined.extend(api_norms)
+                        break
+                except Exception as exc:
+                    errors.append(f"API {api_path}: {exc!r}")
+
+        result = deduplicate(combined)
+        if result:
+            return result[:max_records]
         raise RuntimeError("; ".join(errors) or "SAPL sem resultados")
 
     @staticmethod
@@ -174,64 +185,88 @@ class SaplConnector:
             documento_externo=external, fonte_catalogo="SAPL OpenAPI",
         )
 
+    def _discover_target_type_ids(self) -> list[str]:
+        if self.legacy:
+            return []
+        try:
+            response = self.client.get(f"{self.base}/norma/pesquisar", timeout=45)
+        except Exception:
+            return []
+        soup = BeautifulSoup(response.text, "lxml")
+        ids: list[str] = []
+        for select in soup.find_all("select"):
+            name = str(select.get("name") or "").lower()
+            if "tipo" not in name:
+                continue
+            for option in select.find_all("option"):
+                value = clean_ws(str(option.get("value") or ""))
+                label = clean_ws(option.get_text(" ", strip=True))
+                if value and classify_type(label) in _ALLOWED_TYPES:
+                    ids.append(value)
+        return list(dict.fromkeys(ids))
+
     def _collect_html(self, max_records: int) -> list[Norm]:
         out: list[Norm] = []
         seen_keys: set[str] = set()
-        page = 1
-        empty_streak = 0
-        expected_pages: int | None = None
+        type_ids = self._discover_target_type_ids() or [""]
 
-        while len(out) < max_records and page <= 2500:
-            html, final_url = self._fetch_result_page(page)
-            page_norms, total = self.parse_results(html, final_url)
-            if total and expected_pages is None:
-                per_page = max(len(page_norms), 1)
-                expected_pages = max(1, (total + per_page - 1) // per_page)
-            added = 0
-            for norm in page_norms:
-                key = norm.id or f"{norm.tipo}|{norm.numero}|{norm.ano}"
-                if key in seen_keys:
-                    continue
-                seen_keys.add(key)
-                out.append(norm)
-                added += 1
-                if len(out) >= max_records:
+        for type_id in type_ids:
+            page = 1
+            empty_streak = 0
+            expected_pages: int | None = None
+
+            while len(out) < max_records and page <= 2500:
+                html, final_url = self._fetch_result_page(page, type_id=type_id)
+                page_norms, total = self.parse_results(html, final_url)
+                if total and expected_pages is None:
+                    per_page = max(len(page_norms), 1)
+                    expected_pages = max(1, (total + per_page - 1) // per_page)
+                added = 0
+                for norm in page_norms:
+                    key = norm.id or f"{norm.tipo}|{norm.numero}|{norm.ano}"
+                    if key in seen_keys:
+                        continue
+                    seen_keys.add(key)
+                    out.append(norm)
+                    added += 1
+                    if len(out) >= max_records:
+                        break
+                empty_streak = empty_streak + 1 if added == 0 else 0
+                if expected_pages and page >= expected_pages:
                     break
-            empty_streak = empty_streak + 1 if added == 0 else 0
-            if expected_pages and page >= expected_pages:
-                break
-            if empty_streak >= 2:
-                break
-            page += 1
+                if empty_streak >= 2:
+                    break
+                page += 1
+
         return deduplicate(out)
 
-    def _fetch_result_page(self, page: int) -> tuple[str, str]:
+    def _fetch_result_page(self, page: int, type_id: str = "") -> tuple[str, str]:
         if self.legacy:
             candidates = [
-                f"{self.base}/sapl/generico/norma_juridica_pesquisar_form?incluir=0&lst_tip_norma=&txt_numero=&txt_ano=&page={page}",
+                f"{self.base}/sapl/generico/norma_juridica_pesquisar_form?incluir=0&lst_tip_norma={type_id}&txt_numero=&txt_ano=&page={page}",
             ]
         else:
-            # iframe=-1 is required by some SAPL installations to expose the
-            # actual result list. The full empty-filter query is the most
-            # compatible form observed across SAPL 3 deployments.
             full = (
                 f"{self.base}/norma/pesquisar?ano=&assuntos=&data_0=&data_1=&"
-                f"data_publicacao_0=&data_publicacao_1=&ementa=&iframe=-1&numero=&"
-                f"page={page}&salvar=Pesquisar&tipo="
+                f"data_publicacao_0=&data_publicacao_1=&data_vigencia_0=&data_vigencia_1=&"
+                f"ementa=&indexacao=&iframe=-1&numero=&o=&orgao=&page={page}&"
+                f"salvar=Pesquisar&tipo={type_id}"
             )
             candidates = [
                 full,
-                f"{self.base}/norma/pesquisar?salvar=Pesquisar&iframe=-1&page={page}",
-                f"{self.base}/norma/pesquisar?salvar=Pesquisar&page={page}",
+                f"{self.base}/norma/pesquisar?salvar=Pesquisar&iframe=-1&tipo={type_id}&page={page}",
+                f"{self.base}/norma/pesquisar?salvar=Pesquisar&tipo={type_id}&page={page}",
             ]
         errors: list[str] = []
         for url in candidates:
             try:
                 response = self.client.get(url, timeout=75)
             except Exception as exc:
-                errors.append(repr(exc)); continue
+                errors.append(repr(exc))
+                continue
             soup = BeautifulSoup(response.text, "lxml")
-            if self.legacy or soup.find("a", href=re.compile(r"/norma/\d+")) or "pesquisa concluida" in normalize(soup.get_text(" ", strip=True)):
+            text = normalize(soup.get_text(" ", strip=True))
+            if self.legacy or soup.find("a", href=re.compile(r"/norma/\d+")) or "pesquisa concluida" in text:
                 return response.text, response.url
         raise RuntimeError("SAPL não retornou a lista de resultados: " + "; ".join(errors))
 

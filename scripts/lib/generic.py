@@ -47,6 +47,8 @@ class GenericPortalConnector:
         start_urls: list[str],
         detail_patterns: list[str],
         cc_queries: list[str] | None = None,
+        listing_patterns: list[str] | None = None,
+        max_workers: int = 4,
     ):
         self.client = client
         self.uf = uf
@@ -55,6 +57,11 @@ class GenericPortalConnector:
         self.start_urls = start_urls or [portal]
         self.detail_patterns = [re.compile(p, re.I) for p in detail_patterns]
         self.cc_queries = cc_queries or []
+        self.listing_patterns = [re.compile(p, re.I) for p in (listing_patterns or [])]
+        self.max_workers = max(1, min(int(max_workers or 4), 8))
+        # Metadados descobertos nas páginas de índice. Eles são essenciais para
+        # portais que apontam diretamente para PDFs com nomes opacos.
+        self._hints: dict[str, tuple[str, str]] = {}
 
     def collect(self, max_records: int = 20000, max_listing_pages: int = 500) -> list[Norm]:
         candidates: set[str] = set()
@@ -64,12 +71,12 @@ class GenericPortalConnector:
         # official domains. Every candidate is subsequently downloaded and
         # validated from the government/legislative portal itself.
         candidates.update(self._discover_commoncrawl(max_urls=max_records * 4))
-        candidates = {u for u in candidates if self._looks_like_detail_url(u)}
+        candidates = {u for u in candidates if self._looks_like_detail_url(u) or u in self._hints}
         if not candidates:
             raise RuntimeError("nenhum endereço de norma descoberto")
 
         out: list[Norm] = []
-        with ThreadPoolExecutor(max_workers=10) as pool:
+        with ThreadPoolExecutor(max_workers=self.max_workers) as pool:
             futures = {pool.submit(self._parse_detail, url): url for url in list(candidates)[: max_records * 2]}
             for future in as_completed(futures):
                 try:
@@ -85,7 +92,10 @@ class GenericPortalConnector:
     def _looks_like_detail_url(self, url: str) -> bool:
         if not same_host_or_allowed(url, self.allowed_hosts):
             return False
-        return any(pattern.search(url) for pattern in self.detail_patterns)
+        clean = url.split("#", 1)[0]
+        if not self.detail_patterns:
+            return True
+        return any(pattern.search(clean) for pattern in self.detail_patterns)
 
     def _discover_sitemaps(self, max_urls: int) -> set[str]:
         roots: set[str] = set()
@@ -224,12 +234,28 @@ class GenericPortalConnector:
                 continue
             soup = BeautifulSoup(response.text, "lxml")
             for link in soup.find_all("a", href=True):
-                href = absolutize(url, link.get("href"))
+                href = absolutize(url, link.get("href")).split("#", 1)[0]
                 if not same_host_or_allowed(href, self.allowed_hosts):
                     continue
-                text = normalize(link.get_text(" ", strip=True))
-                if self._looks_like_detail_url(href):
+                raw_text = clean_ws(link.get_text(" ", strip=True))
+                text = normalize(raw_text)
+                hint_title, hint_ementa = self._law_context(link)
+
+                # Índices anuais/categoriais precisam ser percorridos antes de
+                # aplicar os padrões de detalhe, pois alguns portais reutilizam o
+                # mesmo caminho para a lista do ano e para cada lei.
+                if not hint_title and any(pattern.search(href) for pattern in self.listing_patterns):
+                    queue.append(href)
+                    continue
+
+                # Muitos portais antigos usam URLs sem palavras como "lei" ou
+                # "legislacao". Quando o próprio link/linha identifica a norma,
+                # ele é aceito como página de detalhe mesmo sem casar com o padrão.
+                is_hint_detail = bool(hint_title and href != url)
+                if self._looks_like_detail_url(href) or is_hint_detail:
                     detail.add(href)
+                    if hint_title:
+                        self._hints[href] = (hint_title, hint_ementa)
                     continue
                 if self._is_pagination_or_listing(href, text, url):
                     queue.append(href)
@@ -240,6 +266,13 @@ class GenericPortalConnector:
         return detail
 
     def _is_pagination_or_listing(self, href: str, text: str, current_url: str) -> bool:
+        if any(pattern.search(href) for pattern in self.listing_patterns):
+            return True
+        if any(term in text for term in (
+            "leis ordinarias", "leis complementares", "constituicao estadual",
+            "emendas constitucionais", "legislacao estadual", "pesquisar", "consulta",
+        )):
+            return True
         parsed = urlparse(href)
         params = parse_qs(parsed.query)
         if any(p in params for p in PAGE_PARAMS):
@@ -254,6 +287,64 @@ class GenericPortalConnector:
         if current_path and path.startswith(current_path.lower()) and len(path) <= len(current_path) + 80:
             return True
         return False
+
+    @classmethod
+    def _law_context(cls, link) -> tuple[str, str]:
+        """Extrai título e ementa do link ou do contêiner da listagem."""
+        candidates: list[str] = []
+        link_text = clean_ws(link.get_text(" ", strip=True))
+        if link_text:
+            candidates.append(link_text)
+
+        node = link
+        for _ in range(4):
+            node = getattr(node, "parent", None)
+            if node is None:
+                break
+            text = clean_ws(node.get_text(" ", strip=True))
+            if text and len(text) <= 3000:
+                candidates.append(text)
+            name = getattr(node, "name", "")
+            classes = " ".join(node.get("class", [])) if hasattr(node, "get") else ""
+            if name in {"li", "tr", "article"} or re.search(r"item|card|resultado|norma|lei", classes, re.I):
+                break
+
+        title = ""
+        context = ""
+        for value in candidates:
+            found = cls._extract_law_title(value)
+            if found:
+                title = found
+                context = value
+                break
+        if not title:
+            return "", ""
+
+        ementa = clean_ws(context.replace(title, "", 1)).strip(" -–—:;|")
+        ementa = re.sub(r"^(download|texto completo|texto integral|visualizar)\b", "", ementa, flags=re.I).strip(" -–—:;|")
+        if len(ementa) < 10:
+            ementa = ""
+        return title[:500], ementa[:5000]
+
+    @staticmethod
+    def _extract_law_title(text: str) -> str:
+        text = clean_ws(text)
+        if not text:
+            return ""
+        pattern = re.compile(
+            r"((?:LEI\s+COMPLEMENTAR|LEI\s+ORDIN[ÁA]RIA|LEI\s+DELEGADA|LEI|"
+            r"CONSTITUI[ÇC][ÃA]O(?:\s+DO\s+ESTADO|\s+ESTADUAL)?|"
+            r"EMENDA\s+CONSTITUCIONAL)\s+(?:N\s*[.º°O]*\s*)?[\d.]+"
+            r"(?:\s*[/\-]\s*\d{2,4})?(?:\s*,?\s*(?:DE|,)[^|;]{0,100})?)",
+            re.I,
+        )
+        match = pattern.search(text)
+        if match:
+            return clean_ws(match.group(1))
+        # Constituição pode aparecer sem número.
+        if re.search(r"\bconstitui[çc][ãa]o\s+(?:do\s+estado|estadual)\b", text, re.I):
+            return clean_ws(text[:300])
+        return ""
 
     @staticmethod
     def _increment_page_urls(url: str) -> Iterable[str]:
@@ -270,11 +361,35 @@ class GenericPortalConnector:
                 yield urlunparse(parsed._replace(query=urlencode(next_query, doseq=True)))
 
     def _parse_detail(self, url: str) -> Norm | None:
-        response = self.client.get(url, timeout=60)
-        content_type = response.headers.get("content-type", "").lower()
-        if "pdf" in content_type or url.lower().split("?", 1)[0].endswith(".pdf"):
-            # A PDF URL alone normally has no reliable title. It is only catalogued
-            # when the filename clearly identifies a law.
+        hint_title, hint_ementa = self._hints.get(url, ("", ""))
+        low_url = url.lower().split("?", 1)[0]
+
+        # Quando uma página oficial de índice já informa título e ementa, não é
+        # necessário baixar milhares de documentos individuais. Isso é decisivo
+        # para portais como RN, CE e PE, cujas listas apontam para PDFs ou páginas
+        # antigas. O link continua sendo o documento oficial.
+        if hint_title and is_law_title(hint_title):
+            final_type = classify_type(hint_title)
+            if final_type:
+                number, year = extract_number_year(hint_title)
+                external = low_url.endswith((".pdf", ".doc", ".docx", ".odt"))
+                return Norm(
+                    id=stable_id(self.uf, hint_title, url),
+                    titulo=hint_title,
+                    tipo=final_type,
+                    numero=number,
+                    ano=year,
+                    ementa=hint_ementa,
+                    url_oficial=url,
+                    url_detalhe=url,
+                    texto_direto=not external,
+                    documento_externo=external,
+                    fonte_catalogo="Portal oficial — índice legislativo",
+                )
+
+        # PDFs descobertos por sitemap/Common Crawl podem ser classificados pelo
+        # próprio nome do arquivo, sem transferir o documento inteiro.
+        if low_url.endswith(".pdf"):
             filename = urlparse(url).path.rsplit("/", 1)[-1]
             title = clean_ws(filename.replace("_", " ").replace("-", " "))
             if not is_law_title(title):
@@ -287,22 +402,39 @@ class GenericPortalConnector:
                 tipo=final_type,
                 numero=number,
                 ano=year,
+                ementa="",
                 url_oficial=url,
                 url_detalhe=url,
                 texto_direto=False,
                 documento_externo=True,
-                fonte_catalogo="Portal oficial — sitemap",
+                fonte_catalogo="Portal oficial — documento indexado",
+            )
+
+        response = self.client.get(url, timeout=60)
+        content_type = response.headers.get("content-type", "").lower()
+        if "pdf" in content_type:
+            filename = urlparse(url).path.rsplit("/", 1)[-1]
+            title = clean_ws(filename.replace("_", " ").replace("-", " "))
+            if not is_law_title(title):
+                return None
+            final_type = classify_type(title)
+            number, year = extract_number_year(title)
+            return Norm(
+                id=stable_id(self.uf, title, url), titulo=title, tipo=final_type,
+                numero=number, ano=year, url_oficial=url, url_detalhe=url,
+                texto_direto=False, documento_externo=True,
+                fonte_catalogo="Portal oficial — documento indexado",
             )
 
         soup = BeautifulSoup(response.text, "lxml")
-        title = self._extract_title(soup)
+        title = self._extract_title(soup) or hint_title
         if not is_law_title(title):
             return None
         final_type = classify_type(title)
         if not final_type:
             return None
         number, year = extract_number_year(title, soup.get_text(" ", strip=True)[:2000])
-        ementa = self._extract_ementa(soup)
+        ementa = self._extract_ementa(soup) or hint_ementa
         date = self._extract_date(soup.get_text(" ", strip=True)[:3000])
         subjects = self._extract_subjects(soup)
 
@@ -365,7 +497,7 @@ class GenericPortalConnector:
             if is_law_title(value) and re.search(r"\d", value):
                 return value[:500]
         match = re.search(
-            r"((?:LEI\s+COMPLEMENTAR|LEI\s+ORDIN[ÁA]RIA|LEI\s+DELEGADA|LEI|CONSTITUI[ÇC][ÃA]O(?:\s+ESTADUAL)?|EMENDA\s+CONSTITUCIONAL)\s+(?:N[º°O.]?\s*)?[\d.]+(?:[/\-]\d{4})?(?:\s*,?\s*DE[^\n]{0,80})?)",
+            r"((?:LEI\s+COMPLEMENTAR|LEI\s+ORDIN[ÁA]RIA|LEI\s+DELEGADA|LEI|CONSTITUI[ÇC][ÃA]O(?:\s+ESTADUAL)?|EMENDA\s+CONSTITUCIONAL)\s+(?:N\s*[.º°O]*\s*)?[\d.]+(?:[/\-]\d{4})?(?:\s*,?\s*DE[^\n]{0,80})?)",
             body[:12000],
             re.I,
         )

@@ -49,46 +49,65 @@
         "www.legislabahia.ba.gov.br"
       ],
       "start_urls": [
+        "https://www.legislabahia.ba.gov.br/",
         "https://www.legislabahia.ba.gov.br/documentos/lei",
         "https://www.legislabahia.ba.gov.br/documentos/lei-complementar"
       ],
       "detail_patterns": [
-        "/documentos/lei-",
-        "/documentos/constituicao",
-        "/documentos/lei-complementar"
+        "/documentos/(?:lei|lei-complementar|constituicao|emenda)-"
       ],
       "minimum_records": 100,
       "cc_queries": [
         "www.legislabahia.ba.gov.br/documentos/lei-*",
         "www.legislabahia.ba.gov.br/documentos/lei-complementar-*",
+        "www.legislabahia.ba.gov.br/documentos/emenda-*",
         "legislabahia.ba.gov.br/documentos/lei-*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "listing_patterns": [
+        "/documentos/?$",
+        "/documentos/(?:lei|lei-complementar)/?$"
+      ],
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "CE",
       "estado": "Ceará",
       "strategy": "generic",
-      "portal": "https://belt.al.ce.gov.br/",
+      "portal": "https://www2.al.ce.gov.br/legislativo/lei_ordinaria.htm",
       "allowed_hosts": [
         "belt.al.ce.gov.br",
         "www2.al.ce.gov.br",
         "www.al.ce.gov.br"
       ],
       "start_urls": [
-        "https://belt.al.ce.gov.br/index.php/legislacao-do-ceara",
-        "https://www.al.ce.gov.br/legislativo/legislacao"
+        "https://www2.al.ce.gov.br/legislativo/lei_ordinaria.htm",
+        "https://www2.al.ce.gov.br/legislativo/ementario/lc.htm",
+        "https://www2.al.ce.gov.br/legislativo/legislacao5/const_e/ement.htm"
       ],
       "detail_patterns": [
-        "/item/",
-        "/legislacao5/leis"
+        "/legislativo/legislacao5/leis\\d{4}/",
+        "/legislativo/ementario/",
+        "/legislativo/legislacao5/const_e/",
+        "/item/"
       ],
       "minimum_records": 100,
       "cc_queries": [
-        "belt.al.ce.gov.br/index.php/legislacao-do-ceara/*",
-        "www2.al.ce.gov.br/legislativo/legislacao5/leis*/*"
+        "www2.al.ce.gov.br/legislativo/legislacao5/leis*/*",
+        "www2.al.ce.gov.br/legislativo/ementario/*",
+        "www2.al.ce.gov.br/legislativo/legislacao5/const_e/*",
+        "belt.al.ce.gov.br/index.php/legislacao-do-ceara/*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "listing_patterns": [
+        "/legislativo/legislacao5/leis\\d{4}/LEIS\\d{4}\\.htm",
+        "/legislativo/lei_ordinaria\\.htm",
+        "/legislativo/ementario/lc\\.htm",
+        "/legislativo/legislacao5/const_e/ement\\.htm"
+      ],
+      "max_workers": 2,
+      "max_listing_pages": 500
     },
     {
       "uf": "DF",
@@ -103,15 +122,19 @@
         "https://www.sinj.df.gov.br/sinj/"
       ],
       "detail_patterns": [
-        "/sinj/Norma/",
-        "/sinj/DetalhesDeNorma.aspx"
+        "/sinj/(?:Norma|norma)/",
+        "/sinj/DetalhesDeNorma\\.aspx"
       ],
       "minimum_records": 100,
       "cc_queries": [
-        "www.sinj.df.gov.br/sinj/Norma/*",
-        "www.sinj.df.gov.br/sinj/DetalhesDeNorma.aspx*"
+        "www.sinj.df.gov.br/sinj/Norma/*/Lei_*",
+        "www.sinj.df.gov.br/sinj/Norma/*/Lei_Complementar_*",
+        "www.sinj.df.gov.br/sinj/Norma/*/Emenda_*",
+        "www.sinj.df.gov.br/sinj/norma/*/lei_*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "ES",
@@ -127,15 +150,19 @@
         "https://www3.al.es.gov.br/legislacao/"
       ],
       "detail_patterns": [
-        "/Arquivo/Documents/legislacao/",
-        "/legislacao/"
+        "/Arquivo/Documents/legislacao/html/(?:lei|lec|lc)",
+        "/arquivo/documents/legislacao/html/(?:lei|lec|lc)"
       ],
       "minimum_records": 50,
       "cc_queries": [
-        "www3.al.es.gov.br/Arquivo/Documents/legislacao/html/*",
-        "www3.al.es.gov.br/legislacao/consulta-legislacao.aspx*"
+        "www3.al.es.gov.br/Arquivo/Documents/legislacao/html/lei*",
+        "www3.al.es.gov.br/Arquivo/Documents/legislacao/html/lec*",
+        "www3.al.es.gov.br/arquivo/documents/legislacao/html/lei*",
+        "www3.al.es.gov.br/arquivo/documents/legislacao/html/lec*"
       ],
-      "minimum_collected": 50
+      "minimum_collected": 50,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "GO",
@@ -152,37 +179,81 @@
         "https://legisla.casacivil.go.gov.br/"
       ],
       "detail_patterns": [
-        "/pesquisa_legislacao/",
+        "/pesquisa_legislacao/\\d+",
+        "/api/v2/pesquisa/legislacoes/\\d+/pdf",
         "/leis_ordinarias/",
         "/leis_complementares/"
       ],
       "minimum_records": 50,
       "cc_queries": [
         "legisla.casacivil.go.gov.br/pesquisa_legislacao/*",
-        "admin.legisla.casacivil.go.gov.br/pesquisa_legislacao/*",
+        "legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/*/pdf",
         "www.gabinetecivil.go.gov.br/leis_ordinarias/*",
         "www.gabinetecivil.go.gov.br/leis_complementares/*"
       ],
-      "minimum_collected": 50
+      "minimum_collected": 50,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "MA",
       "estado": "Maranhão",
-      "strategy": "sapl",
-      "base_url": "https://sapl.al.ma.leg.br",
-      "portal": "https://sapl.al.ma.leg.br/sapl/generico/norma_juridica_pesquisar_form?incluir=0",
+      "strategy": "generic",
+      "portal": "https://legislacao.al.ma.leg.br/ged/busca.html",
       "minimum_records": 50,
-      "legacy": true,
-      "minimum_collected": 50
+      "minimum_collected": 50,
+      "allowed_hosts": [
+        "legislacao.al.ma.leg.br",
+        "www.al.ma.leg.br",
+        "al.ma.leg.br"
+      ],
+      "start_urls": [
+        "https://legislacao.al.ma.leg.br/ged/busca.html",
+        "https://legislacao.al.ma.leg.br/ged/constituicao-estadual/detalhe.html"
+      ],
+      "detail_patterns": [
+        "/ged/.+/detalhe\\.html",
+        "/resources/arq/",
+        "/arquivos/"
+      ],
+      "listing_patterns": [
+        "/ged/busca\\.html"
+      ],
+      "cc_queries": [
+        "legislacao.al.ma.leg.br/ged/*/detalhe.html",
+        "legislacao.al.ma.leg.br/resources/arq/*",
+        "www.al.ma.leg.br/arquivos/*"
+      ],
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "MT",
       "estado": "Mato Grosso",
-      "strategy": "sapl",
-      "base_url": "https://sapl.al.mt.leg.br",
-      "portal": "https://sapl.al.mt.leg.br/norma/pesquisar",
+      "strategy": "generic",
+      "portal": "https://www.al.mt.gov.br/norma-juridica",
       "minimum_records": 100,
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "allowed_hosts": [
+        "al.mt.gov.br",
+        "www.al.mt.gov.br"
+      ],
+      "start_urls": [
+        "https://www.al.mt.gov.br/norma-juridica"
+      ],
+      "detail_patterns": [
+        "/norma-juridica/urn%3A.*(?:lei|constituicao|emenda)",
+        "/norma-juridica/urn:.*(?:lei|constituicao|emenda)"
+      ],
+      "listing_patterns": [
+        "/norma-juridica(?:\\?|$)"
+      ],
+      "cc_queries": [
+        "www.al.mt.gov.br/norma-juridica/urn%3Alex%3Abr%3Bmato.grosso%3Aestadual%3Alei*",
+        "www.al.mt.gov.br/norma-juridica/urn:lex:br;mato.grosso:estadual:lei*"
+      ],
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "MS",
@@ -202,7 +273,9 @@
       "cc_queries": [
         "aacpdappls.net.ms.gov.br/appls/legislacao/secoge/govato.nsf/*"
       ],
-      "minimum_collected": 50
+      "minimum_collected": 50,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "MG",
@@ -217,16 +290,19 @@
         "https://www.almg.gov.br/legislacao-mineira/"
       ],
       "detail_patterns": [
-        "/legislacao-mineira/texto/",
-        "/legislacao-mineira/"
+        "/legislacao-mineira/texto/(?:LEI|LEI-COMPLEMENTAR|CONSTITUICAO|EMENDA)",
+        "/legislacao-mineira/(?:LEI|LEI-COMPLEMENTAR)/"
       ],
       "minimum_records": 100,
       "cc_queries": [
         "www.almg.gov.br/legislacao-mineira/texto/LEI/*",
         "www.almg.gov.br/legislacao-mineira/texto/LEI-COMPLEMENTAR/*",
+        "www.almg.gov.br/legislacao-mineira/texto/EMENDA-CONSTITUCIONAL/*",
         "www.almg.gov.br/legislacao-mineira/LEI/*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "PA",
@@ -241,15 +317,20 @@
         "https://www.sistemas.pa.gov.br/sisleis/legislacao.html"
       ],
       "detail_patterns": [
-        "/sisleis/",
-        "legislacao"
+        "/sisleis/legislacao/\\d+",
+        "/sisleis/legislacao\\.html"
       ],
       "minimum_records": 50,
       "cc_queries": [
-        "www.sistemas.pa.gov.br/sisleis/legislacao.html*",
-        "sistemas.pa.gov.br/sisleis/*"
+        "www.sistemas.pa.gov.br/sisleis/legislacao/*",
+        "sistemas.pa.gov.br/sisleis/legislacao/*"
       ],
-      "minimum_collected": 50
+      "minimum_collected": 50,
+      "listing_patterns": [
+        "/sisleis/legislacao\\.html"
+      ],
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "PB",
@@ -282,7 +363,9 @@
         "www.legislacao.pr.gov.br/legislacao/listarAtosAno.do*",
         "www.legislacao.pr.gov.br/legislacao/exibirAto.do*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "PE",
@@ -295,19 +378,26 @@
         "www.alepe.pe.gov.br"
       ],
       "start_urls": [
-        "https://legis.alepe.pe.gov.br/"
+        "https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=1",
+        "https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=2",
+        "https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=13"
       ],
       "detail_patterns": [
-        "/texto.aspx",
-        "/legislacao/",
-        "/norma/"
+        "/texto\\.aspx",
+        "/norma/",
+        "/legislacao/"
       ],
       "minimum_records": 100,
       "cc_queries": [
         "legis.alepe.pe.gov.br/texto.aspx*",
-        "legis.alepe.pe.gov.br/*"
+        "legis.alepe.pe.gov.br/lista.aspx?tiponorma=*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "listing_patterns": [
+        "/lista\\.aspx\\?tiponorma=(?:1|2|13)"
+      ],
+      "max_workers": 2,
+      "max_listing_pages": 100
     },
     {
       "uf": "PI",
@@ -332,7 +422,7 @@
         "https://www3.alerj.rj.gov.br/lotus_notes/default.asp?id=2"
       ],
       "detail_patterns": [
-        "CONTLEI.NSF",
+        "CONTLEI\\.NSF/.+",
         "/lotus_notes/"
       ],
       "minimum_records": 100,
@@ -340,7 +430,9 @@
         "alerjln1.alerj.rj.gov.br/CONTLEI.NSF/*",
         "www3.alerj.rj.gov.br/lotus_notes/*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "RN",
@@ -352,18 +444,26 @@
         "www.al.rn.leg.br"
       ],
       "start_urls": [
+        "https://www.al.rn.leg.br/legislacao/leis-ordinarias",
+        "https://www.al.rn.leg.br/legislacao/leis-complementares",
         "https://www.al.rn.leg.br/legislacao"
       ],
       "detail_patterns": [
-        "/legislacao/",
-        "/leis/"
+        "/storage/legislacao/",
+        "/legislacao/"
       ],
       "minimum_records": 50,
       "cc_queries": [
-        "www.al.rn.leg.br/legislacao/*",
-        "al.rn.leg.br/legislacao/*"
+        "www.al.rn.leg.br/storage/legislacao/*",
+        "www.al.rn.leg.br/legislacao/*"
       ],
-      "minimum_collected": 50
+      "minimum_collected": 50,
+      "listing_patterns": [
+        "/legislacao/leis-(?:ordinarias|complementares)",
+        "/legislacao/?$"
+      ],
+      "max_workers": 2,
+      "max_listing_pages": 50
     },
     {
       "uf": "RS",
@@ -372,7 +472,8 @@
       "portal": "https://www.al.rs.gov.br/legis/",
       "allowed_hosts": [
         "al.rs.gov.br",
-        "www.al.rs.gov.br"
+        "www.al.rs.gov.br",
+        "ww3.al.rs.gov.br"
       ],
       "start_urls": [
         "https://www.al.rs.gov.br/legis/"
@@ -384,9 +485,12 @@
       "minimum_records": 100,
       "cc_queries": [
         "www.al.rs.gov.br/filerepository/repLegis/arquivos/*",
+        "ww3.al.rs.gov.br/filerepository/repLegis/arquivos/*",
         "www.al.rs.gov.br/legis/*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "RO",
@@ -400,11 +504,33 @@
     {
       "uf": "RR",
       "estado": "Roraima",
-      "strategy": "sapl",
-      "base_url": "https://sapl.al.rr.leg.br",
-      "portal": "https://sapl.al.rr.leg.br/norma/pesquisar",
+      "strategy": "generic",
+      "portal": "https://al.rr.leg.br/",
       "minimum_records": 100,
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "allowed_hosts": [
+        "al.rr.leg.br",
+        "www.al.rr.leg.br"
+      ],
+      "start_urls": [
+        "https://al.rr.leg.br/",
+        "https://al.rr.leg.br/topico/leis-complementares/"
+      ],
+      "detail_patterns": [
+        "/wp-content/uploads/.+/(?:Lei|lei)-(?:Ordinaria|ordinaria|Complementar|complementar)"
+      ],
+      "listing_patterns": [
+        "/topico/leis-",
+        "/page/\\d+/"
+      ],
+      "cc_queries": [
+        "al.rr.leg.br/wp-content/uploads/*/Lei-Ordinaria-*",
+        "al.rr.leg.br/wp-content/uploads/*/Lei-ordinaria-*",
+        "al.rr.leg.br/wp-content/uploads/*/Lei-Complementar-*",
+        "al.rr.leg.br/wp-content/uploads/*/Lei-complementar-*"
+      ],
+      "max_workers": 2,
+      "max_listing_pages": 500
     },
     {
       "uf": "SC",
@@ -420,15 +546,18 @@
         "https://leis.alesc.sc.gov.br/"
       ],
       "detail_patterns": [
-        "/html/",
-        "/legislacao/"
+        "/html/\\d{4}/.+(?:lei|lc|emenda)",
+        "/html/"
       ],
       "minimum_records": 100,
       "cc_queries": [
-        "leis.alesc.sc.gov.br/html/*",
-        "leis.alesc.sc.gov.br/*"
+        "leis.alesc.sc.gov.br/html/*/*_lei*",
+        "leis.alesc.sc.gov.br/html/*/*_Lei*",
+        "leis.alesc.sc.gov.br/html/*/*_lc*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "SP",
@@ -453,7 +582,9 @@
         "www.al.sp.gov.br/repositorio/legislacao/lei.complementar/*",
         "www.al.sp.gov.br/repositorio/legislacao/constituicao/*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "SE",
@@ -469,15 +600,18 @@
         "https://aleselegis.al.se.leg.br/"
       ],
       "detail_patterns": [
-        "/Arquivo/Documents/legislacao/",
+        "/Arquivo/Documents/legislacao/html/",
         "/uploads/atos/"
       ],
       "minimum_records": 100,
       "cc_queries": [
         "aleselegis.al.se.leg.br/Arquivo/Documents/legislacao/html/*",
-        "api.legislacao.se.gov.br/uploads/atos/*"
+        "api.legislacao.se.gov.br/uploads/atos/*",
+        "legislacao.se.gov.br/*"
       ],
-      "minimum_collected": 100
+      "minimum_collected": 100,
+      "max_workers": 3,
+      "max_listing_pages": 500
     },
     {
       "uf": "TO",

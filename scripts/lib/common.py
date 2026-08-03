@@ -14,7 +14,7 @@ LAW_RE = re.compile(
     r"\b(lei\s+complementar|lei\s+ordin[aá]ria|lei\s+delegada|lei|constitui[cç][aã]o(?:\s+estadual)?|emenda\s+constitucional)\b",
     re.I,
 )
-NUMBER_RE = re.compile(r"(?:n[º°o.]?\s*)?([\d.]+)(?:\s*[/\-]\s*(\d{4}))?", re.I)
+NUMBER_RE = re.compile(r"(?:n\s*[.º°o]*\s*)?([\d.]+)(?:\s*[/\-]\s*(\d{4}))?", re.I)
 YEAR_RE = re.compile(r"\b(18|19|20)\d{2}\b")
 
 

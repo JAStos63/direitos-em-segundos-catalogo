@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import math
 import re
+from datetime import UTC, datetime
 from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
@@ -27,14 +28,61 @@ class ElegisConnector:
     def collect(self, max_records: int = 10000, max_pages: int = 400) -> list[Norm]:
         out: list[Norm] = []
         seen_ids: set[str] = set()
+        errors: list[str] = []
+
+        # Primeiro tenta a listagem geral. Em alguns períodos o eLegis responde
+        # com HTTP 500 quando precisa montar todas as milhares de normas.
+        try:
+            self._collect_query(
+                params={}, out=out, seen_ids=seen_ids,
+                max_records=max_records, max_pages=max_pages,
+            )
+        except Exception as exc:
+            errors.append(f"listagem geral: {exc!r}")
+
+        # Fallback: consultas anuais são muito menores e costumam continuar
+        # funcionando mesmo quando a listagem geral está sobrecarregada. Também
+        # complementa anos eventualmente omitidos pela paginação geral.
+        if len(out) < max_records:
+            current_year = datetime.now(UTC).year
+            for year in range(current_year, 1989, -1):
+                try:
+                    self._collect_query(
+                        params={"ano": year}, out=out, seen_ids=seen_ids,
+                        max_records=max_records, max_pages=min(max_pages, 80),
+                    )
+                except Exception as exc:
+                    errors.append(f"ano {year}: {exc!r}")
+                    continue
+                if len(out) >= max_records:
+                    break
+
+        if not out:
+            detail = "; ".join(errors[-5:])
+            raise RuntimeError(
+                "eLegis não apresentou leis na listagem pública"
+                + (f": {detail}" if detail else "")
+            )
+        return deduplicate(out)
+
+    def _collect_query(
+        self,
+        params: dict[str, object],
+        out: list[Norm],
+        seen_ids: set[str],
+        max_records: int,
+        max_pages: int,
+    ) -> None:
         expected_pages: int | None = None
         empty_streak = 0
 
         for page in range(1, max_pages + 1):
-            response = self.client.get(self.listing, params={"page": page}, timeout=75)
+            query = dict(params)
+            query["page"] = page
+            response = self.client.get(self.listing, params=query, timeout=75)
             norms, total = self.parse_listing(response.text, response.url)
+
             if expected_pages is None and total:
-                # The public page currently shows 20 rows, but infer it from HTML.
                 per_page = max(len(norms), 1)
                 expected_pages = max(1, math.ceil(total / per_page))
 
@@ -46,21 +94,13 @@ class ElegisConnector:
                 out.append(norm)
                 added += 1
                 if len(out) >= max_records:
-                    return deduplicate(out)
+                    return
 
-            if added == 0:
-                empty_streak += 1
-            else:
-                empty_streak = 0
-
+            empty_streak = empty_streak + 1 if added == 0 else 0
             if expected_pages and page >= expected_pages:
                 break
             if empty_streak >= 2:
                 break
-
-        if not out:
-            raise RuntimeError("eLegis não apresentou leis na listagem pública")
-        return deduplicate(out)
 
     def parse_listing(self, html: str, page_url: str | None = None) -> tuple[list[Norm], int]:
         soup = BeautifulSoup(html, "lxml")
