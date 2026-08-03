@@ -1,0 +1,16 @@
+{
+  "uf": "SE",
+  "estado": "Sergipe",
+  "strategy": "generic",
+  "started_at": "2026-08-03T02:11:20Z",
+  "portal": "https://aleselegis.al.se.leg.br/",
+  "curated_seed_count": 172,
+  "finished_at": "2026-08-03T02:39:14Z",
+  "collected_count": 0,
+  "seed_count": 172,
+  "final_count": 172,
+  "minimum_expected": 100,
+  "status": "incompleto",
+  "direct_html_count": 159,
+  "external_document_count": 13
+}

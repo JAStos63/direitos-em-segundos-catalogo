@@ -2,11 +2,15 @@
   "uf": "SC",
   "estado": "Santa Catarina",
   "strategy": "generic",
-  "started_at": "2026-08-02T23:12:47Z",
+  "started_at": "2026-08-03T02:08:32Z",
   "portal": "https://leis.alesc.sc.gov.br/",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-02T23:12:52Z",
-  "status": "erro",
-  "error": "RuntimeError('nenhum endereço de norma descoberto')",
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 90, in main\n    collected = connector.collect(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/generic.py\", line 69, in collect\n    raise RuntimeError(\"nenhum endereço de norma descoberto\")\nRuntimeError: nenhum endereço de norma descoberto\n"
+  "finished_at": "2026-08-03T02:09:35Z",
+  "collected_count": 2,
+  "seed_count": 0,
+  "final_count": 2,
+  "minimum_expected": 100,
+  "status": "incompleto",
+  "direct_html_count": 2,
+  "external_document_count": 0
 }

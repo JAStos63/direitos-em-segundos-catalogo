@@ -2,11 +2,15 @@
   "uf": "CE",
   "estado": "Ceará",
   "strategy": "generic",
-  "started_at": "2026-08-02T21:40:21Z",
-  "portal": "https://belt.al.ce.gov.br/",
+  "started_at": "2026-08-03T00:25:52Z",
+  "portal": "https://www2.al.ce.gov.br/legislativo/lei_ordinaria.htm",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-02T21:41:04Z",
-  "status": "erro",
-  "error": "RuntimeError('nenhum endereço de norma descoberto')",
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 90, in main\n    collected = connector.collect(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/generic.py\", line 69, in collect\n    raise RuntimeError(\"nenhum endereço de norma descoberto\")\nRuntimeError: nenhum endereço de norma descoberto\n"
+  "finished_at": "2026-08-03T00:35:51Z",
+  "collected_count": 4870,
+  "seed_count": 0,
+  "final_count": 4870,
+  "minimum_expected": 100,
+  "status": "atualizado",
+  "direct_html_count": 3080,
+  "external_document_count": 1790
 }

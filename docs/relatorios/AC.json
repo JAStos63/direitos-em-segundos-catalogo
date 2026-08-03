@@ -1,0 +1,16 @@
+{
+  "uf": "AC",
+  "estado": "Acre",
+  "strategy": "sapl",
+  "started_at": "2026-08-03T00:21:09Z",
+  "portal": "https://sapl.al.ac.leg.br/norma/pesquisar",
+  "curated_seed_count": 0,
+  "finished_at": "2026-08-03T00:21:57Z",
+  "collected_count": 2367,
+  "seed_count": 0,
+  "final_count": 2367,
+  "minimum_expected": 100,
+  "status": "atualizado",
+  "direct_html_count": 51,
+  "external_document_count": 2316
+}

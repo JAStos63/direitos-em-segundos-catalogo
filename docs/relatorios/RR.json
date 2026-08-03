@@ -1,12 +1,16 @@
 {
   "uf": "RR",
   "estado": "Roraima",
-  "strategy": "sapl",
-  "started_at": "2026-08-02T23:12:26Z",
-  "portal": "https://sapl.al.rr.leg.br/norma/pesquisar",
+  "strategy": "generic",
+  "started_at": "2026-08-03T02:06:49Z",
+  "portal": "https://al.rr.leg.br/",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-02T23:12:29Z",
-  "status": "erro",
-  "error": "RuntimeError('API /api/norma/normajuridica/: HTTPError(\\'403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/api/norma/normajuridica/?page=1&page_size=100\\'); API /api/norma/norma-juridica/: HTTPError(\\'403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/api/norma/norma-juridica/?page=1&page_size=100\\'); API /api/norma/normajuridica: HTTPError(\\'403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/api/norma/normajuridica?page=1&page_size=100\\'); HTML: RuntimeError(\"SAPL não retornou a lista de resultados: HTTPError(\\'403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/norma/pesquisar?ano=&assuntos=&data_0=&data_1=&data_publicacao_0=&data_publicacao_1=&ementa=&iframe=-1&numero=&page=1&salvar=Pesquisar&tipo=\\'); HTTPError(\\'403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/norma/pesquisar?salvar=Pesquisar&iframe=-1&page=1\\'); HTTPError(\\'403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/norma/pesquisar?salvar=Pesquisar&page=1\\')\")')",
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 69, in main\n    collected = connector.collect(max_records=args.max_records)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/sapl.py\", line 56, in collect\n    raise RuntimeError(\"; \".join(errors) or \"SAPL sem resultados\")\nRuntimeError: API /api/norma/normajuridica/: HTTPError('403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/api/norma/normajuridica/?page=1&page_size=100'); API /api/norma/norma-juridica/: HTTPError('403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/api/norma/norma-juridica/?page=1&page_size=100'); API /api/norma/normajuridica: HTTPError('403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/api/norma/normajuridica?page=1&page_size=100'); HTML: RuntimeError(\"SAPL não retornou a lista de resultados: HTTPError('403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/norma/pesquisar?ano=&assuntos=&data_0=&data_1=&data_publicacao_0=&data_publicacao_1=&ementa=&iframe=-1&numero=&page=1&salvar=Pesquisar&tipo='); HTTPError('403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/norma/pesquisar?salvar=Pesquisar&iframe=-1&page=1'); HTTPError('403 Client Error: Forbidden for url: https://sapl.al.rr.leg.br/norma/pesquisar?salvar=Pesquisar&page=1')\")\n"
+  "finished_at": "2026-08-03T02:13:45Z",
+  "collected_count": 1393,
+  "seed_count": 0,
+  "final_count": 1393,
+  "minimum_expected": 100,
+  "status": "atualizado",
+  "direct_html_count": 0,
+  "external_document_count": 1393
 }

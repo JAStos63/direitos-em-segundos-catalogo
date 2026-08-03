@@ -2,15 +2,15 @@
   "uf": "RN",
   "estado": "Rio Grande do Norte",
   "strategy": "generic",
-  "started_at": "2026-08-02T22:44:03Z",
+  "started_at": "2026-08-03T01:44:59Z",
   "portal": "https://www.al.rn.leg.br/legislacao",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-02T22:45:03Z",
-  "collected_count": 16,
+  "finished_at": "2026-08-03T02:05:47Z",
+  "collected_count": 3622,
   "seed_count": 0,
-  "final_count": 16,
+  "final_count": 3622,
   "minimum_expected": 50,
-  "status": "incompleto",
-  "direct_html_count": 16,
-  "external_document_count": 0
+  "status": "atualizado",
+  "direct_html_count": 19,
+  "external_document_count": 3603
 }
