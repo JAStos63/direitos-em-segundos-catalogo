@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.03",
-  "updated_at": "2026-08-03T14:03:28Z",
+  "catalog_version": "2026.08.10",
+  "updated_at": "2026-08-10T10:02:44Z",
   "uf": "AL",
   "estado": "Alagoas",
   "lexml_slug": "alagoas",
@@ -9,6 +9,114 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-al-3992",
+      "titulo": "LEI ORDINARIA nº 9990/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9990",
+      "ano": "2026",
+      "data": "2026-07-29",
+      "ementa": "''DECLARA PATRIMÔNIO HISTÓRICO E CULTURAL DO ESTADO DE ALAGOAS O ANTIGO MOCAMBO DE OSENGA, REDUTO DE NEGROS AFRICANOS EXISTENTE NO SÉCULO XVII NO MUNICÍPIO DE CHÃ PRETA E DÁ OUTRAS PROVIDÊNCIAS.''",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3992/lei_no_9.990_de_29_de_julho_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3992",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3994",
+      "titulo": "LEI ORDINARIA nº 9989/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9989",
+      "ano": "2026",
+      "data": "2026-07-29",
+      "ementa": "DISPÕE SOBRE AS PRÁTICAS E CONDUTAS EM TEMPORADA DE COMPRA NO ESTILO BLACK FRIDAY, NOS ESTABELECIMENTOS COMERCIAIS LOCALIZADOS NO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3994/lei_no_9.989_de_29_de_julho_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3994",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3993",
+      "titulo": "LEI ORDINARIA nº 9988/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9988",
+      "ano": "2026",
+      "data": "2026-07-29",
+      "ementa": "DISPÕE SOBRE A CONCESSÃO DO TÍTULO DE UTILIDADE PÚBLICA PARA A ASSOCIAÇÃO FILHOS DO SERTÃO TRANSFORMANDOS VIDAS.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3993/lei_no_9.988_de_29_de_julho_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3993",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3990",
+      "titulo": "LEI ORDINARIA nº 9987/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9987",
+      "ano": "2026",
+      "data": "2026-07-29",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA O INSTITUTO MÃE LAGOA EM DEFESA DE SEUS MANANCIAIS E DEPENDENTES DO ESTADO DE ALAGOAS-AL.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3990/lei_no_9.987_de_29_de_julho_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3990",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3991",
+      "titulo": "LEI ORDINARIA nº 9986/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9986",
+      "ano": "2026",
+      "data": "2026-07-29",
+      "ementa": "ASSEGURA O DIREITO A PRIORIDADE NO AGENDAMENTO DE CONSULTAS, EXAMES E TRATAMENTOS, AS PESSOAS COM SUSPEITA OU DIAGNÓSTICO DE CÂNCER, NO ÂMBITO DO ESTADO DE ALAGOAS.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3991/lei_no_9.986_de_29_de_julho_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3991",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3989",
+      "titulo": "LEI ORDINARIA nº 9985/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9985",
+      "ano": "2026",
+      "data": "2026-07-16",
+      "ementa": "MENSAGEM N°44/2026 REFERENTE AO PROJETO DE LEI QUE ''DISPÕE SOBRE AS DIRETRIZES PARA A ELABORAÇÃO E A EXECUÇÃO DA LEI ORÇAMENTÁRIA DE 2027- LDO 2027, NOS TERMOS DO § 2° DO ART. 176 DA CONSTITUIÇÃO ESTADUAL, E DÁ OUTRAS PROVIDÊNCIAS''.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3989/lei_n__9.985__de_02.07.2026___lde_2027.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3989",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-al-3988",
       "titulo": "LEI ORDINARIA nº 9984/2026",
@@ -54950,22 +55058,6 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-al-615",
-      "titulo": "LEI DELEGADA nº 9/2003",
-      "tipo": "Lei Delegada",
-      "numero": "9",
-      "ano": "2003",
-      "data": "2003-02-14",
-      "ementa": "DISPÕE SOBRE A ESTRUTURA DO GABINETE CIVIL DO GOVERNADOR E DÁ OUTRAS PROVIDÊNCIAS.",
-      "assuntos": [],
-      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2003/615/615_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.al.leg.br/norma/615",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
       "id": "sapl-al-600",
       "titulo": "LEI ORDINARIA nº 9/2003",
       "tipo": "Lei Ordinária",
@@ -54976,6 +55068,22 @@
       "assuntos": [],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2003/600/600_texto_integral.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/600",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-615",
+      "titulo": "LEI DELEGADA nº 9/2003",
+      "tipo": "Lei Delegada",
+      "numero": "9",
+      "ano": "2003",
+      "data": "2003-02-14",
+      "ementa": "DISPÕE SOBRE A ESTRUTURA DO GABINETE CIVIL DO GOVERNADOR E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2003/615/615_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/615",
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,

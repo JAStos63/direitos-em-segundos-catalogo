@@ -2,15 +2,15 @@
   "uf": "CE",
   "estado": "Ceará",
   "strategy": "generic",
-  "started_at": "2026-08-03T14:06:38Z",
+  "started_at": "2026-08-10T10:07:13Z",
   "portal": "https://www2.al.ce.gov.br/legislativo/lei_ordinaria.htm",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-03T14:07:54Z",
-  "collected_count": 4870,
+  "finished_at": "2026-08-10T10:07:51Z",
+  "collected_count": 4930,
   "seed_count": 0,
-  "final_count": 4870,
+  "final_count": 4930,
   "minimum_expected": 100,
   "status": "atualizado",
-  "direct_html_count": 3080,
-  "external_document_count": 1790
+  "direct_html_count": 3105,
+  "external_document_count": 1825
 }

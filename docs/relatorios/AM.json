@@ -2,15 +2,15 @@
   "uf": "AM",
   "estado": "Amazonas",
   "strategy": "sapl",
-  "started_at": "2026-08-03T14:03:28Z",
+  "started_at": "2026-08-10T10:03:00Z",
   "portal": "https://sapl.al.am.leg.br/norma/pesquisar",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-03T14:08:55Z",
-  "collected_count": 11526,
+  "finished_at": "2026-08-10T10:06:53Z",
+  "collected_count": 11277,
   "seed_count": 0,
-  "final_count": 11526,
+  "final_count": 11277,
   "minimum_expected": 100,
   "status": "atualizado",
-  "direct_html_count": 3725,
-  "external_document_count": 7801
+  "direct_html_count": 3475,
+  "external_document_count": 7802
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.03",
-  "updated_at": "2026-08-03T15:49:30Z",
+  "catalog_version": "2026.08.10",
+  "updated_at": "2026-08-10T11:28:09Z",
   "uf": "SP",
   "estado": "São Paulo",
   "lexml_slug": "sao.paulo",
@@ -3525,12 +3525,12 @@
       "fonte_catalogo": "Portal oficial — catálogo nacional V2"
     },
     {
-      "id": "sp-9b126eba15cf177445",
-      "titulo": "Lei nº 12.233, de 16 de janeiro de 2006 - Assembleia Legislativa do Estado de São Paulo",
+      "id": "sp-971bf2dddf370183ed",
+      "titulo": "LEI N° 12.233, DE 16 DE JANEIRO DE 2006 - Assembleia Legislativa do Estado de São Paulo",
       "tipo": "Lei Ordinária",
       "numero": "12233",
       "ano": "1997",
-      "data": "",
+      "data": "17/10/2023",
       "ementa": "Norma integrante da Legislação do Estado de São Paulo.",
       "assuntos": [
         "alesp",
@@ -3554,8 +3554,8 @@
         "artigo",
         "Estado de São Paulo"
       ],
-      "url_oficial": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2006/alteracao-lei-12233-16.01.2006.html",
-      "url_detalhe": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2006/alteracao-lei-12233-16.01.2006.html",
+      "url_oficial": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2006/lei-12233-16.01.2006.html",
+      "url_detalhe": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2006/lei-12233-16.01.2006.html",
       "url_lexml": "",
       "texto_direto": true,
       "documento_externo": false,
