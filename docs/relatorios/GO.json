@@ -2,15 +2,11 @@
   "uf": "GO",
   "estado": "Goiás",
   "strategy": "generic",
-  "started_at": "2026-08-10T10:11:48Z",
+  "started_at": "2026-08-17T08:29:51Z",
   "portal": "https://legisla.casacivil.go.gov.br/",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-10T10:12:03Z",
-  "collected_count": 0,
-  "seed_count": 0,
-  "final_count": 0,
-  "minimum_expected": 50,
-  "status": "incompleto",
-  "direct_html_count": 0,
-  "external_document_count": 0
+  "finished_at": "2026-08-17T08:29:58Z",
+  "status": "erro",
+  "error": "RuntimeError('nenhum endereço de norma descoberto')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 92, in main\n    collected = connector.collect(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/generic.py\", line 76, in collect\n    raise RuntimeError(\"nenhum endereço de norma descoberto\")\nRuntimeError: nenhum endereço de norma descoberto\n"
 }

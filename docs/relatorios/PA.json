@@ -2,10 +2,10 @@
   "uf": "PA",
   "estado": "Pará",
   "strategy": "generic",
-  "started_at": "2026-08-10T10:42:30Z",
+  "started_at": "2026-08-17T08:42:35Z",
   "portal": "https://www.sistemas.pa.gov.br/sisleis/legislacao.html",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-10T10:48:42Z",
+  "finished_at": "2026-08-17T08:42:40Z",
   "status": "erro",
   "error": "RuntimeError('nenhum endereço de norma descoberto')",
   "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 92, in main\n    collected = connector.collect(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/generic.py\", line 76, in collect\n    raise RuntimeError(\"nenhum endereço de norma descoberto\")\nRuntimeError: nenhum endereço de norma descoberto\n"

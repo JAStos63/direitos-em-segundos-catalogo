@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.10",
-  "updated_at": "2026-08-10T10:52:46Z",
+  "catalog_version": "2026.08.17",
+  "updated_at": "2026-08-17T09:02:03Z",
   "uf": "PI",
   "estado": "Piauí",
   "lexml_slug": "piaui",
@@ -80490,6 +80490,22 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
+      "id": "sapl-pi-7184",
+      "titulo": "Lei nº 4640/1993",
+      "tipo": "Lei Ordinária",
+      "numero": "4640",
+      "ano": "1993",
+      "data": "1993-11-22",
+      "ementa": "Aprova o Plano de Cargos e Vencimentos do Instituto de Assistência Técnica e Extensão Rural do Estado do Piauí - EMATER, e dá outras providências",
+      "assuntos": [],
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1993/7184/lo_4640_93.pdf",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/7184",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
       "id": "sapl-pi-2200",
       "titulo": "Lei nº 4639/1993",
       "tipo": "Lei Ordinária",
@@ -107493,6 +107509,24 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
+      "id": "sapl-pi-3981",
+      "titulo": "Lei Delegada nº 3018/1970",
+      "tipo": "Lei Delegada",
+      "numero": "3018",
+      "ano": "1970",
+      "data": "1970-05-29",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA, A SOCIEDADE PIAUIENSE DE GINECOLOGIA E OBSTETRÍCIA, DE TERESINA.",
+      "assuntos": [
+        "26"
+      ],
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/3981/3981_texto_integral.tiff",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/3981",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
       "id": "sapl-pi-2958",
       "titulo": "Lei nº 3018/1970",
       "tipo": "Lei Ordinária",
@@ -107513,21 +107547,21 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-pi-3981",
-      "titulo": "Lei Delegada nº 3018/1970",
-      "tipo": "Lei Delegada",
-      "numero": "3018",
+      "id": "sapl-pi-2957",
+      "titulo": "Lei nº 3017/1970",
+      "tipo": "Lei Ordinária",
+      "numero": "3017",
       "ano": "1970",
       "data": "1970-05-29",
-      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA, A SOCIEDADE PIAUIENSE DE GINECOLOGIA E OBSTETRÍCIA, DE TERESINA.",
+      "ementa": "RECONHECE DE UTILIDADE O CLUBE JUVENIL CRISTINICASTRENSE, DE CRISTINO CASTRO",
       "assuntos": [
         "26"
       ],
-      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/3981/3981_texto_integral.tiff",
-      "url_detalhe": "https://sapl.al.pi.leg.br/norma/3981",
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/2957/2957_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/2957",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -107546,24 +107580,6 @@
       "url_lexml": "",
       "texto_direto": true,
       "documento_externo": false,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
-      "id": "sapl-pi-2957",
-      "titulo": "Lei nº 3017/1970",
-      "tipo": "Lei Ordinária",
-      "numero": "3017",
-      "ano": "1970",
-      "data": "1970-05-29",
-      "ementa": "RECONHECE DE UTILIDADE O CLUBE JUVENIL CRISTINICASTRENSE, DE CRISTINO CASTRO",
-      "assuntos": [
-        "26"
-      ],
-      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/2957/2957_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.pi.leg.br/norma/2957",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
