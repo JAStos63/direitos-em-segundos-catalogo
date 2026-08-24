@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.17",
-  "updated_at": "2026-08-17T09:02:03Z",
+  "catalog_version": "2026.08.24",
+  "updated_at": "2026-08-24T09:32:49Z",
   "uf": "PI",
   "estado": "Piauí",
   "lexml_slug": "piaui",
@@ -9,6 +9,22 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-pi-7185",
+      "titulo": "Lei nº 9090/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9090",
+      "ano": "2026",
+      "data": "2026-08-17",
+      "ementa": "Reconhece a Utilidade Pública da Associação Sorrir, no município de Piripiri - PI.",
+      "assuntos": [],
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/2026/7185/sei_0025922656_lei_9090.pdf",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/7185",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-pi-7178",
       "titulo": "Lei nº 9088/2026",
@@ -113,7 +129,7 @@
       "tipo": "Lei Ordinária",
       "numero": "9082",
       "ano": "2026",
-      "data": "2026-08-28",
+      "data": "2026-07-28",
       "ementa": "Denomina \"Ponte Domiciana Vieira de Carvalho\" a ponte na rodovia estadual PI-143, sobre o Rio Canindé, no município de Conceição do Canindé.",
       "assuntos": [
         "64"
@@ -131,7 +147,7 @@
       "tipo": "Lei Ordinária",
       "numero": "9081",
       "ano": "2026",
-      "data": "2026-08-28",
+      "data": "2026-07-28",
       "ementa": "Institui o Pica-pau-do-Parnaíba (Celeusobrieni) como ave símbolo oficial do Estado do Piauí, e dá outras providências.",
       "assuntos": [
         "42",
@@ -107547,24 +107563,6 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-pi-2957",
-      "titulo": "Lei nº 3017/1970",
-      "tipo": "Lei Ordinária",
-      "numero": "3017",
-      "ano": "1970",
-      "data": "1970-05-29",
-      "ementa": "RECONHECE DE UTILIDADE O CLUBE JUVENIL CRISTINICASTRENSE, DE CRISTINO CASTRO",
-      "assuntos": [
-        "26"
-      ],
-      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/2957/2957_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.pi.leg.br/norma/2957",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
       "id": "sapl-pi-3980",
       "titulo": "Lei Delegada nº 3017/1970",
       "tipo": "Lei Delegada",
@@ -107580,6 +107578,24 @@
       "url_lexml": "",
       "texto_direto": true,
       "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pi-2957",
+      "titulo": "Lei nº 3017/1970",
+      "tipo": "Lei Ordinária",
+      "numero": "3017",
+      "ano": "1970",
+      "data": "1970-05-29",
+      "ementa": "RECONHECE DE UTILIDADE O CLUBE JUVENIL CRISTINICASTRENSE, DE CRISTINO CASTRO",
+      "assuntos": [
+        "26"
+      ],
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/2957/2957_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/2957",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {

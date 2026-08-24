@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.10",
-  "updated_at": "2026-08-10T10:02:44Z",
+  "catalog_version": "2026.08.24",
+  "updated_at": "2026-08-24T08:07:26Z",
   "uf": "AL",
   "estado": "Alagoas",
   "lexml_slug": "alagoas",
@@ -9,6 +9,210 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-al-4005",
+      "titulo": "LEI ORDINARIA nº 10001/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10001",
+      "ano": "2026",
+      "data": "2026-08-19",
+      "ementa": "INSTITUI O \"PROGRAMA TUDO NO SEU TEMPO\", COM AFINALIDADE DE CONSCIENTIZAR A POPULAÇÃO ADOLESCENTE SOBRE OS RISCOS DA GRAVIDEZ PRECOCE.",
+      "assuntos": [
+        "10",
+        "INSTITUI O \"PROGRAMA TUDO NO SEU TEMPO\"",
+        "COM AFINALIDADE DE CONSCIENTIZAR A POPULAÇÃO ADOLESCENTE SOBRE OS RISCOS DA GRAVIDEZ PRECOCE."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4005",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4005",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4004",
+      "titulo": "LEI ORDINARIA nº 10000/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10000",
+      "ano": "2026",
+      "data": "2026-08-18",
+      "ementa": "INSTITUI A SEMANA DA CIÊNCIA E TECNOLOGIA NA INFÂNCIA.",
+      "assuntos": [
+        "10",
+        "INSTITUI A SEMANA DA CIÊNCIA E TECNOLOGIA NA INFÂNCIA."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4004/lei_no_10.000_de_18_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4004",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4003",
+      "titulo": "LEI ORDINARIA nº 9999/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9999",
+      "ano": "2026",
+      "data": "2026-08-18",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO COMUNITÁRIA GRACILIANO RAMOS.",
+      "assuntos": [
+        "10",
+        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO COMUNITÁRIA GRACILIANO RAMOS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4003/lei_no_9.999_de_18_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4003",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4002",
+      "titulo": "LEI ORDINARIA nº 9998/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9998",
+      "ano": "2026",
+      "data": "2026-08-12",
+      "ementa": "DISPÕE SOBRE A DENOMINAÇÃO DO TRECHO DA RODOVIA AL 104, QUE LIGA O MUNICÍPIO DE TEOTÔNIO VILELA À RODOVIA AL 105.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A DENOMINAÇÃO DO TRECHO DA RODOVIA AL 104",
+        "QUE LIGA O MUNICÍPIO DE TEOTÔNIO VILELA À RODOVIA AL 105."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4002/lei_no_9.998_de_12_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4002",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4001",
+      "titulo": "LEI ORDINARIA nº 9997/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9997",
+      "ano": "2026",
+      "data": "2026-08-05",
+      "ementa": "DECLARA COMO PATRIMÔNIO CULTURAL DE NATUREZA IMATERIAL DO ESTADO DE ALAGOAS, O EVENTO \" CASAMENTO MATUTO\", REALIZADO NO MUNICÍPIO DE PILAR, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4001/lei_no_9.997_de_5_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4001",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4000",
+      "titulo": "LEI ORDINARIA nº 9996/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9996",
+      "ano": "2026",
+      "data": "2026-08-05",
+      "ementa": "DISPÕE SOBRE A DENOMINAÇÃO, DEPUTADO VINICIUS CANSANÇÃO FILHO, PARA A RODOVIA AL 201, QUE INTERLIGA OS MUNICÍPIOS ALAGOANOS DE CAMPESTRE A JACUÍPE.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4000/lei_no_9.996_de_5_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4000",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3999",
+      "titulo": "LEI ORDINARIA nº 9995/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9995",
+      "ano": "2026",
+      "data": "2026-08-05",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ORGANIZAÇÃO DA SOCIEDADE CIVIL MANOEL TELES SOLIDÁRIO - OSCMTS, INSCRITA NO CNPJ SOB O Nº 22.271.478/0001-99, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3999/lei_no_9.995_de_5_de_agosto_de_2026_1.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3999",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3998",
+      "titulo": "LEI ORDINARIA nº 9994/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9994",
+      "ano": "2026",
+      "data": "2026-08-05",
+      "ementa": "DISPÕE SOBRE A INCLUSÃO NO CALENDÁRIO OFICIAL DE EVENTOS DO ESTADO DE ALAGOAS A SEMANA DA CRIATIVIDADE, INOVAÇÃO E SUSTENTABILIDADE, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3998/lei_no_9.994_de_5_de_agosto_de_2026_1.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3998",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3997",
+      "titulo": "LEI ORDINARIA nº 9993/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9993",
+      "ano": "2026",
+      "data": "2026-08-05",
+      "ementa": "CONCEDE TÍTULO DE UTILIDADE PÚBLICA Á FUNDAÇÃO DR. JOÃO CARLOS LYRA.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3997/lei_no_9.993_de_5_de_agosto_de_2026_1.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3997",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3996",
+      "titulo": "LEI ORDINARIA nº 9992/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9992",
+      "ano": "2026",
+      "data": "2026-08-05",
+      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SR. PAULO ELIAS BEDRAN JÚNIOR.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3996/lei_no_9.992_de_5_de_agosto_de_2026_1.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3996",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-3995",
+      "titulo": "LEI ORDINARIA nº 9991/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9991",
+      "ano": "2026",
+      "data": "2026-08-05",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO ME ABRACE-AMEA.",
+      "assuntos": [
+        "10"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3995/lei_no_9.991_de_5_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/3995",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-al-3992",
       "titulo": "LEI ORDINARIA nº 9990/2026",
@@ -108,7 +312,8 @@
       "data": "2026-07-16",
       "ementa": "MENSAGEM N°44/2026 REFERENTE AO PROJETO DE LEI QUE ''DISPÕE SOBRE AS DIRETRIZES PARA A ELABORAÇÃO E A EXECUÇÃO DA LEI ORÇAMENTÁRIA DE 2027- LDO 2027, NOS TERMOS DO § 2° DO ART. 176 DA CONSTITUIÇÃO ESTADUAL, E DÁ OUTRAS PROVIDÊNCIAS''.",
       "assuntos": [
-        "10"
+        "10",
+        "DIRETRIZES PELABORAÇÃO EXECUÇÃO ORÇAMENTÁRIA DE 2027 LDO 2027"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3989/lei_n__9.985__de_02.07.2026___lde_2027.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/3989",
@@ -263,7 +468,7 @@
         "10",
         "CONSIDERA DE UTILIDADE PÚBLICA A ACADEMIA BRASILEIRA DE CIÊNCIAS AMBIENTAIS E RECURSOS HÍDRICOS -ABCARH."
       ],
-      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3981/lei_no_9.975_de_26_de_junho_de_2026_1.pdf",
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3981/lei_no_9.977_de_1o_de_julho_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/3981",
       "url_lexml": "",
       "texto_direto": false,
@@ -321,11 +526,11 @@
         "10",
         "CONSIDERA DE UTILIDADE PÚBLICA O INSTITUTO IRMÃ ZITA DINIZ."
       ],
-      "url_oficial": "https://sapl.al.al.leg.br/norma/3978",
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/3978/lei_no_9.974_de_26_de_junho_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/3978",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {

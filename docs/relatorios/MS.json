@@ -2,15 +2,15 @@
   "uf": "MS",
   "estado": "Mato Grosso do Sul",
   "strategy": "generic",
-  "started_at": "2026-08-17T08:36:47Z",
+  "started_at": "2026-08-24T08:46:13Z",
   "portal": "https://aacpdappls.net.ms.gov.br/appls/legislacao/secoge/govato.nsf/",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-17T08:36:52Z",
-  "collected_count": 6,
+  "finished_at": "2026-08-24T08:48:30Z",
+  "collected_count": 613,
   "seed_count": 0,
-  "final_count": 6,
+  "final_count": 613,
   "minimum_expected": 50,
-  "status": "incompleto",
-  "direct_html_count": 6,
-  "external_document_count": 0
+  "status": "atualizado",
+  "direct_html_count": 608,
+  "external_document_count": 1
 }

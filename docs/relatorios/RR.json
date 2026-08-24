@@ -2,11 +2,15 @@
   "uf": "RR",
   "estado": "Roraima",
   "strategy": "generic",
-  "started_at": "2026-08-17T09:07:22Z",
+  "started_at": "2026-08-24T09:52:16Z",
   "portal": "https://al.rr.leg.br/",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-17T09:07:44Z",
-  "status": "erro",
-  "error": "RuntimeError('nenhum endereço de norma descoberto')",
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 92, in main\n    collected = connector.collect(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/generic.py\", line 76, in collect\n    raise RuntimeError(\"nenhum endereço de norma descoberto\")\nRuntimeError: nenhum endereço de norma descoberto\n"
+  "finished_at": "2026-08-24T09:57:32Z",
+  "collected_count": 1392,
+  "seed_count": 0,
+  "final_count": 1392,
+  "minimum_expected": 100,
+  "status": "atualizado",
+  "direct_html_count": 0,
+  "external_document_count": 1392
 }
