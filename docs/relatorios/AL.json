@@ -2,15 +2,15 @@
   "uf": "AL",
   "estado": "Alagoas",
   "strategy": "sapl",
-  "started_at": "2026-08-24T08:06:33Z",
+  "started_at": "2026-08-31T11:35:11Z",
   "portal": "https://sapl.al.al.leg.br/norma/pesquisar",
   "curated_seed_count": 2,
-  "finished_at": "2026-08-24T08:07:26Z",
-  "collected_count": 2915,
+  "finished_at": "2026-08-31T11:36:24Z",
+  "collected_count": 2940,
   "seed_count": 2,
-  "final_count": 2917,
+  "final_count": 2942,
   "minimum_expected": 100,
   "status": "atualizado",
-  "direct_html_count": 79,
-  "external_document_count": 2838
+  "direct_html_count": 80,
+  "external_document_count": 2862
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.24",
-  "updated_at": "2026-08-24T08:45:55Z",
+  "catalog_version": "2026.08.31",
+  "updated_at": "2026-08-31T12:23:24Z",
   "uf": "MT",
   "estado": "Mato Grosso",
   "lexml_slug": "mato.grosso",
@@ -1928,6 +1928,58 @@
       ],
       "url_oficial": "https://www.al.mt.gov.br/norma-juridica/urn:lex:br;mato.grosso:estadual:lei.ordinaria:1979-07-10;4083",
       "url_detalhe": "https://www.al.mt.gov.br/norma-juridica/urn:lex:br;mato.grosso:estadual:lei.ordinaria:1979-07-10;4083",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "Portal oficial — catálogo nacional V2"
+    },
+    {
+      "id": "mt-ef75b2d26eb396f1e2",
+      "titulo": "Lei Ordinária nº 4202 de 17 de junho de 1980 - Busca Legislação",
+      "tipo": "Lei Ordinária",
+      "numero": "4202",
+      "ano": "1980",
+      "data": "17/06/1980",
+      "ementa": "Assembleia Legislativa do Estado de Mato Grosso",
+      "assuntos": [
+        "assembleia",
+        "mt",
+        "mato grosso",
+        "assembleia legislativa",
+        "legislativa",
+        "leis",
+        "proposições",
+        "notícias",
+        "imagens"
+      ],
+      "url_oficial": "https://www.al.mt.gov.br/norma-juridica/urn:lex:br;mato.grosso:estadual:lei.ordinaria:1980-06-17;4202",
+      "url_detalhe": "https://www.al.mt.gov.br/norma-juridica/urn:lex:br;mato.grosso:estadual:lei.ordinaria:1980-06-17;4202",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "Portal oficial — catálogo nacional V2"
+    },
+    {
+      "id": "mt-e61260c1ddb21a9069",
+      "titulo": "Lei Ordinária nº 4201 de 16 de junho de 1980 - Busca Legislação",
+      "tipo": "Lei Ordinária",
+      "numero": "4201",
+      "ano": "1980",
+      "data": "16/06/1980",
+      "ementa": "Assembleia Legislativa do Estado de Mato Grosso",
+      "assuntos": [
+        "assembleia",
+        "mt",
+        "mato grosso",
+        "assembleia legislativa",
+        "legislativa",
+        "leis",
+        "proposições",
+        "notícias",
+        "imagens"
+      ],
+      "url_oficial": "https://www.al.mt.gov.br/norma-juridica/urn:lex:br;mato.grosso:estadual:lei.ordinaria:1980-06-16;4201",
+      "url_detalhe": "https://www.al.mt.gov.br/norma-juridica/urn:lex:br;mato.grosso:estadual:lei.ordinaria:1980-06-16;4201",
       "url_lexml": "",
       "texto_direto": true,
       "documento_externo": false,
@@ -5054,7 +5106,7 @@
       "fonte_catalogo": "Portal oficial — catálogo nacional V2"
     },
     {
-      "id": "mt-c86a560b36e3f3515c",
+      "id": "mt-870d91967b87bc1790",
       "titulo": "Pesquisa Histórica - Anterior a 1979 Constituição Estadual Regimento Interno da ALMT Acompanhar Normas Publicadas Acompanhar Normas Publicadas Cadastrar Fechar",
       "tipo": "Constituição Estadual",
       "numero": "",
@@ -5062,12 +5114,38 @@
       "data": "",
       "ementa": "",
       "assuntos": [],
-      "url_oficial": "https://www.al.mt.gov.br/norma-juridica/urn:lex:br;mato.grosso:estadual:resolucao:2006-12-20;677",
-      "url_detalhe": "https://www.al.mt.gov.br/norma-juridica/urn:lex:br;mato.grosso:estadual:resolucao:2006-12-20;677",
+      "url_oficial": "https://www.al.mt.gov.br/norma-juridica/pesquisa-historica",
+      "url_detalhe": "https://www.al.mt.gov.br/norma-juridica/pesquisa-historica",
       "url_lexml": "",
       "texto_direto": true,
       "documento_externo": false,
       "fonte_catalogo": "Portal oficial — índice legislativo"
+    },
+    {
+      "id": "mt-e99cb71bfc4897403c",
+      "titulo": "Assembleia Legislativa aprova 25 projetos de lei, seis deles voltados à saúde",
+      "tipo": "Lei Ordinária",
+      "numero": "",
+      "ano": "",
+      "data": "31/08/2026",
+      "ementa": "Assembleia Legislativa do Estado de Mato Grosso",
+      "assuntos": [
+        "assembleia",
+        "mt",
+        "mato grosso",
+        "assembleia legislativa",
+        "legislativa",
+        "leis",
+        "proposições",
+        "notícias",
+        "imagens"
+      ],
+      "url_oficial": "https://www.al.mt.gov.br/",
+      "url_detalhe": "https://www.al.mt.gov.br/",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "Portal oficial — catálogo nacional V2"
     }
   ]
 }

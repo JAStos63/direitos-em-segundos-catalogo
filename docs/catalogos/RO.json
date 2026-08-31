@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.24",
-  "updated_at": "2026-08-24T09:51:57Z",
+  "catalog_version": "2026.08.31",
+  "updated_at": "2026-08-31T13:20:26Z",
   "uf": "RO",
   "estado": "Rondônia",
   "lexml_slug": "rondonia",
@@ -338,11 +338,11 @@
       "data": "14 de julho de 2026",
       "ementa": "Dispõe sobre a criação da honraria “Selo Empresa Aliada no Combate à Violência contra a Mulher” no âmbito do Estado de Rondônia e dá outras providências.",
       "assuntos": [],
-      "url_oficial": "https://sapl.al.ro.leg.br/norma/14193?display",
+      "url_oficial": "https://sapl.al.ro.leg.br/media/sapl/public/normajuridica/2026/14193/l6484.pdf",
       "url_detalhe": "https://sapl.al.ro.leg.br/norma/14193?display",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL — resultado oficial"
     },
     {

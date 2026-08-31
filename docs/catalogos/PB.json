@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.24",
-  "updated_at": "2026-08-24T09:11:05Z",
+  "catalog_version": "2026.08.31",
+  "updated_at": "2026-08-31T12:36:39Z",
   "uf": "PB",
   "estado": "Paraíba",
   "lexml_slug": "paraiba",
@@ -76,11 +76,11 @@
         "160",
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19119",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19119/lei_14.660.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19119",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -92,11 +92,11 @@
       "data": "2026-08-12",
       "ementa": "Inclui no Calendário Oficial de Eventos do Estado da Paraíba a tradicional “Cantata Natalina” promovida pelo Tribunal de Justiça da Paraíba – TJPB e pela Associação das Esposas dos Magistrados e Magistradas da Paraíba – AEMP.",
       "assuntos": [],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19118",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19118/lei_14.659.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19118",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -110,11 +110,11 @@
       "assuntos": [
         "60"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19117",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19117/lei_14.658.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19117",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -128,11 +128,11 @@
       "assuntos": [
         "28"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19116",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19116/lei_14.657.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19116",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -543,11 +543,11 @@
         "25",
         "159"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19080",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19080/lei_14.635.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19080",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -562,11 +562,11 @@
         "27",
         "43"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19079",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19079/lei_14.634.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19079",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -581,11 +581,11 @@
         "27",
         "159"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19078",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19078/lei_14.633.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19078",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -599,11 +599,11 @@
       "assuntos": [
         "43"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19077",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19077/lei_14.632.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19077",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -617,11 +617,11 @@
       "assuntos": [
         "43"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19076",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19076/lei_14.631.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19076",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -635,11 +635,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19075",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19075/lei_14.630.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19075",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -653,11 +653,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19074",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19074/lei_14.629.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19074",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -671,11 +671,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19073",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19073/lei_14.628.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19073",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -689,11 +689,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19072",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19072/lei_14.627.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19072",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -707,11 +707,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19071",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19071/lei_14.626.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19071",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -725,11 +725,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19070",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19070/lei_14.625.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19070",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -743,11 +743,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19069",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19069/lei_14.624.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19069",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -761,11 +761,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19068",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19068/lei_14.623.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19068",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -779,11 +779,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19067",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19067/lei_14.622.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19067",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -797,11 +797,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19066",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19066/lei_14.621.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19066",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -815,11 +815,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19065",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19065/lei_14.620.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19065",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -833,11 +833,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19064",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19064/lei_14.619.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19064",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -851,11 +851,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19063",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19063/lei_14.618.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19063",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -869,11 +869,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19062",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19062/lei_14.617.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19062",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -887,11 +887,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19061",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19061/lei_14.616.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19061",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -905,11 +905,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19060",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19060/lei_14.615.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19060",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -923,11 +923,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19059",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19059/lei_14.614.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19059",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -941,11 +941,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19058",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19058/lei_14.613.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19058",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -959,11 +959,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19057",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19057/lei_14.612.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19057",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -973,15 +973,15 @@
       "numero": "14611",
       "ano": "2026",
       "data": "2026-07-06",
-      "ementa": "Reconhece de Utilidade Pública a Associação dos Assentados da Reforma Agrária e da Agricultura Familiar do Assentamento Paulo Freire I – Mandacaru, localizada no Município de Algodão de Jandaíra, neste Estado.",
+      "ementa": "Reconhece de Utilidade Pública a Associação dos Assentados daReforma Agrária e da Agricultura Familiar do Assentamento Paulo Freire I – Mandacaru, localizada no Município de Algodão de Jandaíra, neste Estado.",
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19056",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19056/lei_14.611.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19056",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -995,11 +995,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19055",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19055/lei_14.610.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19055",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -1013,11 +1013,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19054",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19054/lei_14.609.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19054",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -1031,11 +1031,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19053",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19053/lei_14.608.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19053",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -1049,11 +1049,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19052",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19052/lei_14.607.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19052",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -1067,11 +1067,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19051",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19051/lei_14.606.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19051",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -1086,11 +1086,11 @@
         "160",
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19050",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19050/lei_14.605.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19050",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -1969,11 +1969,11 @@
         "76",
         "79"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19000",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19000/lei_14.558.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19000",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -3320,11 +3320,11 @@
         "25",
         "159"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/18881",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18881/lei_14.485.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/18881",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -3341,11 +3341,11 @@
         "33",
         "160"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/18880",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18880/lei_14.484.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/18880",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -8577,11 +8577,11 @@
       "assuntos": [
         "65"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19012",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19012/lc_225.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19012",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -8596,11 +8596,11 @@
         "69",
         "53"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/18999",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18999/lc_224.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/18999",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -119511,7 +119511,7 @@
         "1",
         "73"
       ],
-      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2008/9010/9010_texto_integral.pdf",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2008/9010/lei_8.613.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/9010",
       "url_lexml": "",
       "texto_direto": false,
@@ -149948,6 +149948,24 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
+      "id": "sapl-pb-6860",
+      "titulo": "Lei Complementar nº 7069/2002",
+      "tipo": "Lei Complementar",
+      "numero": "7069",
+      "ano": "2002",
+      "data": "2002-04-12",
+      "ementa": "INSTITUI O SISTEMA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - SEVISA-PB, CRIA A AGÊNCIA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - AGEVISA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "1"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2002/6860/6860_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/6860",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
       "id": "sapl-pb-8265",
       "titulo": "Lei Ordinária nº 7069/2002",
       "tipo": "Lei Ordinária",
@@ -149961,24 +149979,6 @@
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2002/8265/8265_texto_integral.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/8265",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
-      "id": "sapl-pb-6860",
-      "titulo": "Lei Complementar nº 7069/2002",
-      "tipo": "Lei Complementar",
-      "numero": "7069",
-      "ano": "2002",
-      "data": "2002-04-12",
-      "ementa": "INSTITUI O SISTEMA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - SEVISA-PB, CRIA A AGÊNCIA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - AGEVISA, E DÁ OUTRAS PROVIDÊNCIAS.",
-      "assuntos": [
-        "1"
-      ],
-      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2002/6860/6860_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.pb.leg.br/norma/6860",
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,
@@ -207809,24 +207809,6 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-pb-3571",
-      "titulo": "Lei Complementar nº 4096/1979",
-      "tipo": "Lei Complementar",
-      "numero": "4096",
-      "ano": "1979",
-      "data": "1979-09-21",
-      "ementa": "AUTORIZA A CRIAÇÃO DE BIBLIOTECAS ESCOLARES E DÁ OUTRAS PROVIDÊNCIAS.",
-      "assuntos": [
-        "1"
-      ],
-      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/1979/3571/3571_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.pb.leg.br/norma/3571",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
       "id": "sapl-pb-8279",
       "titulo": "Lei Ordinária nº 4096/1979",
       "tipo": "Lei Ordinária",
@@ -207843,6 +207825,24 @@
       "url_lexml": "",
       "texto_direto": true,
       "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-3571",
+      "titulo": "Lei Complementar nº 4096/1979",
+      "tipo": "Lei Complementar",
+      "numero": "4096",
+      "ano": "1979",
+      "data": "1979-09-21",
+      "ementa": "AUTORIZA A CRIAÇÃO DE BIBLIOTECAS ESCOLARES E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "1"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/1979/3571/3571_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/3571",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
