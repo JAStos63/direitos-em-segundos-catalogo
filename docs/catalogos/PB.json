@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.31",
-  "updated_at": "2026-08-31T12:36:39Z",
+  "catalog_version": "2026.09.07",
+  "updated_at": "2026-09-07T10:59:56Z",
   "uf": "PB",
   "estado": "Paraíba",
   "lexml_slug": "paraiba",
@@ -9,6 +9,24 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-pb-19132",
+      "titulo": "Lei Ordinária nº 14664/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14664",
+      "ano": "2026",
+      "data": "2026-09-02",
+      "ementa": "Denomina “Viaduto Empresário José Carlos da Silva Júnior” o viaduto integrante da obra de implantação e pavimentação do Arco Metropolitano de João Pessoa, PB-016, situado sobre a Rodovia BR230 (Km 48), e dá outras providências.",
+      "assuntos": [
+        "54"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19132/lei_14.664.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19132",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-pb-19123",
       "titulo": "Lei Ordinária nº 14663/2026",
@@ -149948,24 +149966,6 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-pb-6860",
-      "titulo": "Lei Complementar nº 7069/2002",
-      "tipo": "Lei Complementar",
-      "numero": "7069",
-      "ano": "2002",
-      "data": "2002-04-12",
-      "ementa": "INSTITUI O SISTEMA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - SEVISA-PB, CRIA A AGÊNCIA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - AGEVISA, E DÁ OUTRAS PROVIDÊNCIAS.",
-      "assuntos": [
-        "1"
-      ],
-      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2002/6860/6860_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.pb.leg.br/norma/6860",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
       "id": "sapl-pb-8265",
       "titulo": "Lei Ordinária nº 7069/2002",
       "tipo": "Lei Ordinária",
@@ -149979,6 +149979,24 @@
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2002/8265/8265_texto_integral.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/8265",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-6860",
+      "titulo": "Lei Complementar nº 7069/2002",
+      "tipo": "Lei Complementar",
+      "numero": "7069",
+      "ano": "2002",
+      "data": "2002-04-12",
+      "ementa": "INSTITUI O SISTEMA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - SEVISA-PB, CRIA A AGÊNCIA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - AGEVISA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "1"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2002/6860/6860_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/6860",
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,

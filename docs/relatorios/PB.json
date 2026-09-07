@@ -2,15 +2,15 @@
   "uf": "PB",
   "estado": "Paraíba",
   "strategy": "sapl",
-  "started_at": "2026-08-31T12:32:01Z",
+  "started_at": "2026-09-07T10:55:18Z",
   "portal": "https://sapl.al.pb.leg.br/norma/pesquisar",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-31T12:36:39Z",
-  "collected_count": 15002,
+  "finished_at": "2026-09-07T10:59:56Z",
+  "collected_count": 15003,
   "seed_count": 0,
-  "final_count": 15002,
+  "final_count": 15003,
   "minimum_expected": 100,
   "status": "atualizado",
   "direct_html_count": 22,
-  "external_document_count": 14980
+  "external_document_count": 14981
 }

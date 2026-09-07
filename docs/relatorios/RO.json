@@ -2,15 +2,15 @@
   "uf": "RO",
   "estado": "Rondônia",
   "strategy": "sapl",
-  "started_at": "2026-08-31T13:17:55Z",
+  "started_at": "2026-09-07T11:29:58Z",
   "portal": "https://sapl.al.ro.leg.br/norma/pesquisar",
   "curated_seed_count": 0,
-  "finished_at": "2026-08-31T13:20:26Z",
-  "collected_count": 7085,
+  "finished_at": "2026-09-07T11:34:17Z",
+  "collected_count": 7135,
   "seed_count": 0,
-  "final_count": 7085,
+  "final_count": 7135,
   "minimum_expected": 100,
   "status": "atualizado",
   "direct_html_count": 17,
-  "external_document_count": 7068
+  "external_document_count": 7118
 }

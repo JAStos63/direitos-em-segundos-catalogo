@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.08.31",
-  "updated_at": "2026-08-31T11:36:24Z",
+  "catalog_version": "2026.09.07",
+  "updated_at": "2026-09-07T10:15:37Z",
   "uf": "AL",
   "estado": "Alagoas",
   "lexml_slug": "alagoas",
@@ -10,16 +10,632 @@
   "minimum_expected": 100,
   "normas": [
     {
+      "id": "sapl-al-4064",
+      "titulo": "LEI ORDINARIA nº 10057/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10057",
+      "ano": "2026",
+      "data": "2026-09-01",
+      "ementa": "AUTORIZA O PODER EXECUTIVO A ABRIR, AO ORÇAMENTO VIGENTE, CRÉDITO SUPLEMENTAR EM FAVOR DA DEFENSORIA PÚBLICA GERAL DO ESTADO DE ALAGOAS, NO VALOR QUE MENCIONA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "AUTORIZA O PODER EXECUTIVO A ABRIR",
+        "AO ORÇAMENTO VIGENTE",
+        "CRÉDITO SUPLEMENTAR EM FAVOR DA DEFENSORIA PÚBLICA GERAL DO ESTADO DE ALAGOAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4064",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4064",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4063",
+      "titulo": "LEI ORDINARIA nº 10056/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10056",
+      "ano": "2026",
+      "data": "2026-09-01",
+      "ementa": "ALTERA A LEI Nº 9.146, DE 10 DE JANEIRO DE 2024, QUE DISPÕE SOBRE A PROIBIÇÃO DE FOGOS DE ARTIFÍCIO DE ESTAMPIDO NO ESTADO DE ALAGOAS.",
+      "assuntos": [
+        "ALTERA A LEI Nº 9.146",
+        "DE 10 DE JANEIRO DE 2024",
+        "QUE DISPÕE SOBRE A PROIBIÇÃO DE FOGOS DE ARTIFÍCIO DE ESTAMPIDO NO ESTADO DE ALAGOAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4063",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4063",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4059",
+      "titulo": "LEI ORDINARIA nº 10055/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10055",
+      "ano": "2026",
+      "data": "2026-09-25",
+      "ementa": "INSTITUI A POLÍTICA ESTADUAL DE PROTEÇÃO E ATENÇÃO INTEGRAL ÀS CRIANÇAS E AOS ADOLESCENTES EM ORFANDADE NO ÂMBITO DO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "INSTITUI A POLÍTICA ESTADUAL DE PROTEÇÃO E ATENÇÃO INTEGRAL ÀS CRIANÇAS E AOS ADOLESCENTES EM ORFANDADE NO ÂMBITO DO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4059/lei_no_10.055_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4059",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4058",
+      "titulo": "LEI ORDINARIA nº 10054/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10054",
+      "ano": "2026",
+      "data": "2026-09-25",
+      "ementa": "ESTABELECE DIRETRIZES SOBRE A CONSCIENTIZAÇÃO DA SÍNDROME OU TRANSTORNO DO PÂNICO NO ESTADO DE ALAGOAS.",
+      "assuntos": [
+        "10",
+        "ESTABELECE DIRETRIZES SOBRE A CONSCIENTIZAÇÃO DA SÍNDROME OU TRANSTORNO DO PÂNICO NO ESTADO DE ALAGOAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4058/lei_no_10.054_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4058",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4057",
+      "titulo": "LEI ORDINARIA nº 10053/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10053",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL O INSTITUTO NOVOS DESTINOS E DÁ OUTRAS PROVIDÊNCIAS",
+      "assuntos": [
+        "10",
+        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL O INSTITUTO NOVOS DESTINOS E DÁ OUTRAS PROVIDÊNCIAS"
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4057/lei_no_10.053_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4057",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4056",
+      "titulo": "LEI ORDINARIA nº 10052/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10052",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ACADEMIA ALAGOANA DE ODONTOLOGIA.",
+      "assuntos": [
+        "10",
+        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ACADEMIA ALAGOANA DE ODONTOLOGIA."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4056/lei_no_10.052_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4056",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4055",
+      "titulo": "LEI ORDINARIA nº 10051/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10051",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "RECONHECE COMO PATRIMÔNIO HISTÓRICO, CULTURAL E BEM IMATERIAL DO ESTADO DE ALAGOAS AS FESTIVIDADES DO CONJOAAD, NO ÂMBITO DO ESTADO.",
+      "assuntos": [
+        "10",
+        "RECONHECE COMO PATRIMÔNIO HISTÓRICO",
+        "CULTURAL E BEM IMATERIAL DO ESTADO DE ALAGOAS AS FESTIVIDADES DO CONJOAAD",
+        "NO ÂMBITO DO ESTADO."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4055",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4055",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4054",
+      "titulo": "LEI ORDINARIA nº 10050/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10050",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL O INSTITUTO VIDA NOVA, NO ÂMBITO DO ESTADO DE ALAGOAS.",
+      "assuntos": [
+        "10",
+        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL O INSTITUTO VIDA NOVA",
+        "NO ÂMBITO DO ESTADO DE ALAGOAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4054/lei_no_10.050_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4054",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4053",
+      "titulo": "LEI ORDINARIA nº 10049/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10049",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SENHOR ELIVALDO LADIMIR FLORENTINO DE OLIVEIRA.",
+      "assuntos": [
+        "10",
+        "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SENHOR ELIVALDO LADIMIR FLORENTINO DE OLIVEIRA."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4053/lei_no_10.049_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4053",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4052",
+      "titulo": "LEI ORDINARIA nº 10048/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10048",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO CAPITÃO DE FRAGATA RODRIGO RIBEIRO GONÇALVES GARCIA.",
+      "assuntos": [
+        "10",
+        "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO CAPITÃO DE FRAGATA RODRIGO RIBEIRO GONÇALVES GARCIA."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4052/lei_no_10.048_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4052",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4051",
+      "titulo": "LEI ORDINARIA nº 10047/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10047",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA A ASSOCIAÇÃO COMUNITÁRIA DOS AGRICULTORES FAMILIARES DO QUINTA DA SERRA II.",
+      "assuntos": [
+        "10",
+        "CONSIDERA DE UTILIDADE PÚBLICA A ASSOCIAÇÃO COMUNITÁRIA DOS AGRICULTORES FAMILIARES DO QUINTA DA SERRA II."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4051/lei_no_10.047_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4051",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4050",
+      "titulo": "LEI ORDINARIA nº 10046/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10046",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO 3º SARGENTO ROBERTO VENTURA DE SANTANA.",
+      "assuntos": [
+        "10",
+        "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO 3º SARGENTO ROBERTO VENTURA DE SANTANA."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4050/lei_no_10.046_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4050",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4049",
+      "titulo": "LEI ORDINARIA nº 10045/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10045",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "INSTITUI O PROGRAMA CRIANÇA ALAGOANA – CRIA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "INSTITUI O PROGRAMA CRIANÇA ALAGOANA – CRIA",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4049/lei_no_10.045_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4049",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4048",
+      "titulo": "LEI ORDINARIA nº 10044/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10044",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO MAJOR AVIADOR LEANDRO SORIANO EVANGELISTA.",
+      "assuntos": [
+        "10",
+        "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO MAJOR AVIADOR LEANDRO SORIANO EVANGELISTA."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4048/lei_no_10.044_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4048",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4047",
+      "titulo": "LEI ORDINARIA nº 10043/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10043",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO CATÓLICA DOS EMISSÁRIOS DE JESUS – ACEJ, E DÁ OUTRAS PROVIDÊNCIAS",
+      "assuntos": [
+        "10",
+        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO CATÓLICA DOS EMISSÁRIOS DE JESUS – ACEJ",
+        "E DÁ OUTRAS PROVIDÊNCIAS"
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4047",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4047",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4046",
+      "titulo": "LEI ORDINARIA nº 10042/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10042",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "INSTITUI O PROGRAMA ESTADUAL DE ESTÍMULO AO EMPREENDEDORISMO DE MÃES ATÍPICAS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "INSTITUI O PROGRAMA ESTADUAL DE ESTÍMULO AO EMPREENDEDORISMO DE MÃES ATÍPICAS E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4046/lei_no_10.042_de_25_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4046",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4045",
+      "titulo": "LEI ORDINARIA nº 10041/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10041",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "INSTITUI A POLÍTICA ESTADUAL DE APOIO AO PRIMEIRO ESTÁGIO – PAPE, NO ÂMBITO DO ESTADO DE ALAGOAS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "INSTITUI A POLÍTICA ESTADUAL DE APOIO AO PRIMEIRO ESTÁGIO – PAPE",
+        "NO ÂMBITO DO ESTADO DE ALAGOAS",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4045/lei_no_10.041_de_25_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4045",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4044",
+      "titulo": "LEI ORDINARIA nº 10040/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10040",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A FEDERAÇÃO DAS ORGANIZAÇÕES DA CULTURA POPULAR E DO ARTESANATO ALAGOANO FOCUARTE.",
+      "assuntos": [
+        "10",
+        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A FEDERAÇÃO DAS ORGANIZAÇÕES DA CULTURA POPULAR E DO ARTESANATO ALAGOANO FOCUARTE."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4044/lei_no_10.040_de_25_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4044",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4043",
+      "titulo": "LEI ORDINARIA nº 10039/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10039",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "RECONHECE COMO PATRIMÔNIO CULTURAL DE NATUREZA IMATERIAL DO ESTADUAL DE ALAGOAS, O CINE PILARENSE, DO MUNICÍPO DE PILAR, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "RECONHECE COMO PATRIMÔNIO CULTURAL DE NATUREZA IMATERIAL DO ESTADUAL DE ALAGOAS",
+        "O CINE PILARENSE",
+        "DO MUNICÍPO DE PILAR",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4043/lei_no_10.039_de_25_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4043",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4042",
+      "titulo": "LEI ORDINARIA nº 10038/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10038",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS À PESQUISADORA DOUTORA TATIANA LOBO COELHO SAMPAIO.",
+      "assuntos": [
+        "10",
+        "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS À PESQUISADORA DOUTORA TATIANA LOBO COELHO SAMPAIO."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4042/lei_no_10.038_de_25_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4042",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4041",
+      "titulo": "LEI ORDINARIA nº 10037/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10037",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "DENOMINA DE “LINDA MASCARENHAS” A ESCOLA ESTADUAL “DR. FERNANDES LIMA”, NO MUNICÍPIO DE MACEIÓ.",
+      "assuntos": [
+        "10",
+        "DENOMINA DE “LINDA MASCARENHAS” A ESCOLA ESTADUAL “DR. FERNANDES LIMA”",
+        "NO MUNICÍPIO DE MACEIÓ."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4041/lei_no_10.037_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4041",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4040",
+      "titulo": "LEI ORDINARIA nº 10036/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10036",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "DISPÕE SOBRE A PERMANÊNCIA E OBRIGATORIEDADE DO PROFISSIONAL FISIOTERAPEUTA NAS UNIDADES DE TERAPIA INTENSIVA (UTIS), ADULTO, NEONATAL E PEDIÁTRICO E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A PERMANÊNCIA E OBRIGATORIEDADE DO PROFISSIONAL FISIOTERAPEUTA NAS UNIDADES DE TERAPIA INTENSIVA (UTIS)",
+        "ADULTO",
+        "NEONATAL E PEDIÁTRICO E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4040/lei_no_10.036_de_25_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4040",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4039",
+      "titulo": "LEI ORDINARIA nº 10035/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10035",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "MENSAGEM Nº 46/2026 REFERENTE AO PROJETO DE LEI QUE \"DISPÕE SOBRE A PRESTAÇÃO VOLUNTÁRIA DE SERVIÇOS ADMINISTRATIVOS NO ÂMBITO DA POLÍCIA MILITAR DO ESTADO DE ALAGOAS - PM/AL E DO CORPO DE BOMBEIROS MILITAR DO ESTADO DE ALAGOAS - CBM/AL.\"",
+      "assuntos": [
+        "10",
+        "MENSAGEM Nº 46/2026 REFERENTE AO PROJETO DE LEI QUE \"DISPÕE SOBRE A PRESTAÇÃO VOLUNTÁRIA DE SERVIÇOS ADMINISTRATIVOS NO ÂMBITO DA POLÍCIA MILITAR DO ESTADO DE ALAGOAS - PM/AL E DO CORPO DE BOMBEIROS MILITAR DO ESTADO DE ALAGOAS - CBM/AL.\""
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4039/lei_no_10.035_de_25_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4039",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4038",
+      "titulo": "LEI ORDINARIA nº 10034/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10034",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "MENSAGEM N° 54/2026 REFERENTE AO PROJETO DE LEI QUE DISPÕE SOBRE A AUTORIZAÇÃO PARA CESSÃO GRATUITA DE USO DE BENS IMÓVEIS PERTENCENTES AO ESTADO DE ALAGOAS AO MUNICÍPIO DE UNIÃO DOS PALMARES, ALAGOAS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "MENSAGEM N° 54/2026 REFERENTE AO PROJETO DE LEI QUE DISPÕE SOBRE A AUTORIZAÇÃO PARA CESSÃO GRATUITA DE USO DE BENS IMÓVEIS PERTENCENTES AO ESTADO DE ALAGOAS AO MUNICÍPIO DE UNIÃO DOS PALMARES",
+        "ALAGOAS",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4038/lei_no_10.034_de_25_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4038",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4037",
+      "titulo": "LEI ORDINARIA nº 10033/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10033",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "MENSAGEM N° 53/2026 REFERENTE AO PROJETO DE LEI QUE DISPÕE SOBRE A AUTORIZAÇÃO PARA DOAÇÃO NÃO ONEROSA, PELO ESTADO DE ALAGOAS, DE ÁREAS LOCALIZADAS NO MUNICÍPIO DE UNIÃO DOS PALMARES AO MUNICÍPIO DE UNIÃO DOS PALMARES, PARA FINS DE DESENVOLVIMENTO SOCIAL E URBANO.",
+      "assuntos": [
+        "10",
+        "MENSAGEM N° 53/2026 REFERENTE AO PROJETO DE LEI QUE DISPÕE SOBRE A AUTORIZAÇÃO PARA DOAÇÃO NÃO ONEROSA",
+        "PELO ESTADO DE ALAGOAS",
+        "DE ÁREAS LOCALIZADAS NO MUNICÍPIO DE UNIÃO DOS PALMARES AO MUNICÍPIO DE UNIÃO DOS PALMARES",
+        "PARA FINS DE DESENVOLVIMENTO SOCIAL E URBANO."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4037/lei_no_10.033_de_25_de_agosto_de_2026_.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4037",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4036",
+      "titulo": "LEI ORDINARIA nº 10032/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10032",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA O INSTITUTO EDUCACIONAL PROFISSIONALIZANTE DA AMÉRICA - IEPA E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "CONSIDERA DE UTILIDADE PÚBLICA O INSTITUTO EDUCACIONAL PROFISSIONALIZANTE DA AMÉRICA - IEPA E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4036/lei_no_10.032_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4036",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4035",
+      "titulo": "LEI ORDINARIA nº 10031/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10031",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "INSTITUI O DIA DO MESTRE E DA MESTRA DE CAPOEIRA NO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "INSTITUI O DIA DO MESTRE E DA MESTRA DE CAPOEIRA NO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4035/lei_no_9.931_de_8_de_junho_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4035",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4034",
+      "titulo": "LEI ORDINARIA nº 10030/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10030",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "DISPÕE SOBRE A CRIAÇÃO DA ESCOLA DE TECNOLOGIA E INTELIGÊNCIA ARTIFICIAL PARA JOVENS NO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A CRIAÇÃO DA ESCOLA DE TECNOLOGIA E INTELIGÊNCIA ARTIFICIAL PARA JOVENS NO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4034/lei_no_10.030_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4034",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4033",
+      "titulo": "LEI ORDINARIA nº 10029/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10029",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "AUTORIZA O PODER EXECUTIVO DO ESTADO DE ALAGOAS A CRIAR O PROGRAMA ESTADUAL \"SISTEMINHA ALAGOANO DE PRODUÇÃO SUSTENTÁVEL\" COM BASE NO MODELO DESENVOLVIDO PELA EMBRAPA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "AUTORIZA O PODER EXECUTIVO DO ESTADO DE ALAGOAS A CRIAR O PROGRAMA ESTADUAL \"SISTEMINHA ALAGOANO DE PRODUÇÃO SUSTENTÁVEL\" COM BASE NO MODELO DESENVOLVIDO PELA EMBRAPA",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4033/lei_no_10.029_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4033",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4032",
+      "titulo": "LEI ORDINARIA nº 10028/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10028",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "DISPÕE SOBRE A OBRIGATORIEDADE DAS CONCESSIONÁRIAS DE SERVIÇOS PÚBLICOS INDIQUEM DE FORMA LEGÍVEL NOS DOCUMENTOS DE COBRANÇA DE DÍVIDA ENCAMINHADOS AO CONSUMIDOR, O NOME DADOS SOBRE O CONSUMO, VALORES, PRAZOS, CONDIÇÕES DO SERVIÇO, O ENDEREÇO E O NÚMERO DE INSCRIÇÃO NO CADASTRO DE PESSOAS FÍSICAS - CPF OU NO CADASTRO NACIONAL DE PESSOA JURÍDICA - CNPJ DO FORNECEDOR DO PRODUTO OU SERVIÇO DE FORMA SER FACILMENTE LIDO OU COMPREENDIDO.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A OBRIGATORIEDADE DAS CONCESSIONÁRIAS DE SERVIÇOS PÚBLICOS INDIQUEM DE FORMA LEGÍVEL NOS DOCUMENTOS DE COBRANÇA DE DÍVIDA ENCAMINHADOS AO CONSUMIDOR",
+        "O NOME DADOS SOBRE O CONSUMO",
+        "VALORES",
+        "PRAZOS",
+        "CONDIÇÕES DO SERVIÇO",
+        "O ENDEREÇO E O NÚMERO DE INSCRIÇÃO NO CADASTRO DE PESSOAS FÍSICAS - CPF OU NO CADASTRO NACIONAL DE PESSOA JURÍDICA - CNPJ DO FORNECEDOR DO PRODUTO OU SERVIÇO DE FORMA SER FACILMENTE LIDO OU COMPREENDIDO."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4032/lei_no_10.028_de_25_de_agosto_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4032",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4031",
+      "titulo": "LEI ORDINARIA nº 10027/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10027",
+      "ano": "2026",
+      "data": "2026-08-25",
+      "ementa": "AUTORIZA A CRIAÇÃO DO PROGRAMA CUIDANDO DE QUEM CUIDA DA MENTE, NO ÂMBITO DO ESTADO DE ALAGOAS.",
+      "assuntos": [
+        "10",
+        "AUTORIZA A CRIAÇÃO DO PROGRAMA CUIDANDO DE QUEM CUIDA DA MENTE",
+        "NO ÂMBITO DO ESTADO DE ALAGOAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4031/lei_no_10.027_de_25_de_agosto_de_2026_1.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4031",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
       "id": "sapl-al-4030",
       "titulo": "LEI ORDINARIA nº 10026/2026",
       "tipo": "Lei Ordinária",
       "numero": "10026",
       "ano": "2026",
       "data": "2026-08-25",
-      "ementa": "ACRESCENTA PARÁGRAFO ÚNICO AO ART. 2º DA LEI Nº 9.682 DE 14 DE OUTUBRO DE 2025.",
+      "ementa": "ACRESCENTA PARÁGRAFO ÚNICO Á LEI 9.682/2025.",
       "assuntos": [
         "10",
-        "ACRESCENTA PARÁGRAFO ÚNICO AO ART. 2º DA LEI Nº 9.682 DE 14 DE OUTUBRO DE 2025"
+        "ACRESCENTA PARÁGRAFO ÚNICO Á LEI 9.682/2025."
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4030/lei_no_10.026_de_25_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4030",
@@ -54,10 +670,10 @@
       "numero": "10024",
       "ano": "2026",
       "data": "2026-08-25",
-      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SENADOR FLÁVIO NANTES BOLSONARO.",
+      "ementa": "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SENADOR FLÁVIO NANTES BOLSONARO.",
       "assuntos": [
         "10",
-        "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SENADOR FLÁVIO NANTES BOLSONARO."
+        "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SENADOR FLÁVIO NANTES BOLSONARO."
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4028/lei_no_10.024_de_25_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4028",
@@ -73,11 +689,10 @@
       "numero": "10023",
       "ano": "2026",
       "data": "2026-08-25",
-      "ementa": "ALTERA A LEI Nº 6.514, DE 23 DE SETEMBRO DE 2004.",
+      "ementa": "ALTERA A LEI Nº 6.514 DE 23 DE SETEMBRO DE 2004.",
       "assuntos": [
         "10",
-        "ALTERA A LEI Nº 6.514",
-        "DE 23 DE SETEMBRO DE 2004."
+        "ALTERA A LEI Nº 6.514 DE 23 DE SETEMBRO DE 2004."
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4027/lei_no_10.023_de_25_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4027",
@@ -134,10 +749,10 @@
       "numero": "10020",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO ILUSTRÍSSIMO SENHOR JÚLIO CEZAR DA SILVA.",
+      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO ILUSTRÍSSIMO SR. JÚLIO CEZAR DA SILVA.",
       "assuntos": [
         "10",
-        "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO ILUSTRÍSSIMO SENHOR JÚLIO CEZAR DA SILVA."
+        "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO ILUSTRÍSSIMO SR. JÚLIO CEZAR DA SILVA."
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4024/lei_no_10.020_de_20_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4024",
@@ -155,14 +770,13 @@
       "data": "2026-08-18",
       "ementa": "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO DR. IVALDO DA SILVA.",
       "assuntos": [
-        "10",
-        "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO DR. IVALDO DA SILVA."
+        "10"
       ],
-      "url_oficial": "https://sapl.al.al.leg.br/norma/4023",
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4023/lei_no_10.019_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4023",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -174,8 +788,7 @@
       "data": "2026-08-18",
       "ementa": "DENOMINA O CIRCUITO LEITEIRO ALAGOANO DE CIRCUITO LEITEIRO PAULO AMARAL.",
       "assuntos": [
-        "10",
-        "DENOMINA O CIRCUITO LEITEIRO ALAGOANO DE CIRCUITO LEITEIRO PAULO AMARAL."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4022/lei_no_10.018_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4022",
@@ -191,10 +804,9 @@
       "numero": "10017",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "RECONHECE AS OBRAS MUSICAIS DO CANTOR E COMPOSITOR KARA VEIA COMO PATRIMÔNIO CULTURAL IMATERIAL DO ESTADO DE ALAGOAS.",
+      "ementa": "RECONHECE AS OBRAS MUSICAIS DO CANTOR E COMPOSITOR KARA VÉIA COMO PATRIMÔNIO CULTURAL IMATERIAL DO ESTADO DE ALAGOAS.",
       "assuntos": [
-        "10",
-        "RECONHECE AS OBRAS MUSICAIS DO CANTOR E COMPOSITOR KARA VEIA COMO PATRIMÔNIO CULTURAL IMATERIAL DO ESTADO DE ALAGOAS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4021/lei_no_10.017_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4021",
@@ -212,8 +824,7 @@
       "data": "2026-08-18",
       "ementa": "INCLUI NO CALENDÁRIO OFICIAL DE EVENTOS DO ESTADO DE ALAGOAS O DIA DA TRANCISTA.",
       "assuntos": [
-        "10",
-        "INCLUI NO CALENDÁRIO OFICIAL DE EVENTOS DO ESTADO DE ALAGOAS O DIA DA TRANCISTA."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4020/lei_no_10.016_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4020",
@@ -231,8 +842,7 @@
       "data": "2026-08-18",
       "ementa": "CRIA O ÍNDICE DE AVALIAÇÃO DA QUALIDADE DO ATENDIMENTO NAS DELEGACIAS ESPECIALIZADAS EM ATENDIMENTO À MULHER E DEMAIS DELEGACIAS COMPETENTES PARA RECEBIMENTO DE DENÚNCIAS DE VIOLÊNCIA CONTRA A MULHER.",
       "assuntos": [
-        "10",
-        "CRIA O ÍNDICE DE AVALIAÇÃO DA QUALIDADE DO ATENDIMENTO NAS DELEGACIAS ESPECIALIZADAS EM ATENDIMENTO À MULHER E DEMAIS DELEGACIAS COMPETENTES PARA RECEBIMENTO DE DENÚNCIAS DE VIOLÊNCIA CONTRA A MULHER."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4019/lei_no_10.015_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4019",
@@ -267,10 +877,9 @@
       "numero": "10013",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "INSTITUI O “DIA ESTADUAL DA ASSISTÊNCIA FARMACÊUTICA” NO ÂMBITO DO ESTADO DE ALAGOAS.",
+      "ementa": "INSTITUI O ''DIA ESTADUAL DA ASSISTÊNCIA FARMACÊUTICA'' NO ÂMBITO DO ESTADO DE ALAGOAS.",
       "assuntos": [
-        "10",
-        "INSTITUI O “DIA ESTADUAL DA ASSISTÊNCIA FARMACÊUTICA” NO ÂMBITO DO ESTADO DE ALAGOAS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4017/lei_no_10.013_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4017",
@@ -286,11 +895,9 @@
       "numero": "10012",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "DISPÕE SOBRE A VALIDADE DO LAUDO MÉDICO QUE ATESTA A SÍNDROME DE FIBROMIAGIA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "ementa": "''DISPÕE SOBRE A VALIDADE DO LAUDO MÉDICO QUE ATESTA A SÍNDROME DE FIBROMIALGIA, E DÁ OUTRAS PROVIDÊNCIAS.''",
       "assuntos": [
-        "10",
-        "DISPÕE SOBRE A VALIDADE DO LAUDO MÉDICO QUE ATESTA A SÍNDROME DE FIBROMIAGIA",
-        "E DÁ OUTRAS PROVIDÊNCIAS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4016/lei_no_10.012_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4016",
@@ -306,15 +913,9 @@
       "numero": "10011",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "PROÍBE A UTILIZAÇÃO DE ANIMAIS PARA DESENVOLVIMENTO, EXPERIMENTOS E TESTES DE PRODUTOS COSMÉTICOS, HIGIENE PESSOAL, PERFUMES, LIMPEZA E SEUS COMPONENTES, NO ÂMBITO DO ESTADO DE ALAGOAS.",
+      "ementa": "PROIBE A UTILIZAÇÃO DE ANIMAIS PARA DESENVOLVIMENTO, EXPERIMENTOS E TESTES DE PRODUTOS COSMÉTICOS, HIGIENE PESSOAL, PERFUMES, LIMPEZA E SEUS COMPONENTES NO ÂMBITO DO ESTADO DE ALAGOAS.",
       "assuntos": [
-        "10",
-        "PROÍBE A UTILIZAÇÃO DE ANIMAIS PARA DESENVOLVIMENTO",
-        "EXPERIMENTOS E TESTES DE PRODUTOS COSMÉTICOS",
-        "HIGIENE PESSOAL",
-        "PERFUMES",
-        "LIMPEZA E SEUS COMPONENTES",
-        "NO ÂMBITO DO ESTADO DE ALAGOAS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4015/lei_no_10.011_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4015",
@@ -330,17 +931,15 @@
       "numero": "10010",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO DE MINI E PEQUENOS PRODUTORES RURAISDE TIMBÓ-LAGOA DO MATO, DO MUNICÍPIO DE LIMOEIRO DE ANADIA.",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL, A ASSOCIAÇÃO DE MINI E PEQUENOS PRODUTORES RURAIS DE TIMBÓ-LAGOA DO MATO DO MUNICÍPIO DE LIMOEIRO DE ANADIA.",
       "assuntos": [
-        "10",
-        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO DE MINI E PEQUENOS PRODUTORES RURAISDE TIMBÓ-LAGOA DO MATO",
-        "DO MUNICÍPIO DE LIMOEIRO DE ANADIA."
+        "10"
       ],
-      "url_oficial": "https://sapl.al.al.leg.br/norma/4014",
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4014/lei_no_10.010_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4014",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -352,8 +951,7 @@
       "data": "2026-08-18",
       "ementa": "DISPÕE SOBRE A CAPACITAÇÃO ESCOLAR DE CRIANÇAS E ADOLESCENTES PARA IDENTIFICAÇÃO E PREVENÇÃO DE SITUAÇÕES DE VIOLÊNCIA INTRAFAMILIAR E ABUSO SEXUAL E DÁ OUTRAS PROVIDÊNCIAS.",
       "assuntos": [
-        "10",
-        "DISPÕE SOBRE A CAPACITAÇÃO ESCOLAR DE CRIANÇAS E ADOLESCENTES PARA IDENTIFICAÇÃO E PREVENÇÃO DE SITUAÇÕES DE VIOLÊNCIA INTRAFAMILIAR E ABUSO SEXUAL E DÁ OUTRAS PROVIDÊNCIAS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4013/lei_no_10.009_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4013",
@@ -369,10 +967,9 @@
       "numero": "10008",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL À ASSOCIAÇÃO DO POVO DE CACIMBINHAS/AL.",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA À ASSOCIAÇÃO DO POVO DE CACIMBINHAS.",
       "assuntos": [
-        "10",
-        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL À ASSOCIAÇÃO DO POVO DE CACIMBINHAS/AL."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4012/lei_no_10.008_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4012",
@@ -390,8 +987,7 @@
       "data": "2026-08-18",
       "ementa": "INSTITUI A POLÍTICA ESTADUAL DE PROTEÇÃO E ATENÇÃO ÀS MÃES ATÍPICAS E A SEMANA ESTADUAL DAS MÃES ATÍPICAS NO ESTADO DE ALAGOAS.",
       "assuntos": [
-        "10",
-        "INSTITUI A POLÍTICA ESTADUAL DE PROTEÇÃO E ATENÇÃO ÀS MÃES ATÍPICAS E A SEMANA ESTADUAL DAS MÃES ATÍPICAS NO ESTADO DE ALAGOAS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4011/lei_no_10.007_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4011",
@@ -407,13 +1003,9 @@
       "numero": "10006",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "ASSEGURA O DIREITO AO ATENDIMENTO PSICOSSOCIAL PRIORITÁRIO, NA REDE ESTADUAL DE SAÚDE PÚBLICA, A MÃES E PAIS QUE SE DEDICAM INTEGRALMENTE AO CUIDADO DE FILHOS COM TRANSTORNO DO ESPECTRO AUTISTA – TEA, NO ESTADO DE ALAGOAS.",
+      "ementa": "INSTITUI A POLÍTICA ESTADUAL DE PROTEÇÃO E ATENÇÃO ÀS MÃES ATÍPICAS E A SEMANA ESTADUAL DAS MÃES ATÍPICAS NO ESTADO DE ALAGOAS.",
       "assuntos": [
-        "10",
-        "ASSEGURA O DIREITO AO ATENDIMENTO PSICOSSOCIAL PRIORITÁRIO",
-        "NA REDE ESTADUAL DE SAÚDE PÚBLICA",
-        "A MÃES E PAIS QUE SE DEDICAM INTEGRALMENTE AO CUIDADO DE FILHOS COM TRANSTORNO DO ESPECTRO AUTISTA – TEA",
-        "NO ESTADO DE ALAGOAS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4010/lei_no_10.006_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4010",
@@ -431,9 +1023,7 @@
       "data": "2026-08-18",
       "ementa": "INSTITUI E DEFINE AS DIRETRIZES PARA A POLÍTICA ESTADUAL DE PREVENÇÃO AO ABANDONO E EVASÃO ESCOLAR, E DÁ OUTRAS PROVIDÊNCIAS.",
       "assuntos": [
-        "10",
-        "INSTITUI E DEFINE AS DIRETRIZES PARA A POLÍTICA ESTADUAL DE PREVENÇÃO AO ABANDONO E EVASÃO ESCOLAR",
-        "E DÁ OUTRAS PROVIDÊNCIAS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4009/lei_no_10.005_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4009",
@@ -449,12 +1039,11 @@
       "numero": "10004",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "INTEGRAL À SAÚDE DA MULHER COM ENDOMETRIOSE.",
+      "ementa": "LEI DE ATENÇÃO INTEGRAL À SAÚDE DA MULHER COM ENDOMETRIOSE.",
       "assuntos": [
-        "10",
-        "INTEGRAL À SAÚDE DA MULHER COM ENDOMETRIOSE."
+        "10"
       ],
-      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4008/lei_no_10.004_de_18_de_agosto_de_2026.pdf",
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4008/lei_no_10.004_de_18_de_agosto_de_2026_republicada.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4008",
       "url_lexml": "",
       "texto_direto": false,
@@ -470,8 +1059,7 @@
       "data": "2026-08-18",
       "ementa": "DISPÕE SOBRE A DISPONIBILIZAÇÃO DE AVALIAÇÃO CARDIOCIRCULATÓRIA ÀS GESTANTES COMO PARTE DO ACOMPANHAMENTO PRÉ-NATAL EM TODAS AS REGIÕES DE SAÚDE DO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS.",
       "assuntos": [
-        "10",
-        "DISPÕE SOBRE A DISPONIBILIZAÇÃO DE AVALIAÇÃO CARDIOCIRCULATÓRIA ÀS GESTANTES COMO PARTE DO ACOMPANHAMENTO PRÉ-NATAL EM TODAS AS REGIÕES DE SAÚDE DO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4007/lei_no_10.003_de_18_de_agosto_de_2026_.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4007",
@@ -487,10 +1075,8 @@
       "numero": "10002",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "DISPÕE SOBRE A PUNIÇÃO DE TORCEDORES ENVOLVIDOS EM BRIGAS DE TORCIDA E DÁ OUTRAS PROVIDENCIAS.",
-      "assuntos": [
-        "DISPÕE SOBRE A PUNIÇÃO DE TORCEDORES ENVOLVIDOS EM BRIGAS DE TORCIDA E DÁ OUTRAS PROVIDENCIAS."
-      ],
+      "ementa": "DISPÕE SOBRE A PUNIÇÃO DE TORCEDORES ENVOLVIDOS EM BRIGAS DE TORCIDA E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4006/lei_no_10.002_de_18_de_agosto_de_2026_.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4006",
       "url_lexml": "",
@@ -507,9 +1093,7 @@
       "data": "2026-08-18",
       "ementa": "INSTITUI O \"PROGRAMA TUDO NO SEU TEMPO\", COM AFINALIDADE DE CONSCIENTIZAR A POPULAÇÃO ADOLESCENTE SOBRE OS RISCOS DA GRAVIDEZ PRECOCE.",
       "assuntos": [
-        "10",
-        "INSTITUI O \"PROGRAMA TUDO NO SEU TEMPO\"",
-        "COM AFINALIDADE DE CONSCIENTIZAR A POPULAÇÃO ADOLESCENTE SOBRE OS RISCOS DA GRAVIDEZ PRECOCE."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4005/lei_no_10.001_de_18_de_agosto_de_2026_.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4005",
@@ -525,10 +1109,9 @@
       "numero": "10000",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "INSTITUI A SEMANA DA CIÊNCIA E TECNOLOGIA NA INFÂNCIA.",
+      "ementa": "INSTITUI A SEMANA DA CIÊNCIA E TECNOLOGIA NA INFÂNCIA",
       "assuntos": [
-        "10",
-        "INSTITUI A SEMANA DA CIÊNCIA E TECNOLOGIA NA INFÂNCIA."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4004/lei_no_10.000_de_18_de_agosto_de_2026_.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4004",
@@ -544,10 +1127,9 @@
       "numero": "9999",
       "ano": "2026",
       "data": "2026-08-18",
-      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO COMUNITÁRIA GRACILIANO RAMOS.",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA A ASSOCIAÇÃO COMUNITÁRIA GRACILIANO RAMOS.",
       "assuntos": [
-        "10",
-        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO COMUNITÁRIA GRACILIANO RAMOS."
+        "10"
       ],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4003/lei_no_9.999_de_18_de_agosto_de_2026.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/4003",
@@ -55752,22 +56334,6 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-al-600",
-      "titulo": "LEI ORDINARIA nº 9/2003",
-      "tipo": "Lei Ordinária",
-      "numero": "9",
-      "ano": "2003",
-      "data": "2003-02-14",
-      "ementa": "DISPÕE SOBRE A ESTRUTURA DO GABINETE CIVIL DO GOVERNADOR E DÁ OUTRAS PROVIDÊNCIAS.",
-      "assuntos": [],
-      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2003/600/600_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.al.leg.br/norma/600",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
       "id": "sapl-al-615",
       "titulo": "LEI DELEGADA nº 9/2003",
       "tipo": "Lei Delegada",
@@ -55778,6 +56344,22 @@
       "assuntos": [],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2003/615/615_texto_integral.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/615",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-600",
+      "titulo": "LEI ORDINARIA nº 9/2003",
+      "tipo": "Lei Ordinária",
+      "numero": "9",
+      "ano": "2003",
+      "data": "2003-02-14",
+      "ementa": "DISPÕE SOBRE A ESTRUTURA DO GABINETE CIVIL DO GOVERNADOR E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2003/600/600_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/600",
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,
