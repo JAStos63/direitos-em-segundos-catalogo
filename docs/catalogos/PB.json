@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.09.07",
-  "updated_at": "2026-09-07T10:59:56Z",
+  "catalog_version": "2026.09.14",
+  "updated_at": "2026-09-14T11:28:24Z",
   "uf": "PB",
   "estado": "Paraíba",
   "lexml_slug": "paraiba",
@@ -7227,7 +7227,7 @@
       "numero": "14277",
       "ano": "2026",
       "data": "2026-03-09",
-      "ementa": "Institui o Programa Cuidando de Quem Cuida para garantir atenção aos cuidadores exclusivos de pessoas com defi ciência e/ou idosos dependentes no Estado da Paraíba, e dá outras providências.",
+      "ementa": "Institui o Programa Cuidando de Quem Cuida para garantir atenção aos cuidadores exclusivos de pessoas com deficiência e/ou idosos dependentes no Estado da Paraíba, e dá outras providências.",
       "assuntos": [
         "26",
         "16",
@@ -7861,6 +7861,7 @@
       "data": "2026-01-12",
       "ementa": "Reconhece de Utilidade Pública a Associação de Pais e Amigos do Autista de Cajazeiras e Região Circunvizinhas - APAA, localizada no município de Cajazeiras, neste Estado.",
       "assuntos": [
+        "160",
         "37"
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18510/lei_14.243.pdf",
@@ -8221,6 +8222,7 @@
       "data": "2026-01-12",
       "ementa": "Reconhece de Utilidade Pública a Associação com Autistas de Catolé do Rocha - AAC, localizada no município de Catolé do Rocha, neste Estado.",
       "assuntos": [
+        "160",
         "37"
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18490/lei_14.223.pdf",
@@ -11023,6 +11025,7 @@
       "data": "2025-11-10",
       "ementa": "Institui a Política Estadual de Enfrentamento à Violência, Assédio e Discriminação no Estado da Paraíba.",
       "assuntos": [
+        "33",
         "18"
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2025/18294/14081.pdf",
@@ -13744,6 +13747,7 @@
       "data": "2025-09-25",
       "ementa": "Reconhece de Utilidade Pública a Associação dos Pais de Autistas do Vale do Mamanguape - APAVAM, localizada no município de Mamanguape, neste Estado.",
       "assuntos": [
+        "160",
         "37"
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2025/18076/lei_13.934.pdf",
@@ -13857,7 +13861,8 @@
       "assuntos": [
         "27",
         "25",
-        "33"
+        "33",
+        "160"
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2025/18069/lei_13.928.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/18069",
@@ -21524,7 +21529,8 @@
       "ementa": "Institui o Programa Educador Social Voluntário – Amigos da Inclusão.",
       "assuntos": [
         "13",
-        "12"
+        "12",
+        "160"
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2024/17390/13530.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/17390",
@@ -149966,6 +149972,24 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
+      "id": "sapl-pb-6860",
+      "titulo": "Lei Complementar nº 7069/2002",
+      "tipo": "Lei Complementar",
+      "numero": "7069",
+      "ano": "2002",
+      "data": "2002-04-12",
+      "ementa": "INSTITUI O SISTEMA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - SEVISA-PB, CRIA A AGÊNCIA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - AGEVISA, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "1"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2002/6860/6860_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/6860",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
       "id": "sapl-pb-8265",
       "titulo": "Lei Ordinária nº 7069/2002",
       "tipo": "Lei Ordinária",
@@ -149979,24 +150003,6 @@
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2002/8265/8265_texto_integral.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/8265",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
-      "id": "sapl-pb-6860",
-      "titulo": "Lei Complementar nº 7069/2002",
-      "tipo": "Lei Complementar",
-      "numero": "7069",
-      "ano": "2002",
-      "data": "2002-04-12",
-      "ementa": "INSTITUI O SISTEMA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - SEVISA-PB, CRIA A AGÊNCIA ESTADUAL DE VIGILÂNCIA SANITÁRIA DA PARAÍBA - AGEVISA, E DÁ OUTRAS PROVIDÊNCIAS.",
-      "assuntos": [
-        "1"
-      ],
-      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2002/6860/6860_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.pb.leg.br/norma/6860",
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,

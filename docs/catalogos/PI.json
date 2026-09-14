@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.09.07",
-  "updated_at": "2026-09-07T11:26:52Z",
+  "catalog_version": "2026.09.14",
+  "updated_at": "2026-09-14T11:42:02Z",
   "uf": "PI",
   "estado": "Piauí",
   "lexml_slug": "piaui",
@@ -107773,24 +107773,6 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-pi-2957",
-      "titulo": "Lei nº 3017/1970",
-      "tipo": "Lei Ordinária",
-      "numero": "3017",
-      "ano": "1970",
-      "data": "1970-05-29",
-      "ementa": "RECONHECE DE UTILIDADE O CLUBE JUVENIL CRISTINICASTRENSE, DE CRISTINO CASTRO",
-      "assuntos": [
-        "26"
-      ],
-      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/2957/2957_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.pi.leg.br/norma/2957",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
       "id": "sapl-pi-3980",
       "titulo": "Lei Delegada nº 3017/1970",
       "tipo": "Lei Delegada",
@@ -107806,6 +107788,24 @@
       "url_lexml": "",
       "texto_direto": true,
       "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pi-2957",
+      "titulo": "Lei nº 3017/1970",
+      "tipo": "Lei Ordinária",
+      "numero": "3017",
+      "ano": "1970",
+      "data": "1970-05-29",
+      "ementa": "RECONHECE DE UTILIDADE O CLUBE JUVENIL CRISTINICASTRENSE, DE CRISTINO CASTRO",
+      "assuntos": [
+        "26"
+      ],
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/2957/2957_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/2957",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
