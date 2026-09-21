@@ -2,15 +2,15 @@
   "uf": "PI",
   "estado": "Piauí",
   "strategy": "sapl",
-  "started_at": "2026-09-14T11:40:28Z",
+  "started_at": "2026-09-21T11:47:43Z",
   "portal": "https://sapl.al.pi.leg.br/norma/pesquisar",
   "curated_seed_count": 0,
-  "finished_at": "2026-09-14T11:42:03Z",
-  "collected_count": 6024,
+  "finished_at": "2026-09-21T11:49:22Z",
+  "collected_count": 6036,
   "seed_count": 0,
-  "final_count": 6024,
+  "final_count": 6036,
   "minimum_expected": 100,
   "status": "atualizado",
   "direct_html_count": 133,
-  "external_document_count": 5891
+  "external_document_count": 5903
 }

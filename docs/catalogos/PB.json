@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.09.14",
-  "updated_at": "2026-09-14T11:28:24Z",
+  "catalog_version": "2026.09.21",
+  "updated_at": "2026-09-21T11:26:32Z",
   "uf": "PB",
   "estado": "Paraíba",
   "lexml_slug": "paraiba",
@@ -9,6 +9,289 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-pb-19157",
+      "titulo": "Lei Ordinária nº 14679/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14679",
+      "ano": "2026",
+      "data": "2026-09-16",
+      "ementa": "Altera a Lei nº 5.123, de 27 de janeiro de 1989, e a Lei nº 12.029, de 27 de agosto de 2021, e dá outras providências.",
+      "assuntos": [
+        "73"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19157/lei_14.679.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19157",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19155",
+      "titulo": "Lei Ordinária nº 14678/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14678",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Reconhece como Patrimônio Material, Turístico, Cultural e Econômico do Estado da Paraíba o Shopping Rural Tambaba, localizado no município do Conde, neste Estado.",
+      "assuntos": [
+        "17",
+        "30"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19155",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19155",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19154",
+      "titulo": "Lei Ordinária nº 14677/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14677",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Institui a Semana Estadual da Educação Financeira no Estado da Paraíba.",
+      "assuntos": [
+        "13",
+        "12"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19154",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19154",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19153",
+      "titulo": "Lei Ordinária nº 14676/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14676",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Altera a Lei Estadual nº 9.845, de 06 de julho de 2012, para ampliar as medidas de controle da qualidade da água de piscinas de uso público e coletivo, disciplinar a responsabilidade técnica pelo tratamento da água, estabelecer normas de prevenção de acidentes químicos, e dá outras providências.",
+      "assuntos": [
+        "15",
+        "16",
+        "14"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19153",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19153",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19152",
+      "titulo": "Lei Ordinária nº 14675/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14675",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Institui a Feira Estadual de Economia Solidária – ECOSOL e as Feiras Regionais de Economia Solidária, Agricultura Familiar e Potencialidades de Negócios das Regiões do Estado da Paraíba, e dá outras providências.",
+      "assuntos": [
+        "19"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19152",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19152",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19151",
+      "titulo": "Lei Ordinária nº 14674/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14674",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Institui o Documento de Identificação da Mãe Atípica e estabelece diretrizes para seu reconhecimento e utilização, no âmbito do Estado da Paraíba.",
+      "assuntos": [
+        "25",
+        "33",
+        "160"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19151",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19151",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19150",
+      "titulo": "Lei Ordinária nº 14673/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14673",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Institui o Programa Paraíba em Dia, destinado à regularização de débitos de veículos automotores relativos ao IPVA, taxa de licenciamento e infrações de trânsito, no âmbito do Estado da Paraíba, e dá outras providências.",
+      "assuntos": [
+        "50",
+        "73"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19150",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19150",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19149",
+      "titulo": "Lei Ordinária nº 14672/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14672",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Reconhece como Patrimônio Cultural Imaterial do Estado da Paraíba a Marcha pela Vida das Mulheres e pela Agroecologia.",
+      "assuntos": [
+        "19",
+        "17",
+        "25",
+        "159"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19149",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19149",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19148",
+      "titulo": "Lei Ordinária nº 14671/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14671",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Institui a Política Estadual de Combate à Evasão Escolar de Mães e Pais Adolescentes.",
+      "assuntos": [
+        "27",
+        "13",
+        "12"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19148",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19148",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19147",
+      "titulo": "Lei Ordinária nº 14670/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14670",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Inclui, no Calendário Oficial de Eventos do Estado da Paraíba, o Circuito da Engenharia do Crea-PB, evento esportivo e institucional anual de valorização da engenharia e da saúde.",
+      "assuntos": [],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19147",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19147",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19146",
+      "titulo": "Lei Ordinária nº 14669/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14669",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Inclui, no Calendário Oficial do Estado da Paraíba, a Expo Abacaxi do município de Itapororoca e dá outras providências.",
+      "assuntos": [
+        "19",
+        "17"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19146",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19146",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19145",
+      "titulo": "Lei Ordinária nº 14668/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14668",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Concede o Título de Cidadão Paraibano ao Doutor José de Ribamar Oliveira Filho.",
+      "assuntos": [
+        "76",
+        "79"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19145",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19145",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19144",
+      "titulo": "Lei Ordinária nº 14667/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14667",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Concede o Título de Cidadão Paraibano ao Senhor Damião Júnio Gonçalves Araújo.",
+      "assuntos": [
+        "76",
+        "79"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19144",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19144",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19143",
+      "titulo": "Lei Ordinária nº 14666/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14666",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Concede o Título de Cidadã Paraibana à Excelentíssima Senhora Juíza do Trabalho Veruska Santana Sousa de Sá.",
+      "assuntos": [
+        "76"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19143",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19143",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19142",
+      "titulo": "Lei Ordinária nº 14665/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14665",
+      "ano": "2026",
+      "data": "2026-09-11",
+      "ementa": "Dispõe sobre a Política Estadual da Pessoa Idosa e o Conselho Estadual de Defesa dos Direitos da Pessoa Idosa; cria o Fundo Estadual para Defesa dos Direitos da Pessoa Idosa (FUNEPI); e revoga a Lei nº 8.846, de 25 de junho de 2009.",
+      "assuntos": [
+        "26"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19142",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19142",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-pb-19132",
       "titulo": "Lei Ordinária nº 14664/2026",
@@ -8709,6 +8992,24 @@
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18472/lei_lc_219.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/18472",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19156",
+      "titulo": "Emenda Constitucional nº 62/2026",
+      "tipo": "Emenda Constitucional",
+      "numero": "62",
+      "ano": "2026",
+      "data": "2026-09-15",
+      "ementa": "Acrescenta os parágrafos 7º, 8º e 9º ao art. 156 da Constituição do Estado da Paraíba e o art. 21-A ao Ato das Disposições Constitucionais Transitórias da Constituição Estadual.",
+      "assuntos": [
+        "50"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19156/ec_62.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19156",
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,
