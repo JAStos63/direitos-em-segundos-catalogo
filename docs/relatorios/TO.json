@@ -2,15 +2,15 @@
   "uf": "TO",
   "estado": "Tocantins",
   "strategy": "sapl",
-  "started_at": "2026-09-21T12:23:26Z",
+  "started_at": "2026-09-28T13:23:36Z",
   "portal": "https://sapl.al.to.leg.br/norma/pesquisar",
   "curated_seed_count": 0,
-  "finished_at": "2026-09-21T12:24:02Z",
-  "collected_count": 1372,
+  "finished_at": "2026-09-28T13:24:03Z",
+  "collected_count": 1375,
   "seed_count": 0,
-  "final_count": 1372,
+  "final_count": 1375,
   "minimum_expected": 100,
   "status": "atualizado",
   "direct_html_count": 119,
-  "external_document_count": 1253
+  "external_document_count": 1256
 }

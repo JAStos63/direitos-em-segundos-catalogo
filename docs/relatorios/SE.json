@@ -2,15 +2,11 @@
   "uf": "SE",
   "estado": "Sergipe",
   "strategy": "generic",
-  "started_at": "2026-09-21T12:22:02Z",
+  "started_at": "2026-09-28T13:17:58Z",
   "portal": "https://aleselegis.al.se.leg.br/",
   "curated_seed_count": 172,
-  "finished_at": "2026-09-21T12:48:57Z",
-  "collected_count": 0,
-  "seed_count": 172,
-  "final_count": 172,
-  "minimum_expected": 100,
-  "status": "incompleto",
-  "direct_html_count": 159,
-  "external_document_count": 13
+  "finished_at": "2026-09-28T13:45:16Z",
+  "status": "erro",
+  "error": "RuntimeError('nenhum endereço de norma descoberto')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 92, in main\n    collected = connector.collect(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/generic.py\", line 76, in collect\n    raise RuntimeError(\"nenhum endereço de norma descoberto\")\nRuntimeError: nenhum endereço de norma descoberto\n"
 }
