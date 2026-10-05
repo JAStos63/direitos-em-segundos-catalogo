@@ -2,15 +2,15 @@
   "uf": "RR",
   "estado": "Roraima",
   "strategy": "generic",
-  "started_at": "2026-09-28T13:16:53Z",
+  "started_at": "2026-10-05T13:40:35Z",
   "portal": "https://al.rr.leg.br/",
   "curated_seed_count": 0,
-  "finished_at": "2026-09-28T13:23:21Z",
-  "collected_count": 1392,
+  "finished_at": "2026-10-05T13:51:17Z",
+  "collected_count": 1393,
   "seed_count": 0,
-  "final_count": 1392,
+  "final_count": 1393,
   "minimum_expected": 100,
   "status": "atualizado",
   "direct_html_count": 0,
-  "external_document_count": 1392
+  "external_document_count": 1393
 }

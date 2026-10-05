@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.09.28",
-  "updated_at": "2026-09-28T12:46:02Z",
+  "catalog_version": "2026.10.05",
+  "updated_at": "2026-10-05T13:18:29Z",
   "uf": "PI",
   "estado": "Piauí",
   "lexml_slug": "piaui",
@@ -107986,6 +107986,24 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
+      "id": "sapl-pi-3981",
+      "titulo": "Lei Delegada nº 3018/1970",
+      "tipo": "Lei Delegada",
+      "numero": "3018",
+      "ano": "1970",
+      "data": "1970-05-29",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA, A SOCIEDADE PIAUIENSE DE GINECOLOGIA E OBSTETRÍCIA, DE TERESINA.",
+      "assuntos": [
+        "26"
+      ],
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/3981/3981_texto_integral.tiff",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/3981",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
       "id": "sapl-pi-2958",
       "titulo": "Lei nº 3018/1970",
       "tipo": "Lei Ordinária",
@@ -108003,24 +108021,6 @@
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
-      "id": "sapl-pi-3981",
-      "titulo": "Lei Delegada nº 3018/1970",
-      "tipo": "Lei Delegada",
-      "numero": "3018",
-      "ano": "1970",
-      "data": "1970-05-29",
-      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA, A SOCIEDADE PIAUIENSE DE GINECOLOGIA E OBSTETRÍCIA, DE TERESINA.",
-      "assuntos": [
-        "26"
-      ],
-      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/3981/3981_texto_integral.tiff",
-      "url_detalhe": "https://sapl.al.pi.leg.br/norma/3981",
-      "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {

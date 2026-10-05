@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.09.28",
-  "updated_at": "2026-09-28T12:25:49Z",
+  "catalog_version": "2026.10.05",
+  "updated_at": "2026-10-05T13:01:14Z",
   "uf": "PB",
   "estado": "Paraíba",
   "lexml_slug": "paraiba",
@@ -217,11 +217,11 @@
       "assuntos": [
         "17"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19178",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19178/lei_14.699.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19178",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -253,11 +253,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19175",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19175/lei_14.697.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19175",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -271,11 +271,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19174",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19174/lei_14.696.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19174",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -289,11 +289,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19173",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19173/lei_14.695.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19173",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -307,11 +307,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19172",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19172/lei_14.694.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19172",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -325,11 +325,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19171",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19171/lei_14.693.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19171",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -343,11 +343,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19170",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19170/lei_14.692.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19170",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -361,11 +361,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19169",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19169/lei_14.691.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19169",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -379,11 +379,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19168",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19168/lei_14.690.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19168",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -397,11 +397,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19167",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19167/lei_14.689.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19167",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -415,11 +415,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19166",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19166/lei_14.688.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19166",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -433,11 +433,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19165",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19165/lei_14.687.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19165",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -451,11 +451,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19164",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19164/lei_14.686.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19164",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -469,11 +469,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19163",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19163/lei_14.685.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19163",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -487,11 +487,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19162",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19162/lei_14.684.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19162",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -505,11 +505,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19161",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19161/lei_14.683.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19161",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -523,11 +523,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19160",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19160/lei_14.682.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19160",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -541,11 +541,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19159",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19159/lei_14.681.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19159",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -559,11 +559,11 @@
       "assuntos": [
         "37"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19158",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19158/lei_14.680.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19158",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -596,11 +596,11 @@
         "17",
         "30"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19155",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19155/lei_14.678.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19155",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -615,11 +615,11 @@
         "13",
         "12"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19154",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19154/lei_14.677.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19154",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -635,11 +635,11 @@
         "16",
         "14"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19153",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19153/lei_14.676.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19153",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -653,11 +653,11 @@
       "assuntos": [
         "19"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19152",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19152/lei_14.675.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19152",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -673,11 +673,11 @@
         "33",
         "160"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19151",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19151/lei_14.674.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19151",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -692,11 +692,11 @@
         "50",
         "73"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19150",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19150/lei_14.673.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19150",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -713,11 +713,11 @@
         "25",
         "159"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19149",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19149/lei_14.672.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19149",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -733,11 +733,11 @@
         "13",
         "12"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19148",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19148/lei_14.671.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19148",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -749,11 +749,11 @@
       "data": "2026-09-11",
       "ementa": "Inclui, no Calendário Oficial de Eventos do Estado da Paraíba, o Circuito da Engenharia do Crea-PB, evento esportivo e institucional anual de valorização da engenharia e da saúde.",
       "assuntos": [],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19147",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19147/lei_14.670.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19147",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -768,11 +768,11 @@
         "19",
         "17"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19146",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19146/lei_14.669.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19146",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -787,11 +787,11 @@
         "76",
         "79"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19145",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19145/lei_14.668.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19145",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -806,11 +806,11 @@
         "76",
         "79"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19144",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19144/lei_14.667.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19144",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -824,11 +824,11 @@
       "assuntos": [
         "76"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19143",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19143/lei_14.666.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19143",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -842,11 +842,11 @@
       "assuntos": [
         "26"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19142",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19142/lei_14.665.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19142",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
