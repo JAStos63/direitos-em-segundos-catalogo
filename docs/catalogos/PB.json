@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.10.05",
-  "updated_at": "2026-10-05T13:01:14Z",
+  "catalog_version": "2026.10.12",
+  "updated_at": "2026-10-12T14:03:16Z",
   "uf": "PB",
   "estado": "Paraíba",
   "lexml_slug": "paraiba",
@@ -9,6 +9,540 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-pb-19227",
+      "titulo": "Lei Ordinária nº 14738/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14738",
+      "ano": "2026",
+      "data": "2026-10-08",
+      "ementa": "Dá nova redação ao § 1º do art. 11 da Lei nº 10.259, de 09 de janeiro de 2014, na forma que especifica.",
+      "assuntos": [
+        "53",
+        "40"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19227",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19227",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19226",
+      "titulo": "Lei Ordinária nº 14737/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14737",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Institui a Política Estadual de Fomento à Entrada e Permanência de Mulheres Adultas e Jovens em Carreiras Científicas, no âmbito do Estado da Paraíba, e dá outras providências.",
+      "assuntos": [
+        "29",
+        "13",
+        "12",
+        "25"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19226",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19226",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19225",
+      "titulo": "Lei Ordinária nº 14736/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14736",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Institui o Estatuto do Estudante-Paciente Oncológico no Estado da Paraíba e dá outras providências.",
+      "assuntos": [
+        "13",
+        "12",
+        "14"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19225",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19225",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19224",
+      "titulo": "Lei Ordinária nº 14735/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14735",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Institui a Cartilha Digital de Direitos do Consumidor, com informações simplifi cadas e de fácil acesso sobre garantias e deveres nas relações de consumo no Estado da Paraíba.",
+      "assuntos": [
+        "35"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19224",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19224",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19223",
+      "titulo": "Lei Ordinária nº 14734/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14734",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Denomina de Nelson Lacerda Porfírio a sede da 21ª Ciretran, localizada no município de Conceição, neste Estado.",
+      "assuntos": [
+        "54"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19223",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19223",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19222",
+      "titulo": "Lei Ordinária nº 14733/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14733",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Denomina de José Martins de Sousa, popularmente conhecido como Vereador Dedé Florêncio, a Rodovia PB-374 em toda a sua extensão.",
+      "assuntos": [
+        "54"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19222",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19222",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19221",
+      "titulo": "Lei Ordinária nº 14732/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14732",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Denomina de Rodovia Poeta Augusto Dos Anjos o trecho da Rodovia Estadual PB-067, que interliga o Município de Alagoa Grande e a Rodovia PB-063 no Município de Mulungu, neste Estado.",
+      "assuntos": [
+        "54"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19221",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19221",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19220",
+      "titulo": "Lei Ordinária nº 14731/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14731",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Denomina de Rodovia Ministro José Américo de Almeida o trecho da Rodovia Estadual PB-097, que interliga o município de Alagoa Nova ao entroncamento com a BR-104.",
+      "assuntos": [
+        "54"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19220",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19220",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19219",
+      "titulo": "Lei Ordinária nº 14730/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14730",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Denomina de Prefeito João Deon Benício Diniz a Rodovia Estadual que interliga o Município de Conceição, no Estado da Paraíba, à divisa com o Estado de Pernambuco, passando pelas localidades de Maxixe, Cabaças dos Xavier e Serra Pintada.",
+      "assuntos": [
+        "54"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19219",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19219",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19218",
+      "titulo": "Lei Ordinária nº 14729/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14729",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Denomina de Osvaldo Aires de Queiroz Filho o ginásio de esportes da Escola Estadual de Ensino Fundamental e Médio Jairo Aires Caluete, localizado no Município de Parari, neste Estado.",
+      "assuntos": [
+        "54"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19218",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19218",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19217",
+      "titulo": "Lei Ordinária nº 14728/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14728",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Denomina de “Viaduto João Juracy Palhano Freire” o viaduto construído sobre a Rodovia BR-104, integrante do Arco Metropolitano Pedro Cavalcanti Freire, no Município de Campina Grande, e dá outras providências.",
+      "assuntos": [
+        "54"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19217",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19217",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19216",
+      "titulo": "Lei Ordinária nº 14727/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14727",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Institui o Dia Estadual de Conscientização da Síndrome de Angelman no Estado da Paraíba, e dá outras providências.",
+      "assuntos": [
+        "38",
+        "14"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19216",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19216",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19215",
+      "titulo": "Lei Ordinária nº 14726/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14726",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Concede o Título de Cidadão Paraibano ao Doutor Eduardo Henrique de Moura Ramos.",
+      "assuntos": [
+        "76",
+        "79"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19215",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19215",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19214",
+      "titulo": "Lei Ordinária nº 14725/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14725",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Dispõe sobre a estadualização da estrada que liga o distrito de Leal-lândia ao município de Mulungu, via Cachoeirinha, neste Estado.",
+      "assuntos": [
+        "21"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19214/lei_14.725.ecila.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19214",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19213",
+      "titulo": "Lei Ordinária nº 14724/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14724",
+      "ano": "2026",
+      "data": "2026-10-07",
+      "ementa": "Institui a Sala Acolher nos hospitais públicos e delegacias do Estado da Paraíba, destinada ao atendimento humanizado, sigiloso e especializado de mulheres e crianças vítimas de violência.",
+      "assuntos": [
+        "27",
+        "25",
+        "14",
+        "18"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19213/lei_14.724.ecila.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19213",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19210",
+      "titulo": "Lei Ordinária nº 14723/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14723",
+      "ano": "2026",
+      "data": "2026-10-02",
+      "ementa": "Autoriza o Tribunal de Justiça do Estado da Paraíba a desafetar e a doar, com dispensa de licitação, ao Município de Taperoá, o imóvel que especifi ca.",
+      "assuntos": [
+        "56",
+        "65"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19210",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19210",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19209",
+      "titulo": "Lei Ordinária nº 14722/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14722",
+      "ano": "2026",
+      "data": "2026-10-02",
+      "ementa": "Dispõe sobre a compensação de créditos consubstanciados em precatórios com débitos inscritos em dívida ativa do Estado da Paraíba, e dá outras providências.",
+      "assuntos": [
+        "43"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19209",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19209",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19208",
+      "titulo": "Lei Ordinária nº 14721/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14721",
+      "ano": "2026",
+      "data": "2026-10-02",
+      "ementa": "Autoriza a abertura de Crédito Especial ao Orçamento vigente, e dá outras providências.",
+      "assuntos": [
+        "43"
+      ],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19208/lei_14.721.ecila.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19208",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19207",
+      "titulo": "Lei Ordinária nº 14720/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14720",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública a Associação Bem Maior Sertão, localizada no município de Piancó, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19207",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19207",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19206",
+      "titulo": "Lei Ordinária nº 14719/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14719",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública a Associação Esportiva Cultural e Recreativa - SERTECON, localizada no município de Patos, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19206",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19206",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19205",
+      "titulo": "Lei Ordinária nº 14718/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14718",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública a Associação dos Criadores de Caprinos e Ovinos de Santo André – ACRICOSA, localizada no município de Santo André, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19205",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19205",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19204",
+      "titulo": "Lei Ordinária nº 14717/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14717",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública a Associação de Pesca Desportiva do Vale do Mamanguape - APEVAM, localizada no município de Mamanguape, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19204",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19204",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19203",
+      "titulo": "Lei Ordinária nº 14716/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14716",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública a Associação dos Trabalhadores Rurais de Sede Velha, localizada no município de Pitimbu, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19203",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19203",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19202",
+      "titulo": "Lei Ordinária nº 14715/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14715",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública a Federação de Esportes Aquáticos da Paraíba - FEAP, localizada no município de João Pessoa, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19202",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19202",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19201",
+      "titulo": "Lei Ordinária nº 14714/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14714",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública o Instituto Médico Margaridda Leite Melo – IMMA, localizado no município de João Pessoa, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19201",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19201",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19200",
+      "titulo": "Lei Ordinária nº 14713/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14713",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública a Associação de Cultura, Educação e Arte Bushido - ACEAB, localizada no município de João Pessoa, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19200",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19200",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19199",
+      "titulo": "Lei Ordinária nº 14712/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14712",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública a Colônia de Pescadores e Aquicultores Z-115 de Campina Grande – PB (José Rodrigues), localizada no Município de Campina Grande, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19199",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19199",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19198",
+      "titulo": "Lei Ordinária nº 14711/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14711",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Reconhece de Utilidade Pública a Colônia de Pescadores de Diamante Z-72 José Vicente dos Santos “Zé Meiota”, localizada no município de Diamante, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19198",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19198",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19197",
+      "titulo": "Lei Ordinária nº 14710/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14710",
+      "ano": "2026",
+      "data": "2026-09-30",
+      "ementa": "Altera a ementa e o art. 1º da Lei nº 10.969, de 15 de setembro de 2017, que Reconhece de Utilidade Pública a Associação Comunitária dos Pequenos Produtores Rurais de Chã de Areia, localizada no município de Pilar, neste Estado.",
+      "assuntos": [
+        "37"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19197",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19197",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-pb-19188",
       "titulo": "Lei Ordinária nº 14709/2026",
@@ -25,11 +559,11 @@
         "18",
         "159"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19188",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19188/lei_14.709.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19188",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -44,11 +578,11 @@
         "25",
         "14"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19187",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19187/lei_14.708.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19187",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -63,11 +597,11 @@
         "33",
         "14"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19186",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19186/lei_14.707.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19186",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -84,11 +618,11 @@
         "33",
         "160"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19185",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19185/lei_14.706.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19185",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -104,11 +638,11 @@
         "14",
         "160"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19184",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19184/lei_14.705.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19184",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -123,11 +657,11 @@
         "76",
         "79"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19183",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19183/lei_14.704.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19183",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -142,11 +676,11 @@
         "76",
         "79"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19182",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19182/lei_14.703.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19182",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -161,11 +695,11 @@
         "76",
         "79"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19181",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19181/lei_14.702.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19181",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -180,11 +714,11 @@
         "76",
         "79"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19180",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19180/lei_14.701.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19180",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -199,11 +733,11 @@
         "76",
         "79"
       ],
-      "url_oficial": "https://sapl.al.pb.leg.br/norma/19179",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/19179/lei_14.700.ecila.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/19179",
       "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
@@ -284284,6 +284818,38 @@
       ],
       "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/1936/5693/5693_texto_integral.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/5693",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19212",
+      "titulo": "Lei Ordinária nº 15/1936",
+      "tipo": "Lei Ordinária",
+      "numero": "15",
+      "ano": "1936",
+      "data": "1936-11-10",
+      "ementa": "Altera a data da reunião ordinária da Assembléa Legislativa do Estado da Paraíba.",
+      "assuntos": [],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/1936/19212/lei_15.1936.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19212",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19211",
+      "titulo": "Lei Ordinária nº 14/1936",
+      "tipo": "Lei Ordinária",
+      "numero": "14",
+      "ano": "1936",
+      "data": "1936-11-10",
+      "ementa": "Autoriza o Poder Executivo a pagar ao dr. Joaquim Bulhões Pontes de Miranda a diferença de vencimentos que deixou de receber na importância de 795$716.",
+      "assuntos": [],
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/1936/19211/lei_14.1936.pdf",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19211",
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,

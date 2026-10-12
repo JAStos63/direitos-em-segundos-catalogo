@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.10.05",
-  "updated_at": "2026-10-05T13:18:29Z",
+  "catalog_version": "2026.10.12",
+  "updated_at": "2026-10-12T14:23:39Z",
   "uf": "PI",
   "estado": "Piauí",
   "lexml_slug": "piaui",
@@ -107986,24 +107986,6 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-pi-3981",
-      "titulo": "Lei Delegada nº 3018/1970",
-      "tipo": "Lei Delegada",
-      "numero": "3018",
-      "ano": "1970",
-      "data": "1970-05-29",
-      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA, A SOCIEDADE PIAUIENSE DE GINECOLOGIA E OBSTETRÍCIA, DE TERESINA.",
-      "assuntos": [
-        "26"
-      ],
-      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/3981/3981_texto_integral.tiff",
-      "url_detalhe": "https://sapl.al.pi.leg.br/norma/3981",
-      "url_lexml": "",
-      "texto_direto": true,
-      "documento_externo": false,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
       "id": "sapl-pi-2958",
       "titulo": "Lei nº 3018/1970",
       "tipo": "Lei Ordinária",
@@ -108024,18 +108006,18 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-pi-3980",
-      "titulo": "Lei Delegada nº 3017/1970",
+      "id": "sapl-pi-3981",
+      "titulo": "Lei Delegada nº 3018/1970",
       "tipo": "Lei Delegada",
-      "numero": "3017",
+      "numero": "3018",
       "ano": "1970",
       "data": "1970-05-29",
-      "ementa": "RECONHECE DE UTILIDADE PÚBLICA O CLUBE JUVENIL CRISTINOCASTRENSE, DE CRISTINO CASTRO-PI.",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA, A SOCIEDADE PIAUIENSE DE GINECOLOGIA E OBSTETRÍCIA, DE TERESINA.",
       "assuntos": [
         "26"
       ],
-      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/3980/3980_texto_integral.tiff",
-      "url_detalhe": "https://sapl.al.pi.leg.br/norma/3980",
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/3981/3981_texto_integral.tiff",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/3981",
       "url_lexml": "",
       "texto_direto": true,
       "documento_externo": false,
@@ -108057,6 +108039,24 @@
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pi-3980",
+      "titulo": "Lei Delegada nº 3017/1970",
+      "tipo": "Lei Delegada",
+      "numero": "3017",
+      "ano": "1970",
+      "data": "1970-05-29",
+      "ementa": "RECONHECE DE UTILIDADE PÚBLICA O CLUBE JUVENIL CRISTINOCASTRENSE, DE CRISTINO CASTRO-PI.",
+      "assuntos": [
+        "26"
+      ],
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/3980/3980_texto_integral.tiff",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/3980",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
