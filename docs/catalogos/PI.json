@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.10.12",
-  "updated_at": "2026-10-12T14:23:39Z",
+  "catalog_version": "2026.10.19",
+  "updated_at": "2026-10-19T11:56:16Z",
   "uf": "PI",
   "estado": "Piauí",
   "lexml_slug": "piaui",
@@ -9,6 +9,24 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-pi-7212",
+      "titulo": "Lei nº 9130/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "9130",
+      "ano": "2026",
+      "data": "2026-10-09",
+      "ementa": "Assegura ao consumidor o direito de receber faturas e boletos emitidos por concessionárias de serviço público com código de barras impresso e garante a opção de recebimento em meio físico, no âmbito do Estado do Piauí.",
+      "assuntos": [
+        "43"
+      ],
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/2026/7212/sei_0026939349_lei_9130_2.pdf",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/7212",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-pi-7211",
       "titulo": "Lei nº 9127/2026",
@@ -1994,7 +2012,7 @@
       "numero": "8988",
       "ano": "2026",
       "data": "2026-06-05",
-      "ementa": "Institui, no âmbito do estado do Piauí, a Semana Estadual Janeiro Branco, dedicada à promoção da saúde mental e bem-estar emocional, com enfoque especial à prevenção da dependência química e do suicídio.",
+      "ementa": "Institui, no âmbito do estado do Piauí, a Semana Estadual do Janeiro Branco, dedicada à promoção da saúde mental e do bem-estar emocional, com enfoque especial na prevenção da dependência química e do suicídio​.",
       "assuntos": [
         "35"
       ],
@@ -2012,7 +2030,7 @@
       "numero": "8986",
       "ano": "2026",
       "data": "2026-06-01",
-      "ementa": "Reconhece de Utilidade Pública o Instituto Paulo Eudes Carneiro no Estado do Piauí, e dá outras providências.",
+      "ementa": "Reconhece de utilidade pública o Instituto Paulo Eudes Carneiro no estado do Piauí​.",
       "assuntos": [],
       "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/2026/7073/sei_0024447574_lei_8986.pdf",
       "url_detalhe": "https://sapl.al.pi.leg.br/norma/7073",
@@ -2062,7 +2080,7 @@
       "numero": "8983",
       "ano": "2026",
       "data": "2026-05-28",
-      "ementa": "Autoriza o Poder Executivo a contratar operação de crédito com a Caixa Econômica Federal – CEF, no âmbito do Programa Pró-Transporte, com garantia da União, até o valor de R$ 120.000.000,00 (cento e vinte milhões de reais)",
+      "ementa": "Autoriza o Poder Executivo a contratar operação de crédito junto à Caixa Econômica Federal – CEF, com garantia da União.",
       "assuntos": [
         "13"
       ],
@@ -2098,7 +2116,7 @@
       "numero": "8981",
       "ano": "2026",
       "data": "2026-05-27",
-      "ementa": "Revoga o artigo 6º da Lei nº 8.895 de 2025 (Autoriza o Poder Executivo a contratar operação de crédito com o Banco do Brasil S.A., com a garantia da União, e dá outras providências).",
+      "ementa": "Revoga o art. 6º da Lei nº 8.895, de 17 de dezembro de 2025​.",
       "assuntos": [
         "13"
       ],
@@ -2134,7 +2152,7 @@
       "numero": "8979",
       "ano": "2026",
       "data": "2026-05-27",
-      "ementa": "Autoriza o poder Executivo a aderir à cooperação financeira com a União, nos termos da Medida Provisória nº1.349, de 7 de abril de 2026 que institui o Regime Emergencial de Abastecimento Interno de Combustíveis, nas condições que especifica",
+      "ementa": "Autoriza o Poder Executivo a aderir à cooperação financeira com a União, nos termos da Medida Provisória nº 1.349, de 7 de abril de 2026, que institui o Regime Emergencial de Abastecimento Interno de Combustíveis, nas condições que especifica​.",
       "assuntos": [
         "13"
       ],
@@ -13177,7 +13195,7 @@
       "numero": "8331",
       "ano": "2024",
       "data": "2024-04-05",
-      "ementa": "Altera o art. 2° da Lei n° 5.577, 24 de maio de 2006, que cria o Conselho Estadual de Desenvolvimento Urbano – CEDUR.",
+      "ementa": "Altera o art. 2° da Lei n° 5.571, 24 de maio de 2006, que cria o Conselho Estadual de Desenvolvimento Urbano – CEDUR.",
       "assuntos": [
         "70"
       ],
@@ -55968,7 +55986,7 @@
       "numero": "5949",
       "ano": "2009",
       "data": "2009-12-17",
-      "ementa": "Dispõe sobre a Organização Básica do Corpo de Bombeiros Militar do Estado do Piauí",
+      "ementa": "Dispõe sobre a Organização Básica do Corpo de Bombeiros Militar do Estado do Piauí e dá outras providências.",
       "assuntos": [
         "53"
       ],
@@ -64075,7 +64093,7 @@
       "tipo": "Lei Ordinária",
       "numero": "5477",
       "ano": "2005",
-      "data": "2006-08-10",
+      "data": "2005-08-10",
       "ementa": "AUTORIZA O PODER EXECUTIVO A ABRIR CRÉDITO ADICIONAL SUPLEMENTAR NO ORÇAMENTO DO ESTADO, NO VALOR DE R$ 225.012.000,00, PARA OS FINS QUE ESPECIFICA.",
       "assuntos": [
         "24",
@@ -108024,24 +108042,6 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-pi-2957",
-      "titulo": "Lei nº 3017/1970",
-      "tipo": "Lei Ordinária",
-      "numero": "3017",
-      "ano": "1970",
-      "data": "1970-05-29",
-      "ementa": "RECONHECE DE UTILIDADE O CLUBE JUVENIL CRISTINICASTRENSE, DE CRISTINO CASTRO",
-      "assuntos": [
-        "26"
-      ],
-      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/2957/2957_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.pi.leg.br/norma/2957",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
       "id": "sapl-pi-3980",
       "titulo": "Lei Delegada nº 3017/1970",
       "tipo": "Lei Delegada",
@@ -108057,6 +108057,24 @@
       "url_lexml": "",
       "texto_direto": true,
       "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pi-2957",
+      "titulo": "Lei nº 3017/1970",
+      "tipo": "Lei Ordinária",
+      "numero": "3017",
+      "ano": "1970",
+      "data": "1970-05-29",
+      "ementa": "RECONHECE DE UTILIDADE O CLUBE JUVENIL CRISTINICASTRENSE, DE CRISTINO CASTRO",
+      "assuntos": [
+        "26"
+      ],
+      "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/1970/2957/2957_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.pi.leg.br/norma/2957",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {

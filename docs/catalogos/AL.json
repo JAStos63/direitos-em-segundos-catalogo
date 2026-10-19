@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.10.12",
-  "updated_at": "2026-10-12T13:09:01Z",
+  "catalog_version": "2026.10.19",
+  "updated_at": "2026-10-19T10:44:13Z",
   "uf": "AL",
   "estado": "Alagoas",
   "lexml_slug": "alagoas",
@@ -9,6 +9,25 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-al-4072",
+      "titulo": "LEI ORDINARIA nº 10065/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10065",
+      "ano": "2026",
+      "data": "2026-10-13",
+      "ementa": "DISPÕE SOBRE A REORGANIZAÇÃO DAS SERVENTIAS EXTRAJUDICIAIS DO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A REORGANIZAÇÃO DAS SERVENTIAS EXTRAJUDICIAIS DO ESTADO DE ALAGOAS."
+      ],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2026/4072/lei_no_10.065_de_6_de_outubro_de_2026.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4072",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-al-4071",
       "titulo": "LEI ORDINARIA nº 10064/2026",
