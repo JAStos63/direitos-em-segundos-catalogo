@@ -2,15 +2,15 @@
   "uf": "GO",
   "estado": "Goiás",
   "strategy": "generic",
-  "started_at": "2026-10-19T10:54:58Z",
+  "started_at": "2026-10-26T11:11:11Z",
   "portal": "https://legisla.casacivil.go.gov.br/",
   "curated_seed_count": 0,
-  "finished_at": "2026-10-19T10:58:50Z",
-  "collected_count": 0,
+  "finished_at": "2026-10-26T11:16:40Z",
+  "collected_count": 1,
   "seed_count": 0,
-  "final_count": 0,
+  "final_count": 1,
   "minimum_expected": 50,
   "status": "incompleto",
   "direct_html_count": 0,
-  "external_document_count": 0
+  "external_document_count": 1
 }

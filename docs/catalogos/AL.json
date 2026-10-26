@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.10.19",
-  "updated_at": "2026-10-19T10:44:13Z",
+  "catalog_version": "2026.10.26",
+  "updated_at": "2026-10-26T11:04:24Z",
   "uf": "AL",
   "estado": "Alagoas",
   "lexml_slug": "alagoas",
@@ -9,6 +9,463 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-al-4093",
+      "titulo": "LEI ORDINARIA nº 10089/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10089",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "DISPÕE SOBRE A AUTORIZAÇÃO DO ESPAÇO SALA DO AFETO (CALM ZONE) PARA ACOLHER CRIANÇAS, ADOLESCENTES E ADULTOS AUTISTAS NO ÂMBITO DO ESTADO DE ALAGOAS.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A AUTORIZAÇÃO DO ESPAÇO SALA DO AFETO (CALM ZONE) PARA ACOLHER CRIANÇAS",
+        "ADOLESCENTES E ADULTOS AUTISTAS NO ÂMBITO DO ESTADO DE ALAGOAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4093",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4093",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4092",
+      "titulo": "LEI ORDINARIA nº 10088/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10088",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO AO DR. FELINI DE OLIVEIRA WANDERLEY.",
+      "assuntos": [
+        "10",
+        "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO AO DR. FELINI DE OLIVEIRA WANDERLEY."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4092",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4092",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4091",
+      "titulo": "LEI ORDINARIA nº 10087/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10087",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "DISPÕE SOBRE A OBRIGATORIEDADE DE ATENDIMENTO REMOTO VIA APLICATIVOS DE MENSAGEM, COMO WHATSAPP, PELOS SERVIÇOS ESTADUAIS DE EMERGÊNCIA NO ÂMBITO DO ESTADO DE ALAGOAS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A OBRIGATORIEDADE DE ATENDIMENTO REMOTO VIA APLICATIVOS DE MENSAGEM",
+        "COMO WHATSAPP",
+        "PELOS SERVIÇOS ESTADUAIS DE EMERGÊNCIA NO ÂMBITO DO ESTADO DE ALAGOAS",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4091",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4091",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4090",
+      "titulo": "LEI ORDINARIA nº 10086/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10086",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "DISPÕE SOBRE DIRETRIZES DE INCENTIVO À INCLUSÃO DIGITAL NA ÁREA RURAL DO ESTADO DE ALAGOAS",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE DIRETRIZES DE INCENTIVO À INCLUSÃO DIGITAL NA ÁREA RURAL DO ESTADO DE ALAGOAS"
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4090",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4090",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4089",
+      "titulo": "LEI ORDINARIA nº 10085/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10085",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO PASTOR MARCELO DE OLIVEIRA E SILVA.",
+      "assuntos": [
+        "10",
+        "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO PASTOR MARCELO DE OLIVEIRA E SILVA."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4089",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4089",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4088",
+      "titulo": "LEI ORDINARIA nº 10084/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10084",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "INSTITUI O FUNDO ESTADUAL PARA MEDICAMENTOS ESPECIAIS (FEME) NO ESTADO DE ALAGOAS, DESTINADO Á AQUISIÇÃO E DISTRIBUIÇÃO DE MEDICAMENTOS DE ALTO CUSTO E TRATAMENTOS ESPECIAIS NO ÂMBITO DO SISTEMA ÚNICO DE SAÚDE (SUS).",
+      "assuntos": [
+        "10",
+        "INSTITUI O FUNDO ESTADUAL PARA MEDICAMENTOS ESPECIAIS (FEME) NO ESTADO DE ALAGOAS",
+        "DESTINADO Á AQUISIÇÃO E DISTRIBUIÇÃO DE MEDICAMENTOS DE ALTO CUSTO E TRATAMENTOS ESPECIAIS NO ÂMBITO DO SISTEMA ÚNICO DE SAÚDE (SUS)."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4088",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4088",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4087",
+      "titulo": "LEI ORDINARIA nº 10083/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10083",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "CRIA O PROTOCOLO DE COMBATE Á MANIPULAÇÃO ABUSIVA DE PREÇOS - PRICE GOUGING - EM SITUAÇÕES DE CALAMIDADE PÚBLICA E EVENTOS PROVENIENTES DE DESASTRES DE ORIGEM CLIMÁTICA NO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "CRIA O PROTOCOLO DE COMBATE Á MANIPULAÇÃO ABUSIVA DE PREÇOS - PRICE GOUGING - EM SITUAÇÕES DE CALAMIDADE PÚBLICA E EVENTOS PROVENIENTES DE DESASTRES DE ORIGEM CLIMÁTICA NO ESTADO DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4087",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4087",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4086",
+      "titulo": "LEI ORDINARIA nº 10082/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10082",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "INCLUI NO CALENDÁRIO OFICIAL DE EVENTOS DO ESTADO DE ALAGOAS A FESTA DE BOM JESUS DOS NAVEGANTES, CELEBRADA NOS MUNICÍPIOS SITUADOS ÀS MARGENS DO RIO SÃO FRANCISCO, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "INCLUI NO CALENDÁRIO OFICIAL DE EVENTOS DO ESTADO DE ALAGOAS A FESTA DE BOM JESUS DOS NAVEGANTES",
+        "CELEBRADA NOS MUNICÍPIOS SITUADOS ÀS MARGENS DO RIO SÃO FRANCISCO",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4086",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4086",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4085",
+      "titulo": "LEI ORDINARIA nº 10081/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10081",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO ILUSTRÍSSIMO SR. ROGÉRIO PORTUGAL BACELLAR.",
+      "assuntos": [
+        "10",
+        "CONCEDE O TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO ILUSTRÍSSIMO SR. ROGÉRIO PORTUGAL BACELLAR."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4085",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4085",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4084",
+      "titulo": "LEI ORDINARIA nº 10080/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10080",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "ISENTA DA OBRIGATORIEDADE DA OUTORGA DO DIREITO DE USO DOS RECURSOS HÍDRICOS VOLTADOS AO CONSUMO HUMANO, À DESSEDENTAÇÃO ANIMAL E À PRODUÇÃO AGRÍCOLA EM IMÓVEIS RURAIS DE PEQUENO PORTE NO ESTADO DE ALAGOAS, NA FORMA QUE ESPECIFICA.",
+      "assuntos": [
+        "10",
+        "ISENTA DA OBRIGATORIEDADE DA OUTORGA DO DIREITO DE USO DOS RECURSOS HÍDRICOS VOLTADOS AO CONSUMO HUMANO",
+        "À DESSEDENTAÇÃO ANIMAL E À PRODUÇÃO AGRÍCOLA EM IMÓVEIS RURAIS DE PEQUENO PORTE NO ESTADO DE ALAGOAS",
+        "NA FORMA QUE ESPECIFICA."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4084",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4084",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4083",
+      "titulo": "LEI ORDINARIA nº 10079/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10079",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "RECONHECE COMO PATRIMÔNIO HISTÓRICO E CULTURAL DE NATUREZA IMATERIAL DO ESTADO DE ALAGOAS A FESTA DE NOSSA SENHORA DA IMACULADA CONCEIÇÃO, REALIZADA NO MUNICÍPIO DE SÃO LUÍS DO QUITUNDE.",
+      "assuntos": [
+        "10",
+        "RECONHECE COMO PATRIMÔNIO HISTÓRICO E CULTURAL DE NATUREZA IMATERIAL DO ESTADO DE ALAGOAS A FESTA DE NOSSA SENHORA DA IMACULADA CONCEIÇÃO",
+        "REALIZADA NO MUNICÍPIO DE SÃO LUÍS DO QUITUNDE."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4083",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4083",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4082",
+      "titulo": "LEI ORDINARIA nº 10078/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10078",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SENHOR AARÃO JOSÉ DA SILVA.",
+      "assuntos": [
+        "10",
+        "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SENHOR AARÃO JOSÉ DA SILVA."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4082",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4082",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4081",
+      "titulo": "LEI ORDINARIA nº 10077/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10077",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "DENOMINA \"RODOVIA BENEDITO DE LIRA\" O TRECHO DA RODOVIA AL-485 QUE LIGA O MUNICÍPIO DE SÃO SEBASTIÃO AO MUNICÍPIO DE FEIRA GRANDE, NO ESTADO DE ALAGOAS",
+      "assuntos": [
+        "10",
+        "DENOMINA \"RODOVIA BENEDITO DE LIRA\" O TRECHO DA RODOVIA AL-485 QUE LIGA O MUNICÍPIO DE SÃO SEBASTIÃO AO MUNICÍPIO DE FEIRA GRANDE",
+        "NO ESTADO DE ALAGOAS"
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4081",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4081",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4080",
+      "titulo": "LEI ORDINARIA nº 10076/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10076",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS À SENHORA JANAÍNA CAMPOS DE CARVALHO BEDRAN.",
+      "assuntos": [
+        "10",
+        "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS À SENHORA JANAÍNA CAMPOS DE CARVALHO BEDRAN."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4080",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4080",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4079",
+      "titulo": "LEI ORDINARIA nº 10075/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10075",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "RECONHECE COMO PATRIMÔNIO CULTURAL E BEM IMATERIAL DO ESTADO DE ALAGOAS AS FESTIVIDADES DO NATAL DE SÃO JOSÉ DA TAPERA.",
+      "assuntos": [
+        "10",
+        "RECONHECE COMO PATRIMÔNIO CULTURAL E BEM IMATERIAL DO ESTADO DE ALAGOAS AS FESTIVIDADES DO NATAL DE SÃO JOSÉ DA TAPERA."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4079",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4079",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4094",
+      "titulo": "LEI ORDINARIA nº 10074/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10074",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "PROÍBE A PESSOA JURÍDICA QUE TENHA SIDO CONDENADA PELA PRÁTICA DE TRABALHO ANÁLOGO À ESCRAVIDÃO DE CONTRATAR COM A ADMINISTRAÇÃO PÚBLICA ESTADUAL.",
+      "assuntos": [
+        "10",
+        "PROÍBE A PESSOA JURÍDICA QUE TENHA SIDO CONDENADA PELA PRÁTICA DE TRABALHO ANÁLOGO À ESCRAVIDÃO DE CONTRATAR COM A ADMINISTRAÇÃO PÚBLICA ESTADUAL."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4094",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4094",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4099",
+      "titulo": "LEI ORDINARIA nº 10073/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10073",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "INSTITUI A POLÍTICA ESTADUAL DE INCENTIVO A OUVINOCAPRINICULTURA, NO ÂMBITO DO ESTADO DE ALAGOAS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "INSTITUI A POLÍTICA ESTADUAL DE INCENTIVO A OUVINOCAPRINICULTURA",
+        "NO ÂMBITO DO ESTADO DE ALAGOAS",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4099",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4099",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4095",
+      "titulo": "LEI ORDINARIA nº 10072/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10072",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "DISPÕE SOBRE A VACINAÇÃO DOMICILIAR DAS PESSOAS DIAGNOSTICADAS COM TRANSTORNO DO ESPECTRO AUTISTA (TEA), E SITUAÇÕES EXCEPCIONAIS, NO ÂMBITO DO ESTADO DE ALAGOAS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A VACINAÇÃO DOMICILIAR DAS PESSOAS DIAGNOSTICADAS COM TRANSTORNO DO ESPECTRO AUTISTA (TEA)",
+        "E SITUAÇÕES EXCEPCIONAIS",
+        "NO ÂMBITO DO ESTADO DE ALAGOAS",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4095",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4095",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4100",
+      "titulo": "LEI ORDINARIA nº 10071/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10071",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "DISPÕE SOBRE A PARTICIPAÇÃO VINCULANTE DA COMUNIDADE ESCOLAR NA ADOÇÃO DE REGIMES DE PROGRESSÃO ESCOLAR NO SISTEMA ESTADUAL DE ENSINO DE ALAGOAS E VEDA SUA IMPLANTAÇÃO SEM DELIBERAÇÃO FAVORÁVEL DO CONSELHO ESCOLAR, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A PARTICIPAÇÃO VINCULANTE DA COMUNIDADE ESCOLAR NA ADOÇÃO DE REGIMES DE PROGRESSÃO ESCOLAR NO SISTEMA ESTADUAL DE ENSINO DE ALAGOAS E VEDA SUA IMPLANTAÇÃO SEM DELIBERAÇÃO FAVORÁVEL DO CONSELHO ESCOLAR",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4100",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4100",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4096",
+      "titulo": "LEI ORDINARIA nº 10070/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10070",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "INSTITUI O PISO SALARIAL DOS FARMACÊUTICOS HOSPITALARES DA REDE ESTADUAL DE SAÚDE DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "INSTITUI O PISO SALARIAL DOS FARMACÊUTICOS HOSPITALARES DA REDE ESTADUAL DE SAÚDE DE ALAGOAS E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4096",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4096",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4097",
+      "titulo": "LEI ORDINARIA nº 10069/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10069",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SR. ADOLFO BROL.",
+      "assuntos": [
+        "10",
+        "CONCEDE TÍTULO DE CIDADÃO HONORÁRIO DO ESTADO DE ALAGOAS AO SR. ADOLFO BROL."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4097",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4097",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4098",
+      "titulo": "LEI ORDINARIA nº 10068/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10068",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "DISPÕE SOBRE A INCLUSÃO DA \"FESTA EM HOMENAGEM A FREI DAMIÃO\" NOS DIAS 05 DE NOVEMBRO E 31 DE MAIO, DO DISTRITO DA CANAFÍSTULA, NO MUNICÍPIO DE PALMEIRA DOS ÍNDIOS NO CALENDÁRIO OFICIAL DO ESTADO DE ALAGOAS, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [
+        "10",
+        "DISPÕE SOBRE A INCLUSÃO DA \"FESTA EM HOMENAGEM A FREI DAMIÃO\" NOS DIAS 05 DE NOVEMBRO E 31 DE MAIO",
+        "DO DISTRITO DA CANAFÍSTULA",
+        "NO MUNICÍPIO DE PALMEIRA DOS ÍNDIOS NO CALENDÁRIO OFICIAL DO ESTADO DE ALAGOAS",
+        "E DÁ OUTRAS PROVIDÊNCIAS."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4098",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4098",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-4101",
+      "titulo": "LEI ORDINARIA nº 10067/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "10067",
+      "ano": "2026",
+      "data": "2026-10-21",
+      "ementa": "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO DE PROTEÇÃO E VALORIZAÇÃO DA VIDA ANIMAL.",
+      "assuntos": [
+        "10",
+        "CONSIDERA DE UTILIDADE PÚBLICA ESTADUAL A ASSOCIAÇÃO DE PROTEÇÃO E VALORIZAÇÃO DA VIDA ANIMAL."
+      ],
+      "url_oficial": "https://sapl.al.al.leg.br/norma/4101",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/4101",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-al-4072",
       "titulo": "LEI ORDINARIA nº 10065/2026",
@@ -56494,22 +56951,6 @@
       "fonte_catalogo": "SAPL OpenAPI"
     },
     {
-      "id": "sapl-al-600",
-      "titulo": "LEI ORDINARIA nº 9/2003",
-      "tipo": "Lei Ordinária",
-      "numero": "9",
-      "ano": "2003",
-      "data": "2003-02-14",
-      "ementa": "DISPÕE SOBRE A ESTRUTURA DO GABINETE CIVIL DO GOVERNADOR E DÁ OUTRAS PROVIDÊNCIAS.",
-      "assuntos": [],
-      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2003/600/600_texto_integral.pdf",
-      "url_detalhe": "https://sapl.al.al.leg.br/norma/600",
-      "url_lexml": "",
-      "texto_direto": false,
-      "documento_externo": true,
-      "fonte_catalogo": "SAPL OpenAPI"
-    },
-    {
       "id": "sapl-al-615",
       "titulo": "LEI DELEGADA nº 9/2003",
       "tipo": "Lei Delegada",
@@ -56520,6 +56961,22 @@
       "assuntos": [],
       "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2003/615/615_texto_integral.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/615",
+      "url_lexml": "",
+      "texto_direto": false,
+      "documento_externo": true,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-al-600",
+      "titulo": "LEI ORDINARIA nº 9/2003",
+      "tipo": "Lei Ordinária",
+      "numero": "9",
+      "ano": "2003",
+      "data": "2003-02-14",
+      "ementa": "DISPÕE SOBRE A ESTRUTURA DO GABINETE CIVIL DO GOVERNADOR E DÁ OUTRAS PROVIDÊNCIAS.",
+      "assuntos": [],
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/2003/600/600_texto_integral.pdf",
+      "url_detalhe": "https://sapl.al.al.leg.br/norma/600",
       "url_lexml": "",
       "texto_direto": false,
       "documento_externo": true,
@@ -59823,7 +60280,7 @@
       "data": "1989-01-10",
       "ementa": "PROMULGAÇÃO DA CONSTITUIÇÃO DO ESTADO DE ALAGOAS",
       "assuntos": [],
-      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/1989/2/2_texto_integral.pdf",
+      "url_oficial": "http://sapl.al.al.leg.br/media/sapl/public/normajuridica/1989/2/constituicao_de_alagoas_ate_emenda_52.pdf",
       "url_detalhe": "https://sapl.al.al.leg.br/norma/2",
       "url_lexml": "",
       "texto_direto": false,

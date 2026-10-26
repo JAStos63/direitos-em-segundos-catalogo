@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.10.19",
-  "updated_at": "2026-10-19T11:56:16Z",
+  "catalog_version": "2026.10.26",
+  "updated_at": "2026-10-26T12:05:57Z",
   "uf": "PI",
   "estado": "Piauí",
   "lexml_slug": "piaui",
@@ -920,7 +920,7 @@
       "numero": "9061",
       "ano": "2026",
       "data": "2026-07-09",
-      "ementa": "Dispõe sobre a utilização de asfalto ecológico e bioasfalto nas obras de recapeamento, recuperação e pavimentação asfáltica de vias e rodovias públicas do estado do Piauí e dá outras providências.",
+      "ementa": "Dispõe sobre a utilização de asfalto ecológico e bioasfalto nas obras de recapeamento, recuperação e pavimentação asfáltica de vias e rodovias públicas do estado do Piauí.",
       "assuntos": [],
       "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/2026/7157/sei_0025205913_lei_9061.pdf",
       "url_detalhe": "https://sapl.al.pi.leg.br/norma/7157",
@@ -1400,7 +1400,7 @@
       "numero": "9025",
       "ano": "2026",
       "data": "2026-06-30",
-      "ementa": "Inclui a Semana do Agronegócio no Calendário Oficial de Eventos do Estado do Piauí e dá outras providências.",
+      "ementa": "Institui a Semana do Agronegócio no Calendário Oficial de Eventos do Estado do Piauí.",
       "assuntos": [
         "99"
       ],
@@ -1473,7 +1473,7 @@
       "numero": "9021",
       "ano": "2026",
       "data": "2026-06-29",
-      "ementa": "Institui no âmbito do Estado do Piauí o Dia do Tradutor, Intérprete e Guia-Intérprete da Língua Brasileira de Sinais - Libras.",
+      "ementa": "Institui, no âmbito do estado do Piauí, o Dia do Tradutor, Intérprete e Guia-Intérprete da Língua Brasileira de Sinais - Libras.",
       "assuntos": [
         "99"
       ],
@@ -1507,7 +1507,7 @@
       "numero": "9018",
       "ano": "2026",
       "data": "2026-06-25",
-      "ementa": "Institui a \"Semana Estadual de Conscientização e Prevenção de Doenças em Animais Domésticos Idosos\".",
+      "ementa": "Institui a Semana Estadual de Conscientização e Prevenção de Doenças em Animais Domésticos Idosos.",
       "assuntos": [
         "99",
         "14"
@@ -1526,7 +1526,7 @@
       "numero": "9017",
       "ano": "2026",
       "data": "2026-06-24",
-      "ementa": "Institui o Dia do Surdo no âmbito do Estado do Piauí e dá outras providências.",
+      "ementa": "Institui o Dia do Surdo no âmbito do estado do Piauí.",
       "assuntos": [
         "99"
       ],
@@ -1544,7 +1544,7 @@
       "numero": "9016",
       "ano": "2026",
       "data": "2026-06-24",
-      "ementa": "Inclui no Calendário Cultural do Estado do Piauí as Festividades do Dia do Vaqueiro do Município de Boqueirão do Piauí e dá outras providências.",
+      "ementa": "Inclui no Calendário Cultural do estado do Piauí as Festividades do Dia do Vaqueiro do município de Boqueirão do Piauí.",
       "assuntos": [
         "99"
       ],
@@ -1616,7 +1616,7 @@
       "numero": "9012",
       "ano": "2026",
       "data": "2026-06-22",
-      "ementa": "Institui no âmbito do estado do Piauí, o \"Dia de reconhecimento ao trabalho voluntário do Grupo Universal nos Presídios (UNP)\".",
+      "ementa": "Institui, no âmbito do estado do Piauí, o \"Dia de reconhecimento ao trabalho voluntário do Grupo Universal nos Presídios (UNP)\".",
       "assuntos": [
         "84"
       ],
@@ -1670,7 +1670,7 @@
       "numero": "9008",
       "ano": "2026",
       "data": "2026-06-19",
-      "ementa": "Institui a Política Estadual de Incentivo ao Turismo de Observação de Aves no Estado do Piauí e dá outras providências.",
+      "ementa": "Institui a Política Estadual de Incentivo ao Turismo de Observação de Aves no estado do Piauí.",
       "assuntos": [
         "42",
         "14"
@@ -1707,7 +1707,7 @@
       "numero": "9006",
       "ano": "2026",
       "data": "2026-06-19",
-      "ementa": "Reconhece como de Utilidade Pública a Associação dos Agricultores Familiares da Comunidade Brasão.",
+      "ementa": "Reconhece como de utilidade pública a Associação dos Agricultores Familiares da Comunidade Brasão.",
       "assuntos": [],
       "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/2026/7093/sei_0024827629_lei_9006.pdf",
       "url_detalhe": "https://sapl.al.pi.leg.br/norma/7093",
@@ -2268,7 +2268,7 @@
       "numero": "8971",
       "ano": "2026",
       "data": "2026-05-25",
-      "ementa": "Reconhece como de Utilidade Pública da Associação Grupo Vida que Segue.",
+      "ementa": "Reconhece como de utilidade pública a Associação Grupo Vida que Segue.",
       "assuntos": [],
       "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/2026/7016/sei_0024326341_lei_8971.pdf",
       "url_detalhe": "https://sapl.al.pi.leg.br/norma/7016",
@@ -2284,7 +2284,7 @@
       "numero": "8970",
       "ano": "2026",
       "data": "2026-05-25",
-      "ementa": "Institui a Política Estadual Piauiense de apoio e incentivo à mulher no esporte e dá outras providências.",
+      "ementa": "Institui a Política Estadual Piauiense de Apoio e Incentivo à Mulher no Esporte.",
       "assuntos": [
         "44",
         "34"
@@ -2303,7 +2303,7 @@
       "numero": "8967",
       "ano": "2026",
       "data": "2026-05-25",
-      "ementa": "Reconhece como de Utilidade Pública a Associação de Desenvolvimento Comunitário da Localidade Contente.",
+      "ementa": "Reconhece como de utilidade pública a Associação de Desenvolvimento Comunitário da Localidade Contente.",
       "assuntos": [],
       "url_oficial": "http://sapl.al.pi.leg.br/media/sapl/public/normajuridica/2026/7015/sei_0024294588_lei_8967.pdf",
       "url_detalhe": "https://sapl.al.pi.leg.br/norma/7015",
@@ -2449,7 +2449,7 @@
       "numero": "8957",
       "ano": "2026",
       "data": "2026-05-19",
-      "ementa": "Institui o Dia Estadual do Psicopedagogo, incluindo-o no Calendário Oficial de Eventos do Estado do Piauí e dá outras providências.",
+      "ementa": "Institui o Dia Estadual do Psicopedagogo, incluindo-o no Calendário Oficial de Eventos do Estado do Piauí.",
       "assuntos": [
         "99",
         "35"
