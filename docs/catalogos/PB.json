@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.10.26",
-  "updated_at": "2026-10-26T11:47:07Z",
+  "catalog_version": "2026.11.02",
+  "updated_at": "2026-11-02T14:31:58Z",
   "uf": "PB",
   "estado": "Paraíba",
   "lexml_slug": "paraiba",
@@ -8587,7 +8587,7 @@
         "33",
         "14"
       ],
-      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18575/lei_14.278.pdf",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18575/14278.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/18575",
       "url_lexml": "",
       "texto_direto": false,
@@ -34097,7 +34097,7 @@
       "numero": "12968",
       "ano": "2023",
       "data": "2023-12-13",
-      "ementa": "CONCEDE O TÍTULO DE CAPITAL PARAIBANA DAS ENERGIAS RENOVÁVEIS À CIDADE DE SANTA LUZIA, NESTE ESTADO..",
+      "ementa": "CONCEDE O TÍTULO DE CAPITAL PARAIBANA DAS ENERGIAS RENOVÁVEIS À CIDADE DE SANTA LUZIA, NESTE ESTADO.",
       "assuntos": [
         "28"
       ],
