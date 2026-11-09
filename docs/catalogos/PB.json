@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "catalog_version": "2026.11.02",
-  "updated_at": "2026-11-02T14:31:58Z",
+  "catalog_version": "2026.11.09",
+  "updated_at": "2026-11-09T14:45:27Z",
   "uf": "PB",
   "estado": "Paraíba",
   "lexml_slug": "paraiba",
@@ -9,6 +9,174 @@
   "status": "atualizado",
   "minimum_expected": 100,
   "normas": [
+    {
+      "id": "sapl-pb-19242",
+      "titulo": "Lei Ordinária nº 14747/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14747",
+      "ano": "2026",
+      "data": "2026-11-03",
+      "ementa": "Altera a Lei nº 11.007, de 06 de novembro de 2017, que dispõe sobre o Imposto sobre a Propriedade de Veículos Automotores – IPVA e dá outras providências",
+      "assuntos": [
+        "73"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19242",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19242",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19236",
+      "titulo": "Lei Ordinária nº 14746/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14746",
+      "ano": "2026",
+      "data": "2026-10-30",
+      "ementa": "Dispõe sobre a revisão do Plano Plurianual – PPA 2024-2027, exercício 2027.",
+      "assuntos": [
+        "74"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19236",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19236",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19235",
+      "titulo": "Lei Ordinária nº 14745/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14745",
+      "ano": "2026",
+      "data": "2026-10-30",
+      "ementa": "Institui o Programa de Autonomia Financeira das Regionais – PAFIR/PB e dispõe sobre a descentralização da execução, aplicação e prestação de contas de recursos financeiros no âmbito das Gerências Regionais de Educação, e dá outras providências.",
+      "assuntos": [
+        "13",
+        "43"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19235",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19235",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19234",
+      "titulo": "Lei Ordinária nº 14744/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14744",
+      "ano": "2026",
+      "data": "2026-10-30",
+      "ementa": "Autoriza o Poder Executivo Estadual a outorgar a Concessão de Uso de bem imóvel público estadual denominado Hotel Bruxaxá, localizado no Município de Areia/PB, em favor do Serviço Social do Comércio — Administração Regional na Paraíba (SESC/PB) e do Serviço Nacional de Aprendizagem Comercial — Administração Regional na Paraíba (SENAC/PB) e dá outras providências.",
+      "assuntos": [
+        "50",
+        "30"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19234",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19234",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19233",
+      "titulo": "Lei Ordinária nº 14743/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14743",
+      "ano": "2026",
+      "data": "2026-10-30",
+      "ementa": "Autoriza o Poder Executivo a efetivar remanejamento de dotações orçamentárias em favor da Secretaria de Estado da Juventude, Esporte e Lazer, da Secretaria de Estado do Desenvolvimento e da Articulação Municipal, da Secretaria de Estado da Agricultura Familiar e do Desenvolvimento do Semiárido, da Secretaria de Estado do Turismo e do Desenvolvimento Econômico, da Secretaria de Estado da Saúde, da Secretaria de Estado da Infraestrutura e dos Recursos Hídricos, do Departamento de Estradas de Rodagem, da Secretaria de Estado do Desenvolvimento da Agropecuária e da Pesca, da Secretaria de Estado do Meio Ambiente e Sustentabilidade, do Fundo Estadual de Assistência Social - FEAS, do Fundo de Incentivo à Cultura Augusto dos Anjos - FIC e do Fundo de Desenvolvimento do Estado da Paraíba - FDE e dá outras providências.",
+      "assuntos": [
+        "15",
+        "43"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19233",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19233",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19232",
+      "titulo": "Lei Ordinária nº 14742/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14742",
+      "ano": "2026",
+      "data": "2026-10-30",
+      "ementa": "Autoriza o Poder Executivo a efetivar a transposição, o remanejamento ou transferência de recursos no valor que especifica e dá outras providências.",
+      "assuntos": [
+        "43",
+        "71",
+        "72"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19232",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19232",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19231",
+      "titulo": "Lei Ordinária nº 14741/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14741",
+      "ano": "2026",
+      "data": "2026-10-30",
+      "ementa": "Autoriza a abertura de Crédito Especial ao Orçamento vigente e dá outras providências.",
+      "assuntos": [
+        "43"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19231",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19231",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19230",
+      "titulo": "Lei Ordinária nº 14740/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14740",
+      "ano": "2026",
+      "data": "2026-10-30",
+      "ementa": "Altera a Lei nº 14.257, de 16 de janeiro de 2026, que estimou a receita e fixou a despesa do Estado para o Exercício financeiro de 2026, e dá outras providências.",
+      "assuntos": [
+        "43",
+        "72"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19230",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19230",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
+    {
+      "id": "sapl-pb-19229",
+      "titulo": "Lei Ordinária nº 14739/2026",
+      "tipo": "Lei Ordinária",
+      "numero": "14739",
+      "ano": "2026",
+      "data": "2026-10-30",
+      "ementa": "Institui o regime de Custas Sociais e as Taxas Judiciárias por Serviços Específicos, concede isenções de despesas processuais nas hipóteses que especifica e dispõe sobre o recolhimento das despesas processuais no âmbito do Poder Judiciário do Estado da Paraíba.",
+      "assuntos": [
+        "65"
+      ],
+      "url_oficial": "https://sapl.al.pb.leg.br/norma/19229",
+      "url_detalhe": "https://sapl.al.pb.leg.br/norma/19229",
+      "url_lexml": "",
+      "texto_direto": true,
+      "documento_externo": false,
+      "fonte_catalogo": "SAPL OpenAPI"
+    },
     {
       "id": "sapl-pb-19227",
       "titulo": "Lei Ordinária nº 14738/2026",
@@ -4223,7 +4391,7 @@
       "assuntos": [
         "30"
       ],
-      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18908/lei_14511.pdf",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/2026/18908/14511.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/18908",
       "url_lexml": "",
       "texto_direto": false,
@@ -33056,7 +33224,7 @@
       "tipo": "Emenda Constitucional",
       "numero": "55",
       "ano": "2024",
-      "data": "2023-06-27",
+      "data": "2024-06-27",
       "ementa": "ACRESCENTA O § 7º AO ART. 23 E DÁ NOVA REDAÇÃO AO ART. 77, DA CONSTITUIÇÃO DO ESTADO DA PARAÍBA E DÁ OUTRAS PROVIDÊNCIAS.",
       "assuntos": [
         "1"
@@ -47323,7 +47491,7 @@
       "numero": "12288",
       "ano": "2022",
       "data": "2022-05-10",
-      "ementa": "RECONHECE DE UTILIDADE PÚBLICA A ASSOCIAÇÃO CENTRO ESPORTIVO 100% NORDESTE - CENPORL00, LOCALIZADA NO MUNICÍPIO DE CAMPINA GRANDE, NESTE ESTADO.",
+      "ementa": "RECONHECE DE UTILIDADE PÚBLICA A ASSOCIAÇÃO CENTRO ESPORTIVO 100% NORDESTE - CENPOR100, LOCALIZADA NO MUNICÍPIO DE CAMPINA GRANDE, NESTE ESTADO.",
       "assuntos": [
         "1",
         "37"
@@ -189278,7 +189446,7 @@
         "36",
         "1"
       ],
-      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/1989/12020/constituicao_estadual_-_versao_original_articulada.pdf",
+      "url_oficial": "http://sapl.al.pb.leg.br/media/sapl/public/normajuridica/1989/12020/ce_completa_-_ec_62__texto_original_ao_final.pdf",
       "url_detalhe": "https://sapl.al.pb.leg.br/norma/12020",
       "url_lexml": "",
       "texto_direto": false,

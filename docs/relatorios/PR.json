@@ -2,10 +2,10 @@
   "uf": "PR",
   "estado": "Paraná",
   "strategy": "generic",
-  "started_at": "2026-11-02T14:32:15Z",
+  "started_at": "2026-11-09T14:45:40Z",
   "portal": "https://www.legislacao.pr.gov.br/",
   "curated_seed_count": 0,
-  "finished_at": "2026-11-02T14:49:55Z",
+  "finished_at": "2026-11-09T14:48:29Z",
   "status": "erro",
   "error": "RuntimeError('nenhum endereço de norma descoberto')",
   "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/collect_state.py\", line 92, in main\n    collected = connector.collect(\n                ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/direitos-em-segundos-catalogo/direitos-em-segundos-catalogo/scripts/lib/generic.py\", line 76, in collect\n    raise RuntimeError(\"nenhum endereço de norma descoberto\")\nRuntimeError: nenhum endereço de norma descoberto\n"
